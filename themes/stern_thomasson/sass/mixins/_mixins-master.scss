@@ -1,0 +1,55 @@
+// Rem output with px fallback
+@mixin font-size($sizeValue: 1) {
+	font-size: ($sizeValue * 16) * 1px;
+	font-size: $sizeValue * 1rem;
+}
+
+// Outside padding
+@mixin padding-left-right() {
+    padding-left: 1.5625rem;
+    padding-right: 1.5625rem;
+
+    @include respond-to($laptop) {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+// Breakpoints for neat span-columns
+
+$breakpoints: (
+  'x-small'  : ( min-width:  320px ),
+  'small'    : ( min-width:  480px ),
+  'tablet'   : ( min-width:  760px ),
+  'medium'   : ( min-width:  992px ),
+  'large'    : ( min-width: 1200px ),
+  'x-large'  : ( min-width: 1500px )
+);
+
+@mixin respond-to($name) {
+  // If the key exists in the map
+  @if map-has-key($breakpoints, $name) {
+    // Prints a media query based on the value
+    @media #{inspect(map-get($breakpoints, $name))} {
+      @content;
+    }
+  }
+
+  // If the key doesn't exist in the map
+  @else {
+    @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
+        + "Please make sure it is defined in `$breakpoints` map.";
+  }
+}
+
+// Center block
+@mixin center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+// Clear after (not all clearfix need this also)
+@mixin clearfix-after() {
+	clear: both;
+}
