@@ -1,0 +1,908 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"background",
+				"background-size"
+			],
+			[
+				"bak",
+				"background-size"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"bacl",
+				"background-color"
+			],
+			[
+				"tog",
+				"toggleOpen"
+			],
+			[
+				"togle",
+				"toggleActive"
+			],
+			[
+				"toggle",
+				"toggleActive"
+			],
+			[
+				"pro",
+				"propertyName"
+			],
+			[
+				"tran",
+				"transitionend"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"trn",
+				"translateY()"
+			],
+			[
+				"tr",
+				"translateY()"
+			],
+			[
+				"trans",
+				"transform"
+			],
+			[
+				"aling",
+				"align-content"
+			],
+			[
+				"align",
+				"align-content"
+			],
+			[
+				"invento",
+				"inventor"
+			],
+			[
+				"first",
+				"firstName"
+			],
+			[
+				"fi",
+				"firstAndLast"
+			],
+			[
+				"hour",
+				"hourHand"
+			],
+			[
+				"second",
+				"secondHand"
+			],
+			[
+				"trsa",
+				"transition"
+			],
+			[
+				"flex",
+				"flex-start"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"SANS",
+				"sans-serif"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"space",
+				"space-between"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"backgroun",
+				"background-size"
+			],
+			[
+				"false",
+				"false"
+			],
+			[
+				"background-",
+				"background-color"
+			],
+			[
+				"backgr",
+				"background-size"
+			],
+			[
+				"dec",
+				"text-decoration"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"font__",
+				"font__regular"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"boa",
+				"border-radius"
+			],
+			[
+				"backg",
+				"background-image"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"phon",
+				"phone_number"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"borde",
+				"border-radius"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"table",
+				"table-cell"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"ali",
+				"vertical-align"
+			],
+			[
+				"alig",
+				"align-items"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"image",
+				"imageMin"
+			],
+			[
+				"browser",
+				"browserSync"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "*project/notes.html",
+			"settings":
+			{
+				"buffer_size": 124,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "cs",
+		"selected_items":
+		[
+			[
+				"cs",
+				"Set Syntax: CSS"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"sftp",
+				"SFTP: Monitor File (Upload on External Save)"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"Snippet: ",
+				"Snippet: <?php if (…) ?> … <?php endif ?>"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"javascrip",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"emoji",
+				"Emoji: Insert Emoji"
+			],
+			[
+				"unf",
+				"Code Folding: Select Unfolded"
+			],
+			[
+				"emo",
+				"Emoji: Insert Emoji"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/*project"
+	],
+	"file_history":
+	[
+		"/private/var/folders/41/zbyptdb53mx517syr_qxd7d00000gp/T/045f991e-2316-4d5d-80bd-81912e4c4d53/home/islanditconsulta/www/dev/wp-content/themes/mm4-you/style.css",
+		"/private/var/folders/41/zbyptdb53mx517syr_qxd7d00000gp/T/045f991e-2316-4d5d-80bd-81912e4c4d53/home/islanditconsulta/www/dev/wp-content/themes/mm4-you/header.php",
+		"/Users/GraphicDesigner/Sites/htdocs/islandit/wp-content/themes/mm4-you/*project-files/untitled.css",
+		"/Users/GraphicDesigner/Documents/Projects/js-30/flex-gallery/index.html",
+		"/Users/GraphicDesigner/Documents/Projects/js-30/array-cardio-1/index.html",
+		"/Users/GraphicDesigner/Documents/Projects/js-30/css-js-variables/index.html",
+		"/Users/GraphicDesigner/Documents/Projects/js-30/js-clock/index.html",
+		"/Users/GraphicDesigner/Documents/Projects/js-30/drumkit/style.css",
+		"/Users/GraphicDesigner/Documents/Projects/js-30/drumkit/index.html",
+		"/Users/GraphicDesigner/.zshrc",
+		"/Users/GraphicDesigner/Sites/htdocs/islandit/wp-content/themes/mm4-you/sidebar.php",
+		"/Users/GraphicDesigner/Sites/htdocs/islandit/wp-content/themes/mm4-you/template-parts/content-single.php",
+		"/Users/GraphicDesigner/Documents/Logins/Logins-Passwords.md",
+		"/Users/GraphicDesigner/Sites/htdocs/islandit/wp-content/themes/mm4-you/header.php",
+		"/Users/GraphicDesigner/Sites/htdocs/islandit/wp-content/themes/mm4-you/single.php",
+		"/Users/GraphicDesigner/Sites/htdocs/islandit/wp-content/themes/mm4-you/template-parts/content-page.php",
+		"/Users/GraphicDesigner/Sites/htdocs/islandit/wp-content/themes/mm4-you/plugins/mm4-you-contact-form/mm4-you-cf.php",
+		"/Users/GraphicDesigner/Sites/htdocs/islandit/wp-content/themes/mm4-you/functions.php",
+		"/Users/GraphicDesigner/Documents/Notes/go_live_notes/wp-wrap-up-tasks.md",
+		"/Users/GraphicDesigner/Sites/htdocs/islandit/wp-content/themes/mm4-you/template-parts/content.php",
+		"/Users/GraphicDesigner/Sites/htdocs/islandit/wp-content/themes/mm4-you/index.php",
+		"/Users/GraphicDesigner/Sites/htdocs/islandit/wp-content/themes/mm4-you/page-custom-sidebar-page.php",
+		"/Users/GraphicDesigner/Sites/htdocs/islandit/wp-content/themes/mm4-you/footer.php",
+		"/Users/GraphicDesigner/Sites/htdocs/islandit/wp-content/themes/mm4-you/imgs/icon-menu-white.svg",
+		"/Users/GraphicDesigner/Library/Application Support/Sublime Text 3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/Users/GraphicDesigner/Sites/htdocs/islandit/wp-content/themes/mm4-you/fonts/SourceSansPro-Semibold/styles.css",
+		"/Users/GraphicDesigner/Sites/htdocs/islandit/wp-content/themes/mm4-you/fonts/SourceSansPro-Regular/styles.css",
+		"/Users/GraphicDesigner/Sites/htdocs/islandit/wp-content/themes/mm4-you/fonts/SourceSansPro-Bold/styles.css",
+		"/Users/GraphicDesigner/Sites/htdocs/islandit/wp-content/themes/mm4-you/fonts/SourceSansPro-Black/styles.css",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/*project-notes/todo.mdown",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/functions.php",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/plugins/mm4-you-contact-form/mm4-you-cf.php",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/floorplans/_floorplan-listing.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/footer/_footer.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/inc/footer-colophon.php",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/media/_lightbox.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/inc/floorplan-listing.php",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/js/min/lightbox-min.js",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/js/lightbox.js",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/inc/floor-plan-highlights.php",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/page-floorplan-listing-page.php",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/inc/floor-plan-listing-highlights.php",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/floorplans/_floorplans.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/variables-site/_structure.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/neat/grid/_outer-container.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/elements/_elements.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/404.php",
+		"/Users/GraphicDesigner/Documents/Notes/sass-examples/fields.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/forms/_fields.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_404-page.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/style.css.map",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/style.css",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/js/area-map.js",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/inc/community-page-map.php",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/js/min/area-map-min.js",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_community.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_default-page.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_amenities.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/forms/_buttons.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_page-templates.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/variables-site/_colors.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_residents.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/inc/amenities.php",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/site/primary/_posts-and-pages.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/_grid-settings.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/page-contact-page.php",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/inc/contact-page-content.php",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/inc/community-page-list.php",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_frontpage.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/typography/_typography.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/archive.php",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/inc/customizer.php",
+		"/Users/GraphicDesigner/Dropbox/Sync/Sublime/work-zsh.md",
+		"/Users/GraphicDesigner/.gitignore_global",
+		"/Users/GraphicDesigner/Sites/htdocs/islandit/wp-content/themes/mm4-you/bs-config.js",
+		"/Users/GraphicDesigner/projects/portabello/staging-area/example-sites/The_Flats_2016/theme/flats-at-shady-grove/functions.php",
+		"/Users/GraphicDesigner/projects/portabello/staging-area/example-sites/The_Flats_2016/theme/flats-at-shady-grove/js/lightbox.js",
+		"/Users/GraphicDesigner/projects/portabello/staging-area/example-sites/The_Flats_2016/theme/flats-at-shady-grove/js/imagelightbox.js",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/header.php",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/bs-config.js",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sftp-config.json",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/inc/front-page-highlights.php",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/images/circles/front-green-circle.svg",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/page-floorplans-page.php",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/images/green-circle.svg",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/js/map-directions.js",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/page-community-page.php",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/browser-sync.js",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/js/custom.js",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/js/min/custom-min.js",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/variables-site/_typography.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_menus.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/js/customizer.js",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/inc/community-page-content.php",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/js/min/skip-link-focus-fix-min.js",
+		"/Users/GraphicDesigner/Library/Application Support/Sublime Text 3/Packages/User/php-snippets/ispage.sublime-snippet",
+		"/private/etc/hosts",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/js/map-directions-min.js",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/*project-notes/custom-post-type-example.php",
+		"/Users/GraphicDesigner/Library/Application Support/Sublime Text 3/Packages/User/php-snippets/iff.sublime-snippet",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/footer.php",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/*project-notes/lat-lg-function.php",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/portabello.sublime-project",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/plugins/mm4-you-contact-form/inc/contact.php",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/page-amenities-page.php",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/mixins/_mixins-master.scss",
+		"/Users/GraphicDesigner/Library/Application Support/Sublime Text 3/Packages/User/sass-snippets/media.sublime-snippet",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/inc/one-bedroom-floorplan.php",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/*project-notes/amenities-content.html",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/page-one-bedroom-page.php",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/floorplans/_two-bedroom-floorplan.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/floorplans/_three-bedroom-floorplan.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/frontpage.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/floorplans/_one-bedroom-floorplan.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/footer.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/page-three-bedroom-page.php",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/page-two-bedroom-page.php",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/three-bedroom-floorplan.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/two-bedroom-floorplan.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/one-bedroom-floorplan.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_two-bedroom-floorplan.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_three-bedroom-floorplan.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_one-bedroom-floorplan.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/floorplans.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/page-templates.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/footer.css"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 185.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"50%",
+			".menu-toggle",
+			"#ffffff",
+			"#fff",
+			"image",
+			"masthead",
+			"fullName",
+			"#masthead",
+			"ol.carousel-nav li a",
+			"#home-carousel.carousel-type-1 .slide-description",
+			"#masthead",
+			"\t.",
+			"25",
+			"left",
+			"#457fca",
+			"nav",
+			"#primary",
+			"1.5",
+			"top",
+			"5",
+			"left",
+			"mm4_you_posts_sidebar_wysiwyg",
+			"mm4_you_sidebar_wysiwyg",
+			"code",
+			"btn",
+			"button",
+			"btn",
+			"iit-link",
+			"itt-link",
+			"btn",
+			"highlight",
+			"widget",
+			"regular",
+			"255",
+			"#home-carousel.carousel-type-1",
+			"carousel",
+			"true",
+			"page_for_posts",
+			"mm4_you_add_quick_contact_form",
+			"mm4_you_contact_page_sidebar",
+			"background-color: #000",
+			"background-color:#000",
+			"section",
+			"*",
+			"mm4_you_contact_page_form",
+			".5em",
+			"bottom",
+			"side-address-1",
+			".map-canvas",
+			"widget",
+			"highlight",
+			"link",
+			"form-quick-contact-wrapper",
+			"h3",
+			"h1",
+			"hot-jobs",
+			"home-highlight",
+			"widget",
+			"aside",
+			"colophon",
+			"aside",
+			"custom-sidebar-wysiwyg",
+			"sidebar",
+			"footer",
+			"background",
+			"footer",
+			"span",
+			"Widgets",
+			"more-link",
+			"read",
+			"p",
+			"helv",
+			"ftr-phone",
+			"site-info",
+			"highlights",
+			"colophon",
+			"footer",
+			"font-size",
+			"Roboto",
+			"'Source",
+			"font",
+			"warranty",
+			"imagelightbox-caption",
+			"imagelightbox-close",
+			"@include outer-container",
+			"p",
+			"state",
+			"zip",
+			"state",
+			"city",
+			"add2",
+			"city",
+			"brand__dark_green",
+			"backgrounds",
+			"h3",
+			"left",
+			"h3",
+			"wp-content/themes/mm4",
+			"/portabello/wp-content/themes/mm4",
+			"?></",
+			"<h4>",
+			"h3",
+			"h4",
+			"h3",
+			"width",
+			"jquery",
+			"width",
+			"catNav.children",
+			"portabello",
+			"choices",
+			"floorplans",
+			"margin",
+			"&bull;",
+			"caption",
+			">",
+			"highlight",
+			"masthead",
+			"image",
+			"img",
+			"1000px",
+			"div",
+			"green",
+			"<img src=\"<?php echo get_stylesheet_directory_uri(); ?>/images/circles/1-bed-circle.svg\" alt=\"\">",
+			"between",
+			"day",
+			"span",
+			"repeater_field_name",
+			"email"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "*project/notes.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 124,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								124,
+								124
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"bs_sintax": "html",
+							"buffer_scroll_name": "c5a1fb90",
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tabs_extra_last_activated": 1484243884.78,
+							"tabs_extra_last_activated_sheet_index": 0,
+							"tabs_extra_spawned": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 79.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 158.0
+	},
+	"pinned_build_system": "",
+	"project": "stern.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"function",
+				"functions.php"
+			],
+			[
+				"func",
+				"functions.php"
+			],
+			[
+				"fun",
+				"functions.php"
+			],
+			[
+				"_mas",
+				"sass/navigation/_masthead.scss"
+			],
+			[
+				"_amen",
+				"sass/page-templates/_amenities.scss"
+			],
+			[
+				"_post",
+				"sass/site/primary/_posts-and-pages.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 206.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

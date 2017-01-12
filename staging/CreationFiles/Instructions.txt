@@ -1,0 +1,99 @@
+ADOBE INDESIGN PRINTING INSTRUCTIONS FOR SERVICE PROVIDER REPORT
+
+PUBLICATION NAME: Sternthomasson.indd
+
+PACKAGE DATE: 12/8/16 2:07 PM
+Creation Date: 12/8/16
+Modification Date: 12/8/16
+
+CONTACT INFORMATION
+
+Company Name: 
+Contact: 
+Address: 
+
+
+
+
+
+Phone: 
+Fax: 
+Email: 
+
+SPECIAL INSTRUCTIONS AND OTHER NOTES
+
+
+
+
+
+
+External Plug-ins 1
+
+ExtensisFontManagementIDCS5.5.InDesignPlugin
+
+
+Non Opaque Objects :On Page1, 2, 3
+
+FONTS
+6 Fonts Used; 0 Missing, 0 Embedded, 0 Incomplete, 0 Protected
+
+Fonts Packaged
+- Name: Cormorant-Bold; Type: OpenType Type 1, Status: OK
+- Name: Cormorant-SemiBold; Type: OpenType Type 1, Status: OK
+- Name: Roboto-Bold; Type: TrueType, Status: OK
+- Name: Roboto-Italic; Type: TrueType, Status: OK
+- Name: Roboto-Medium; Type: TrueType, Status: OK
+- Name: Roboto-Regular; Type: TrueType, Status: OK
+
+
+COLORS AND INKS
+4 Process Inks; 1 Spot Inks
+
+- Name and Type: Process Cyan; Angle: 45.000; Lines/Inch: 60.000
+- Name and Type: Process Magenta; Angle: 45.000; Lines/Inch: 60.000
+- Name and Type: Process Yellow; Angle: 45.000; Lines/Inch: 60.000
+- Name and Type: Process Black; Angle: 45.000; Lines/Inch: 60.000
+- Name and Type: PANTONE 7463 C; Angle: 45.000; Lines/Inch: 70.000
+
+
+LINKS AND IMAGES
+(Missing & Embedded Links Only)
+Links and Images: 5 Links Found; 0 Modified, 0 Missing 0 Inaccessible
+Images: 0 Embedded, 2 use RGB color space
+
+
+PRINT SETTINGS
+PPD: Xerox Phaser 7500DN, (Phaser 7500DN (00:00:aa:e4:d1:31))
+Printing To: Printer
+Number of Copies: 1
+Reader Spreads: No
+Even/Odd Pages: Both
+Pages: All
+Proof: No
+Tiling: None
+Scale: Scale to fit page
+Page Position: Center
+Print Layers: Visible & Printable Layers
+Printer's Marks: Crops
+Bleed: 0 pt, 0 pt, 0 pt, 0 pt
+Color: Composite CMYK
+Trapping Mode: None
+Send Image Data: Optimized Subsampling
+OPI/DCS Image Replacement: No
+Page Size: Custom: 1400 pt x 1800 pt
+Paper Dimensions: 612 pt x 792 pt
+Orientation: Landscape
+Negative: No
+Flip Mode: Off
+
+
+FILE PACKAGE LIST
+
+1. Sternthomasson.indd; type: Adobe InDesign publication; size: 2236K
+2. Sternthomasson.idml; type: InDesign Markup Document; size: 151K
+3. Cormorant-Bold.otf; type: Font file; size: 241K
+4. Cormorant-SemiBold.otf; type: Font file; size: 242K
+5. Roboto-Bold.ttf; type: Font file; size: 132K
+6. Roboto-Italic.ttf; type: Font file; size: 145K
+7. Roboto-Medium.ttf; type: Font file; size: 134K
+8. Roboto-Regular.ttf; type: Font file; size: 141K
