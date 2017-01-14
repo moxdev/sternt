@@ -2,8 +2,9 @@
 ###################
 *.docx
 *.indd
-*.indlk
+*.idlk
 *.pdf
+
 
 
 
@@ -152,3 +153,9 @@ log/
 
 # CodeKit
 # config.codekit
+
+git rm --cached /Users/mox/Sites/htdocs/stern/wp-content/staging/CreationFiles/~sternthomasson~aoqm7-.idlk
+
+git rm --cached /Users/mox/Sites/htdocs/stern/wp-content/staging/CreationFiles/Sternthomasson.pdf
+
+git rm --cached /Users/mox/Sites/htdocs/stern/wp-content/staging/CreationFiles/Sternthomasson.indd
