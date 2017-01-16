@@ -9,7 +9,7 @@
     padding-left: 1.5625rem;
     padding-right: 1.5625rem;
 
-    @include respond-to($laptop) {
+    @include respond-to('tablet') {
         padding-left: 2rem;
         padding-right: 2rem;
     }

@@ -53,9 +53,23 @@ html {
 
 /* line 4, sass/variables-site/_structure.scss */
 #page {
-  background-color: #fff;
+  background-image: url(imgs/paper-background.svg);
+  background-repeat: repeat;
+  background-color: #ffffff;
 }
 /* line 9, sass/variables-site/_structure.scss */
+#page .site-content {
+  padding-left: 1.5625rem;
+  padding-right: 1.5625rem;
+}
+@media (min-width: 760px) {
+  /* line 9, sass/variables-site/_structure.scss */
+  #page .site-content {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+/* line 12, sass/variables-site/_structure.scss */
 #page .site-content .content-area {
   max-width: 1200px;
   margin-left: auto;
@@ -66,6 +80,15 @@ html {
   clear: both;
   content: "";
   display: block;
+}
+/* line 15, sass/variables-site/_structure.scss */
+#page .site-content .content-area .site-main {
+  font-family: "robo-regular", sans-serif;
+}
+/* line 19, sass/variables-site/_structure.scss */
+#page .site-content .content-area .site-main article .entry-header h1 {
+  color: #082947;
+  font-family: "cor-bold", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -538,43 +561,6 @@ table {
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
-/* line 1, sass/forms/_buttons.scss */
-button,
-input[type="button"],
-input[type="reset"],
-input[type="submit"] {
-  border: 1px solid;
-  border-color: #ccc #ccc #bbb;
-  border-radius: 3px;
-  background: #4d809b;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
-  color: rgba(0, 0, 0, 0.8);
-  font-size: 12px;
-  font-size: 0.75rem;
-  line-height: 1;
-  padding: .6em 1em .4em;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
-}
-/* line 16, sass/forms/_buttons.scss */
-button:hover,
-input[type="button"]:hover,
-input[type="reset"]:hover,
-input[type="submit"]:hover {
-  border-color: #ccc #bbb #aaa;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02);
-}
-/* line 21, sass/forms/_buttons.scss */
-button:active, button:focus,
-input[type="button"]:active,
-input[type="button"]:focus,
-input[type="reset"]:active,
-input[type="reset"]:focus,
-input[type="submit"]:active,
-input[type="submit"]:focus {
-  border-color: #aaa #bbb #bbb;
-  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15);
-}
-
 /* line 1, sass/forms/_fields.scss */
 input[type="text"],
 input[type="email"],
@@ -701,6 +687,53 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 ## Masthead
 --------------------------------------------------------------*/
+/* line 3, sass/navigation/_masthead.scss */
+#masthead {
+  width: 100%;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  border-bottom: 5px solid #939597;
+  padding: 0.625rem;
+}
+/* line 14, sass/navigation/_masthead.scss */
+#masthead .site-branding #logo svg {
+  width: 175px;
+  display: block;
+}
+/* line 23, sass/navigation/_masthead.scss */
+#masthead .main-navigation .masthead-phone a {
+  text-decoration: none;
+}
+/* line 29, sass/navigation/_masthead.scss */
+#masthead .main-navigation .menu-toggle {
+  display: block;
+  margin-left: auto;
+}
+/* line 37, sass/navigation/_masthead.scss */
+#masthead .main-navigation .menu-menu-container ul {
+  display: none;
+}
+/* line 40, sass/navigation/_masthead.scss */
+#masthead .main-navigation .menu-menu-container ul li {
+  list-style: none;
+}
+/* line 50, sass/navigation/_masthead.scss */
+#masthead .main-navigation .menu-menu-container ul li a {
+  text-decoration: none;
+}
+/* line 72, sass/navigation/_masthead.scss */
+#masthead .toggled .menu-menu-container ul {
+  display: block;
+}
+
 /*--------------------------------------------------------------
 # Accessibility
 --------------------------------------------------------------*/

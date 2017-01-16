@@ -2,12 +2,26 @@ $size__site-main: 100%;
 $size__site-sidebar: 25%;
 
 #page {
-    background-color: #fff;
+    background-image: url(imgs/paper-background.svg);
+    background-repeat: repeat;
+    background-color: #ffffff;
 
     .site-content {
+        @include padding-left-right;
 
         .content-area {
             @include outer-container;
+
+            .site-main {
+                font-family: $font__main;
+
+                article {
+                    .entry-header h1 {
+                        color: $color__brand-1;
+                        font-family: $font__alt-bold;
+                    }
+                }
+            }
 
         }
     }
