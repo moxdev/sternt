@@ -41,6 +41,7 @@ $breakpoints: (
         + "Please make sure it is defined in `$breakpoints` map.";
   }
 }
+// @include respond-to(small)
 
 // Center block
 @mixin center-block {
@@ -53,3 +54,21 @@ $breakpoints: (
 @mixin clearfix-after() {
 	clear: both;
 }
+
+// color all links
+// @mixin linx ($link, $visit, $hover, $active) {
+//   a {
+//     color: $link;
+//     &:visited {
+//       color: $visit;
+//     }
+//     &:hover {
+//       color: $hover;
+//     }
+//     &:active {
+//       color: $active;
+//     }
+//   }
+// }
+// how to include
+// @include linx(white, blue, green, red);

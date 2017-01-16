@@ -51,23 +51,21 @@ html {
   box-sizing: inherit;
 }
 
-/* line 12, sass/neat/grid/_visual-grid.scss */
-body:before {
-  background-image: -webkit-linear-gradient(left, transparent 0, #d6d6d6 0, #d6d6d6 7.5630252101%, transparent 7.5630252101%, transparent 8.4033613445%, #d6d6d6 8.4033613445%, #d6d6d6 15.9663865546%, transparent 15.9663865546%, transparent 16.8067226891%, #d6d6d6 16.8067226891%, #d6d6d6 24.3697478992%, transparent 24.3697478992%, transparent 25.2100840336%, #d6d6d6 25.2100840336%, #d6d6d6 32.7731092437%, transparent 32.7731092437%, transparent 33.6134453782%, #d6d6d6 33.6134453782%, #d6d6d6 41.1764705882%, transparent 41.1764705882%, transparent 42.0168067227%, #d6d6d6 42.0168067227%, #d6d6d6 49.5798319328%, transparent 49.5798319328%, transparent 50.4201680672%, #d6d6d6 50.4201680672%, #d6d6d6 57.9831932773%, transparent 57.9831932773%, transparent 58.8235294118%, #d6d6d6 58.8235294118%, #d6d6d6 66.3865546218%, transparent 66.3865546218%, transparent 67.2268907563%, #d6d6d6 67.2268907563%, #d6d6d6 74.7899159664%, transparent 74.7899159664%, transparent 75.6302521008%, #d6d6d6 75.6302521008%, #d6d6d6 83.1932773109%, transparent 83.1932773109%, transparent 84.0336134454%, #d6d6d6 84.0336134454%, #d6d6d6 91.5966386555%, transparent 91.5966386555%, transparent 92.4369747899%, #d6d6d6 92.4369747899%, #d6d6d6 100%, transparent 100%);
-  background-image: -webkit-linear-gradient(right, transparent 0, #d6d6d6 0, #d6d6d6 7.5630252101%, transparent 7.5630252101%, transparent 8.4033613445%, #d6d6d6 8.4033613445%, #d6d6d6 15.9663865546%, transparent 15.9663865546%, transparent 16.8067226891%, #d6d6d6 16.8067226891%, #d6d6d6 24.3697478992%, transparent 24.3697478992%, transparent 25.2100840336%, #d6d6d6 25.2100840336%, #d6d6d6 32.7731092437%, transparent 32.7731092437%, transparent 33.6134453782%, #d6d6d6 33.6134453782%, #d6d6d6 41.1764705882%, transparent 41.1764705882%, transparent 42.0168067227%, #d6d6d6 42.0168067227%, #d6d6d6 49.5798319328%, transparent 49.5798319328%, transparent 50.4201680672%, #d6d6d6 50.4201680672%, #d6d6d6 57.9831932773%, transparent 57.9831932773%, transparent 58.8235294118%, #d6d6d6 58.8235294118%, #d6d6d6 66.3865546218%, transparent 66.3865546218%, transparent 67.2268907563%, #d6d6d6 67.2268907563%, #d6d6d6 74.7899159664%, transparent 74.7899159664%, transparent 75.6302521008%, #d6d6d6 75.6302521008%, #d6d6d6 83.1932773109%, transparent 83.1932773109%, transparent 84.0336134454%, #d6d6d6 84.0336134454%, #d6d6d6 91.5966386555%, transparent 91.5966386555%, transparent 92.4369747899%, #d6d6d6 92.4369747899%, #d6d6d6 100%, transparent 100%);
-  background-image: linear-gradient(to left, transparent 0, #d6d6d6 0, #d6d6d6 7.5630252101%, transparent 7.5630252101%, transparent 8.4033613445%, #d6d6d6 8.4033613445%, #d6d6d6 15.9663865546%, transparent 15.9663865546%, transparent 16.8067226891%, #d6d6d6 16.8067226891%, #d6d6d6 24.3697478992%, transparent 24.3697478992%, transparent 25.2100840336%, #d6d6d6 25.2100840336%, #d6d6d6 32.7731092437%, transparent 32.7731092437%, transparent 33.6134453782%, #d6d6d6 33.6134453782%, #d6d6d6 41.1764705882%, transparent 41.1764705882%, transparent 42.0168067227%, #d6d6d6 42.0168067227%, #d6d6d6 49.5798319328%, transparent 49.5798319328%, transparent 50.4201680672%, #d6d6d6 50.4201680672%, #d6d6d6 57.9831932773%, transparent 57.9831932773%, transparent 58.8235294118%, #d6d6d6 58.8235294118%, #d6d6d6 66.3865546218%, transparent 66.3865546218%, transparent 67.2268907563%, #d6d6d6 67.2268907563%, #d6d6d6 74.7899159664%, transparent 74.7899159664%, transparent 75.6302521008%, #d6d6d6 75.6302521008%, #d6d6d6 83.1932773109%, transparent 83.1932773109%, transparent 84.0336134454%, #d6d6d6 84.0336134454%, #d6d6d6 91.5966386555%, transparent 91.5966386555%, transparent 92.4369747899%, #d6d6d6 92.4369747899%, #d6d6d6 100%, transparent 100%);
+/* line 4, sass/variables-site/_structure.scss */
+#page {
+  background-color: #fff;
+}
+/* line 9, sass/variables-site/_structure.scss */
+#page .site-content .content-area {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 20, sass/neat/mixins/_clearfix.scss */
+#page .site-content .content-area::after {
+  clear: both;
   content: "";
-  display: inline-block;
-  height: 100%;
-  left: 0;
-  margin: 0 auto;
-  max-width: 1400px;
-  opacity: 0.2;
-  pointer-events: none;
-  position: fixed;
-  right: 0;
-  width: 100%;
-  z-index: -1;
+  display: block;
 }
 
 /*--------------------------------------------------------------
@@ -659,58 +657,6 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
-/* line 1, sass/navigation/_menus.scss */
-.main-navigation {
-  clear: both;
-  display: block;
-  float: left;
-  width: 100%;
-}
-/* line 7, sass/navigation/_menus.scss */
-.main-navigation ul {
-  display: none;
-  list-style: none;
-  margin: 0;
-  padding-left: 0;
-}
-/* line 13, sass/navigation/_menus.scss */
-.main-navigation ul ul {
-  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-  float: left;
-  position: absolute;
-  top: 1.5em;
-  left: -999em;
-  z-index: 99999;
-}
-/* line 21, sass/navigation/_menus.scss */
-.main-navigation ul ul ul {
-  left: -999em;
-  top: 0;
-}
-/* line 27, sass/navigation/_menus.scss */
-.main-navigation ul ul li:hover > ul, .main-navigation ul ul li.focus > ul {
-  left: 100%;
-}
-/* line 33, sass/navigation/_menus.scss */
-.main-navigation ul ul a {
-  width: 200px;
-}
-/* line 46, sass/navigation/_menus.scss */
-.main-navigation ul li:hover > ul,
-.main-navigation ul li.focus > ul {
-  left: auto;
-}
-/* line 52, sass/navigation/_menus.scss */
-.main-navigation li {
-  float: left;
-  position: relative;
-}
-/* line 61, sass/navigation/_menus.scss */
-.main-navigation a {
-  display: block;
-  text-decoration: none;
-}
-
 /* Small menu. */
 /* line 74, sass/navigation/_menus.scss */
 .menu-toggle,

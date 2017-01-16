@@ -1,2 +1,14 @@
 $size__site-main: 100%;
 $size__site-sidebar: 25%;
+
+#page {
+    background-color: #fff;
+
+    .site-content {
+
+        .content-area {
+            @include outer-container;
+
+        }
+    }
+}
