@@ -84,14 +84,17 @@ html {
 /* line 15, sass/variables-site/_structure.scss */
 #page .site-content .content-area .site-main {
   font-family: "robo-regular", sans-serif;
+  font-size: 0.8125rem;
+  color: #58585b;
 }
-/* line 19, sass/variables-site/_structure.scss */
+/* line 21, sass/variables-site/_structure.scss */
 #page .site-content .content-area .site-main article .entry-header h1 {
   color: #082947;
   font-family: "cor-bold", sans-serif;
+  font-size: 1.688rem;
 }
 @media (min-width: 1200px) {
-  /* line 24, sass/variables-site/_structure.scss */
+  /* line 27, sass/variables-site/_structure.scss */
   #page .site-content .content-area .site-main article .entry-header h1::before {
     background-image: url(imgs/paragraph-logo.svg);
     background-repeat: no-repeat;
@@ -719,30 +722,76 @@ a:hover, a:active {
   width: 175px;
   display: block;
 }
-/* line 23, sass/navigation/_masthead.scss */
+/* line 22, sass/navigation/_masthead.scss */
+#masthead .main-navigation .close {
+  display: none;
+}
+/* line 27, sass/navigation/_masthead.scss */
 #masthead .main-navigation .masthead-phone a {
   text-decoration: none;
 }
-/* line 29, sass/navigation/_masthead.scss */
+/* line 33, sass/navigation/_masthead.scss */
 #masthead .main-navigation .menu-toggle {
   display: block;
   margin-left: auto;
 }
-/* line 37, sass/navigation/_masthead.scss */
+/* line 41, sass/navigation/_masthead.scss */
 #masthead .main-navigation .menu-menu-container ul {
   display: none;
 }
-/* line 40, sass/navigation/_masthead.scss */
+/* line 44, sass/navigation/_masthead.scss */
 #masthead .main-navigation .menu-menu-container ul li {
   list-style: none;
 }
-/* line 50, sass/navigation/_masthead.scss */
+/* line 54, sass/navigation/_masthead.scss */
 #masthead .main-navigation .menu-menu-container ul li a {
   text-decoration: none;
 }
-/* line 72, sass/navigation/_masthead.scss */
+/* line 76, sass/navigation/_masthead.scss */
+#masthead .toggled {
+  display: block;
+  position: fixed;
+  top: 75px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #082947;
+  overflow: auto;
+  z-index: 9999;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+/* line 99, sass/navigation/_masthead.scss */
+#masthead .toggled .close {
+  display: block;
+  text-align: right;
+  color: #fff;
+  font-size: 1.5em;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+/* line 109, sass/navigation/_masthead.scss */
+#masthead .toggled .masthead-phone, #masthead .toggled .menu-toggle {
+  display: none;
+}
+/* line 113, sass/navigation/_masthead.scss */
+#masthead .toggled .menu-menu-container {
+  text-align: left;
+}
+/* line 117, sass/navigation/_masthead.scss */
 #masthead .toggled .menu-menu-container ul {
   display: block;
+  list-style: none;
+  margin: 0 auto;
+}
+/* line 125, sass/navigation/_masthead.scss */
+#masthead .toggled .menu-menu-container ul li a {
+  color: #fff;
+  display: block;
+  padding: 8px 0;
+  text-decoration: none;
 }
 
 /*--------------------------------------------------------------
@@ -1035,7 +1084,7 @@ object {
   padding-right: 1.5625rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  font-size: 0.875rem;
+  font-size: 0.75rem;
   line-height: 1.3;
 }
 @media (min-width: 760px) {
@@ -1051,19 +1100,20 @@ object {
 }
 /* line 18, sass/pages/_footer.scss */
 .site-footer .footer-wrapper .company-info .associations .naca-logo {
-  width: 150px;
+  width: 120px;
   background-color: #ffffff;
+  margin-right: 5px;
 }
-/* line 23, sass/pages/_footer.scss */
+/* line 24, sass/pages/_footer.scss */
 .site-footer .footer-wrapper .company-info .associations .avvo-logo {
   width: 100px;
   background-color: #ffffff;
-  padding: .77rem .5rem;
+  padding: .48rem .5rem;
 }
-/* line 30, sass/pages/_footer.scss */
+/* line 31, sass/pages/_footer.scss */
 .site-footer .footer-wrapper .company-info .disclaimer {
   font-family: "robo-it", sans-serif;
-  font-size: 0.75rem;
+  font-size: 0.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */

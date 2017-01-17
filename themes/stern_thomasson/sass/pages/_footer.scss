@@ -5,7 +5,7 @@
     @include padding-left-right;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    font-size: 0.875rem;
+    font-size: 0.75rem;
     line-height: 1.3;
 
     .footer-wrapper {
@@ -16,20 +16,21 @@
                 margin-top:1em;
 
                 .naca-logo {
-                    width: 150px;
+                    width: 120px;
                     background-color: #ffffff;
+                    margin-right: 5px;
                 }
 
                 .avvo-logo {
                     width: 100px;
                     background-color: #ffffff;
-                    padding: .77rem .5rem;
+                    padding: .48rem .5rem;
                 }
             }
 
             .disclaimer {
                 font-family: $font__it;
-                font-size: 0.75rem;
+                font-size: 0.5rem;
             }
         }
     }

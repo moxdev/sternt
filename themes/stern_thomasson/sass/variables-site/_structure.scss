@@ -14,11 +14,14 @@ $size__site-sidebar: 25%;
 
             .site-main {
                 font-family: $font__main;
+                font-size: 0.8125rem;
+                color: $color__text-main;
 
                 article {
                     .entry-header h1 {
                         color: $color__brand-1;
                         font-family: $font__alt-bold;
+                        font-size: 1.688rem;
 
                         @include respond-to(large) {
                             &::before {
