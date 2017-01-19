@@ -61,6 +61,7 @@ html {
 #page .site-content {
   padding-left: 1.5625rem;
   padding-right: 1.5625rem;
+  margin-bottom: 2.5rem;
 }
 @media (min-width: 760px) {
   /* line 9, sass/variables-site/_structure.scss */
@@ -69,7 +70,7 @@ html {
     padding-right: 2rem;
   }
 }
-/* line 12, sass/variables-site/_structure.scss */
+/* line 13, sass/variables-site/_structure.scss */
 #page .site-content .content-area {
   max-width: 1200px;
   margin-left: auto;
@@ -81,20 +82,20 @@ html {
   content: "";
   display: block;
 }
-/* line 15, sass/variables-site/_structure.scss */
+/* line 16, sass/variables-site/_structure.scss */
 #page .site-content .content-area .site-main {
   font-family: "robo-regular", sans-serif;
   font-size: 0.8125rem;
   color: #58585b;
 }
-/* line 21, sass/variables-site/_structure.scss */
+/* line 22, sass/variables-site/_structure.scss */
 #page .site-content .content-area .site-main article .entry-header h1 {
   color: #082947;
   font-family: "cor-bold", sans-serif;
   font-size: 1.688rem;
 }
 @media (min-width: 1200px) {
-  /* line 27, sass/variables-site/_structure.scss */
+  /* line 28, sass/variables-site/_structure.scss */
   #page .site-content .content-area .site-main article .entry-header h1::before {
     background-image: url(imgs/paragraph-logo.svg);
     background-repeat: no-repeat;
@@ -103,6 +104,33 @@ html {
     height: 50px;
     content: "";
   }
+}
+/* line 45, sass/variables-site/_structure.scss */
+#page .site-content .widget-area .sidebar-wrapper {
+  background-color: #082947;
+  color: #fff;
+  font-size: 0.75rem;
+  font-family: "robo-regular", sans-serif;
+  text-align: left;
+  padding: 1.563rem;
+}
+/* line 52, sass/variables-site/_structure.scss */
+#page .site-content .widget-area .sidebar-wrapper h3 {
+  font-size: 2.5rem;
+  font-family: "cor-semi", sans-serif;
+  margin: 0;
+}
+/* line 57, sass/variables-site/_structure.scss */
+#page .site-content .widget-area .sidebar-wrapper .sidebar-icon {
+  padding-left: 30%;
+}
+/* line 60, sass/variables-site/_structure.scss */
+#page .site-content .widget-area .sidebar-wrapper .sidebar-icon img {
+  width: 60px;
+}
+/* line 64, sass/variables-site/_structure.scss */
+#page .site-content .widget-area .sidebar-wrapper .sidebar-wysiwyg {
+  text-align: left;
 }
 
 /*--------------------------------------------------------------
@@ -770,7 +798,7 @@ a:hover, a:active {
   color: #fff;
   font-size: 1.5em;
   padding-right: 20px;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 /* line 109, sass/navigation/_masthead.scss */
 #masthead .toggled .masthead-phone, #masthead .toggled .menu-toggle {
@@ -1099,18 +1127,23 @@ object {
   margin-top: 1em;
 }
 /* line 18, sass/pages/_footer.scss */
-.site-footer .footer-wrapper .company-info .associations .naca-logo {
+.site-footer .footer-wrapper .company-info .associations figure {
+  display: inline-block;
+  margin: 0;
+}
+/* line 22, sass/pages/_footer.scss */
+.site-footer .footer-wrapper .company-info .associations figure .naca-logo {
   width: 120px;
   background-color: #ffffff;
   margin-right: 5px;
 }
-/* line 24, sass/pages/_footer.scss */
-.site-footer .footer-wrapper .company-info .associations .avvo-logo {
+/* line 28, sass/pages/_footer.scss */
+.site-footer .footer-wrapper .company-info .associations figure .avvo-logo {
   width: 100px;
   background-color: #ffffff;
   padding: .48rem .5rem;
 }
-/* line 31, sass/pages/_footer.scss */
+/* line 37, sass/pages/_footer.scss */
 .site-footer .footer-wrapper .company-info .disclaimer {
   font-family: "robo-it", sans-serif;
   font-size: 0.5rem;

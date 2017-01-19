@@ -167,3 +167,8 @@ require get_template_directory() . '/inc/jetpack.php';
  * Load footer colophon.
  */
 require get_template_directory() . '/inc/footer-colophon.php';
+
+/**
+ * Load sidebar.
+ */
+require get_template_directory() . '/inc/sidebar.php';

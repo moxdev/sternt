@@ -1288,6 +1288,22 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/imgs\/bubble-x100.png": {
+		"ft": 32768,
+		"iS": 16788,
+		"oA": 0,
+		"oAP": "\/imgs\/bubble-x100.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/bubble.png": {
+		"ft": 32768,
+		"iS": 5281,
+		"oA": 0,
+		"oAP": "\/imgs\/bubble.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/imgs\/creation-files\/background\/bk-500.png": {
 		"ft": 32768,
 		"iS": 1922,
@@ -1361,6 +1377,22 @@
 		"oA": 2,
 		"oAP": "\/imgs\/creation-files\/background\/pattern-test.ai",
 		"oF": 0
+		},
+	"\/imgs\/gavel-x100.png": {
+		"ft": 32768,
+		"iS": 16560,
+		"oA": 0,
+		"oAP": "\/imgs\/gavel-x100.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/gavel.png": {
+		"ft": 32768,
+		"iS": 7303,
+		"oA": 0,
+		"oAP": "\/imgs\/gavel.png",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/imgs\/logo.svg": {
 		"ft": 2097152,
@@ -1446,6 +1478,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/jetpack.php",
+		"oF": 0
+		},
+	"\/inc\/sidebar.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/sidebar.php",
 		"oF": 0
 		},
 	"\/inc\/template-tags.php": {
@@ -2959,6 +2997,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/sass\/layout\/_sidebar.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/layout\/_sidebar.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/sass\/media\/_captions.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -3608,6 +3659,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/search.php",
+		"oF": 0
+		},
+	"\/sidebar-right.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/sidebar-right.php",
 		"oF": 0
 		},
 	"\/sidebar.php": {
