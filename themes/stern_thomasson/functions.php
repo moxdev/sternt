@@ -139,6 +139,16 @@ if( function_exists('acf_add_options_page') ) {
 }
 
 /**
+ * Add font-size to page wysiwyg.
+ */
+function wp_editor_fontsize_filter( $buttons ) {
+        array_shift( $buttons );
+        array_unshift( $buttons, 'fontsizeselect');
+        return $buttons;
+}
+add_filter('mce_buttons_2', 'wp_editor_fontsize_filter');
+
+/**
  * Implement the Custom Header feature.
  */
 require get_template_directory() . '/inc/custom-header.php';
@@ -171,4 +181,9 @@ require get_template_directory() . '/inc/footer-colophon.php';
 /**
  * Load sidebar.
  */
-require get_template_directory() . '/inc/sidebar.php';
+require get_template_directory() . '/inc/sidebar-content.php';
+
+/**
+ * Load the Firm Page community involvement section.
+ */
+require get_template_directory() . '/inc/community-involvement.php';

@@ -1290,7 +1290,7 @@
 		},
 	"\/imgs\/bubble-x100.png": {
 		"ft": 32768,
-		"iS": 16788,
+		"iS": 912,
 		"oA": 0,
 		"oAP": "\/imgs\/bubble-x100.png",
 		"oF": 0,
@@ -1380,7 +1380,7 @@
 		},
 	"\/imgs\/gavel-x100.png": {
 		"ft": 32768,
-		"iS": 16560,
+		"iS": 834,
 		"oA": 0,
 		"oAP": "\/imgs\/gavel-x100.png",
 		"oF": 0,
@@ -1450,6 +1450,28 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/imgs\/trophy-x100.png": {
+		"ft": 32768,
+		"iS": 1795,
+		"oA": 0,
+		"oAP": "\/imgs\/trophy-x100.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/trophy.png": {
+		"ft": 32768,
+		"iS": 16838,
+		"oA": 0,
+		"oAP": "\/imgs\/trophy.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/inc\/community-involvement.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/community-involvement.php",
+		"oF": 0
+		},
 	"\/inc\/custom-header.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -1480,10 +1502,10 @@
 		"oAP": "\/inc\/jetpack.php",
 		"oF": 0
 		},
-	"\/inc\/sidebar.php": {
+	"\/inc\/sidebar-content.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/inc\/sidebar.php",
+		"oAP": "\/inc\/sidebar-content.php",
 		"oF": 0
 		},
 	"\/inc\/template-tags.php": {
@@ -1573,6 +1595,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/page-contact.php",
+		"oF": 0
+		},
+	"\/page-firm.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-firm.php",
 		"oF": 0
 		},
 	"\/page-single-column.php": {
@@ -1693,6 +1721,24 @@
 		"oAP": "\/sass\/.sass-cache\/240ebb4a3f6021e789a0e2f5ad509d613dc91026\/_navigation.scssc",
 		"oF": 0
 		},
+	"\/sass\/.sass-cache\/24969b02c688ce083ad671ab14ad30dcaa923ee1\/_footer.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/.sass-cache\/24969b02c688ce083ad671ab14ad30dcaa923ee1\/_footer.scssc",
+		"oF": 0
+		},
+	"\/sass\/.sass-cache\/24969b02c688ce083ad671ab14ad30dcaa923ee1\/_layout.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/.sass-cache\/24969b02c688ce083ad671ab14ad30dcaa923ee1\/_layout.scssc",
+		"oF": 0
+		},
+	"\/sass\/.sass-cache\/24969b02c688ce083ad671ab14ad30dcaa923ee1\/_structure.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/.sass-cache\/24969b02c688ce083ad671ab14ad30dcaa923ee1\/_structure.scssc",
+		"oF": 0
+		},
 	"\/sass\/.sass-cache\/2fbcca65b75602804f4016815a3c9ae5b0050dfd\/_widgets.scssc": {
 		"ft": 8192,
 		"oA": 1,
@@ -1799,6 +1845,12 @@
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/71003e884ce0703869ee38afdd9570c8828563f3\/_pages.scssc",
+		"oF": 0
+		},
+	"\/sass\/.sass-cache\/71003e884ce0703869ee38afdd9570c8828563f3\/_the-firm.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/.sass-cache\/71003e884ce0703869ee38afdd9570c8828563f3\/_the-firm.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/7ee81a457b3066671ad8d04639f40578a5d40a1d\/_accessibility.scssc": {
@@ -2291,6 +2343,32 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/sass\/_normalize.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/bloat\/_content-sidebar.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/bloat\/_content-sidebar.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/bloat\/_sidebar-content.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/bloat\/_sidebar-content.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2971,7 +3049,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/layout\/_content-sidebar.scss": {
+	"\/sass\/layout\/_footer.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2979,12 +3057,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/layout\/_content-sidebar.css",
+		"oAP": "\/sass\/layout\/_footer.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/layout\/_sidebar-content.scss": {
+	"\/sass\/layout\/_layout.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2992,12 +3070,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/layout\/_sidebar-content.css",
+		"oAP": "\/sass\/layout\/_layout.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/layout\/_sidebar.scss": {
+	"\/sass\/layout\/_structure.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -3005,7 +3083,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/layout\/_sidebar.css",
+		"oAP": "\/sass\/layout\/_structure.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -3452,19 +3530,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/pages\/_footer.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/sass\/pages\/_footer.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/sass\/pages\/_pages.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -3474,6 +3539,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/sass\/pages\/_pages.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/pages\/_the-firm.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/pages\/_the-firm.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -3604,19 +3682,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/sass\/variables-site\/_colors.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/sass\/variables-site\/_structure.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/sass\/variables-site\/_structure.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

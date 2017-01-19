@@ -5,11 +5,9 @@
     background-image: url(imgs/paper-background.svg);
     background-repeat: repeat;
     background-color: #ffffff;
-
     .site-content {
         @include padding-left-right;
         margin-bottom: 2.5rem;
-
         .content-area {
             @include outer-container;
 
@@ -34,13 +32,23 @@
                                 height: 50px;
                                 content:"";
                             }
-
+                        }
+                    }
+                    .entry-content {
+                        h3 {
+                            font-family: $font__med;
+                            font-size: 1.125rem;
+                            color: #4d809b;
+                            margin: 0;
+                        }
+                        p {
+                            margin-top: .5em;
+                            margin-bottom: 1em;
                         }
                     }
                 }
             }
         }
-
         .widget-area {
             .sidebar-wrapper{
                 background-color:$color__brand-1;
@@ -50,12 +58,19 @@
                 text-align: left;
                 padding: 1.563rem;
                 h3 {
-                    font-size:2.5rem;
+                    font-size:2.3rem;
                     font-family: $font__alt-semi;
                     margin: 0;
+                    margin-bottom: .5em;
+                }
+                h4 {
+                    font-size: 1.11rem;
+                    font-family: $font__bold;
+                    margin-top: 1em;
+                    margin-bottom: -10px;
                 }
                 .sidebar-icon {
-                    // text-align: center;
+                    // margin-top:
                     padding-left: 30%;
                     img {
                         width: 60px;
