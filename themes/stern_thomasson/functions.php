@@ -34,6 +34,7 @@ function stern_thomasson_setup() {
 	 * provide it for us.
 	 */
 	add_theme_support( 'title-tag' );
+    add_image_size( 'featured-image', '1500', 9999 );
 
 	/*
 	 * Enable support for Post Thumbnails on posts and pages.
@@ -139,6 +140,16 @@ if( function_exists('acf_add_options_page') ) {
 }
 
 /**
+ * Add font-size to page wysiwyg.
+ */
+function wp_editor_fontsize_filter( $buttons ) {
+        array_shift( $buttons );
+        array_unshift( $buttons, 'fontsizeselect');
+        return $buttons;
+}
+add_filter('mce_buttons_2', 'wp_editor_fontsize_filter');
+
+/**
  * Implement the Custom Header feature.
  */
 require get_template_directory() . '/inc/custom-header.php';
@@ -167,3 +178,13 @@ require get_template_directory() . '/inc/jetpack.php';
  * Load footer colophon.
  */
 require get_template_directory() . '/inc/footer-colophon.php';
+
+/**
+ * Load sidebar.
+ */
+require get_template_directory() . '/inc/sidebar-content.php';
+
+/**
+ * Load the Firm Page community involvement section.
+ */
+require get_template_directory() . '/inc/community-involvement.php';

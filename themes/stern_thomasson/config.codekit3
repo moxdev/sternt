@@ -1288,6 +1288,22 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/imgs\/bubble-x100.png": {
+		"ft": 32768,
+		"iS": 912,
+		"oA": 0,
+		"oAP": "\/imgs\/bubble-x100.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/bubble.png": {
+		"ft": 32768,
+		"iS": 5281,
+		"oA": 0,
+		"oAP": "\/imgs\/bubble.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/imgs\/creation-files\/background\/bk-500.png": {
 		"ft": 32768,
 		"iS": 1922,
@@ -1362,6 +1378,22 @@
 		"oAP": "\/imgs\/creation-files\/background\/pattern-test.ai",
 		"oF": 0
 		},
+	"\/imgs\/gavel-x100.png": {
+		"ft": 32768,
+		"iS": 834,
+		"oA": 0,
+		"oAP": "\/imgs\/gavel-x100.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/gavel.png": {
+		"ft": 32768,
+		"iS": 7303,
+		"oA": 0,
+		"oAP": "\/imgs\/gavel.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/imgs\/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1418,6 +1450,28 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/imgs\/trophy-x100.png": {
+		"ft": 32768,
+		"iS": 1795,
+		"oA": 0,
+		"oAP": "\/imgs\/trophy-x100.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/trophy.png": {
+		"ft": 32768,
+		"iS": 16838,
+		"oA": 0,
+		"oAP": "\/imgs\/trophy.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/inc\/community-involvement.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/community-involvement.php",
+		"oF": 0
+		},
 	"\/inc\/custom-header.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -1446,6 +1500,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/jetpack.php",
+		"oF": 0
+		},
+	"\/inc\/sidebar-content.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/sidebar-content.php",
 		"oF": 0
 		},
 	"\/inc\/template-tags.php": {
@@ -1535,6 +1595,18 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/page-contact.php",
+		"oF": 0
+		},
+	"\/page-firm.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-firm.php",
+		"oF": 0
+		},
+	"\/page-resources.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-resources.php",
 		"oF": 0
 		},
 	"\/page-single-column.php": {
@@ -2287,6 +2359,32 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/sass\/bloat\/_content-sidebar.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/bloat\/_content-sidebar.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/bloat\/_sidebar-content.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/bloat\/_sidebar-content.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/sass\/bourbon\/_bourbon.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -2963,7 +3061,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/layout\/_content-sidebar.scss": {
+	"\/sass\/layout\/_footer.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2971,12 +3069,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/layout\/_content-sidebar.css",
+		"oAP": "\/sass\/layout\/_footer.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/layout\/_sidebar-content.scss": {
+	"\/sass\/layout\/_layout.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2984,7 +3082,20 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/layout\/_sidebar-content.css",
+		"oAP": "\/sass\/layout\/_layout.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/layout\/_structure.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/layout\/_structure.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -3431,19 +3542,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/pages\/_footer.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/sass\/pages\/_footer.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/sass\/pages\/_pages.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -3453,6 +3551,32 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/sass\/pages\/_pages.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/pages\/_resources.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/pages\/_resources.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/pages\/_the-firm.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/pages\/_the-firm.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -3587,19 +3711,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/variables-site\/_structure.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/sass\/variables-site\/_structure.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/sass\/variables-site\/_typography.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -3638,6 +3749,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/search.php",
+		"oF": 0
+		},
+	"\/sidebar-right.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/sidebar-right.php",
 		"oF": 0
 		},
 	"\/sidebar.php": {

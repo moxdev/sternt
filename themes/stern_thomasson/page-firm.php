@@ -1,8 +1,8 @@
 <?php
 /**
- * Template Name: Home Page
+ * Template Name: Firm Page
  *
- * This is the template displays the Home Page
+ * This is the template for displaying the Firm Page
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
@@ -29,8 +29,6 @@ get_header(); ?>
 
         </main><!-- #main -->
     </div><!-- #primary -->
-
 <?php
-
 get_sidebar();
 get_footer();

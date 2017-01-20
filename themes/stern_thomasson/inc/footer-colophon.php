@@ -2,14 +2,11 @@
 /**
  * Stern Thomasson LLP Footer Colophon
  *
+ * Displays the footer information
+ *
  * @package Stern_Thomasson_LLP
  */
 
-/**
- * Add postMessage support for site title and description for the Theme Customizer.
- *
- * @param WP_Customize_Manager $wp_customize Theme Customizer object.
- */
 function stern_thomasson_footer_colophon() { ?>
     <div class="footer-wrapper">
         <div class="company-info"><?php
@@ -35,11 +32,12 @@ function stern_thomasson_footer_colophon() { ?>
                 echo "Fax: " . $fax . "<br>";
             endif;
 
-
             ?>
             <div class="associations">
-                <img class="naca-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/imgs/naca-web-logo.png" alt="Stern Thomasson LLP logo">
-                <img class="avvo-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/imgs/avvo-logo.png" alt="Stern Thomasson LLP logo">
+                <figure>
+                    <img class="naca-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/imgs/naca-web-logo.png" alt="national association of consumer advocates logo">
+                    <img class="avvo-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/imgs/avvo-logo.png" alt="avvo logo">
+                </figure>
             </div>
 
             <div class="disclaimer">

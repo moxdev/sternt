@@ -7,11 +7,15 @@
  * @package Stern_Thomasson_LLP
  */
 
-if ( ! is_active_sidebar( 'sidebar-1' ) ) {
-	return;
-}
+
 ?>
 
 <aside id="secondary" class="widget-area" role="complementary">
-	<?php dynamic_sidebar( 'sidebar-1' ); ?>
+    <?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
+	   <?php dynamic_sidebar( 'sidebar-1' ); ?>
+    <?php else : ?>
+        <?php if ( function_exists( 'stern_thomasson_sidebar' ) ) {
+            stern_thomasson_sidebar();
+        } ?>
+    <?php endif; ?>
 </aside><!-- #secondary -->

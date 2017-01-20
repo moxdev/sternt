@@ -13,6 +13,11 @@
 
 	</div><!-- #content -->
 
+    <?php  if ( is_page_template( 'page-firm.php' ) && function_exists( 'stern_thomasson_community_involvement' ) ) {
+        stern_thomasson_community_involvement();
+        // for displaying the community involvement section on the Firm Page
+    } ?>
+
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
 

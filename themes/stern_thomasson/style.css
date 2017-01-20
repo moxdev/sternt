@@ -51,60 +51,6 @@ html {
   box-sizing: inherit;
 }
 
-/* line 4, sass/variables-site/_structure.scss */
-#page {
-  background-image: url(imgs/paper-background.svg);
-  background-repeat: repeat;
-  background-color: #ffffff;
-}
-/* line 9, sass/variables-site/_structure.scss */
-#page .site-content {
-  padding-left: 1.5625rem;
-  padding-right: 1.5625rem;
-}
-@media (min-width: 760px) {
-  /* line 9, sass/variables-site/_structure.scss */
-  #page .site-content {
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-}
-/* line 12, sass/variables-site/_structure.scss */
-#page .site-content .content-area {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
-/* line 20, sass/neat/mixins/_clearfix.scss */
-#page .site-content .content-area::after {
-  clear: both;
-  content: "";
-  display: block;
-}
-/* line 15, sass/variables-site/_structure.scss */
-#page .site-content .content-area .site-main {
-  font-family: "robo-regular", sans-serif;
-  font-size: 0.8125rem;
-  color: #58585b;
-}
-/* line 21, sass/variables-site/_structure.scss */
-#page .site-content .content-area .site-main article .entry-header h1 {
-  color: #082947;
-  font-family: "cor-bold", sans-serif;
-  font-size: 1.688rem;
-}
-@media (min-width: 1200px) {
-  /* line 27, sass/variables-site/_structure.scss */
-  #page .site-content .content-area .site-main article .entry-header h1::before {
-    background-image: url(imgs/paragraph-logo.svg);
-    background-repeat: no-repeat;
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    content: "";
-  }
-}
-
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
@@ -770,7 +716,7 @@ a:hover, a:active {
   color: #fff;
   font-size: 1.5em;
   padding-right: 20px;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 /* line 109, sass/navigation/_masthead.scss */
 #masthead .toggled .masthead-phone, #masthead .toggled .menu-toggle {
@@ -1073,9 +1019,142 @@ object {
 }
 
 /*--------------------------------------------------------------
-# Pages
+# Layout
 --------------------------------------------------------------*/
-/* line 1, sass/pages/_footer.scss */
+/*--------------------------------------------------------------
+## Main Content Structure
+--------------------------------------------------------------*/
+/* line 4, sass/layout/_structure.scss */
+#page {
+  background-image: url(imgs/paper-background.svg);
+  background-repeat: repeat;
+  background-color: #ffffff;
+}
+/* line 8, sass/layout/_structure.scss */
+#page .site-content {
+  padding-left: 1.5625rem;
+  padding-right: 1.5625rem;
+  margin-bottom: 2.5rem;
+}
+@media (min-width: 760px) {
+  /* line 8, sass/layout/_structure.scss */
+  #page .site-content {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+/* line 11, sass/layout/_structure.scss */
+#page .site-content .content-area {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 20, sass/neat/mixins/_clearfix.scss */
+#page .site-content .content-area::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+/* line 14, sass/layout/_structure.scss */
+#page .site-content .content-area .site-main {
+  font-family: "robo-regular", sans-serif;
+  font-size: 0.8125rem;
+  color: #58585b;
+}
+/* line 20, sass/layout/_structure.scss */
+#page .site-content .content-area .site-main article .entry-header h1 {
+  color: #082947;
+  font-family: "cor-bold", sans-serif;
+  font-size: 1.688rem;
+}
+@media (min-width: 1200px) {
+  /* line 26, sass/layout/_structure.scss */
+  #page .site-content .content-area .site-main article .entry-header h1::before {
+    background-image: url(imgs/paragraph-logo.svg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    content: "";
+  }
+}
+/* line 38, sass/layout/_structure.scss */
+#page .site-content .content-area .site-main article .entry-content h3 {
+  font-family: "robo-medium", sans-serif;
+  font-size: 1.125rem;
+  color: #4d809b;
+  margin: 0;
+  padding-bottom: .25em;
+}
+/* line 45, sass/layout/_structure.scss */
+#page .site-content .content-area .site-main article .entry-content p {
+  margin: 0;
+  padding-bottom: 1em;
+}
+/* line 49, sass/layout/_structure.scss */
+#page .site-content .content-area .site-main article .entry-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* line 52, sass/layout/_structure.scss */
+#page .site-content .content-area .site-main article .entry-content ul li {
+  padding-left: 1.25rem;
+  position: relative;
+  padding-bottom: 0.625rem;
+}
+/* line 56, sass/layout/_structure.scss */
+#page .site-content .content-area .site-main article .entry-content ul li::before {
+  content: "\25B8";
+  position: absolute;
+  color: #4d809b;
+  left: 0;
+}
+/* line 62, sass/layout/_structure.scss */
+#page .site-content .content-area .site-main article .entry-content ul li a {
+  color: #58585b;
+  text-decoration: none;
+}
+/* line 73, sass/layout/_structure.scss */
+#page .site-content .widget-area .sidebar-wrapper {
+  background-color: #082947;
+  color: #fff;
+  font-size: 0.75rem;
+  font-family: "robo-regular", sans-serif;
+  text-align: left;
+  padding: 1.563rem;
+}
+/* line 80, sass/layout/_structure.scss */
+#page .site-content .widget-area .sidebar-wrapper h3 {
+  font-size: 2.3rem;
+  font-family: "cor-semi", sans-serif;
+  margin: 0;
+  margin-bottom: .5em;
+}
+/* line 86, sass/layout/_structure.scss */
+#page .site-content .widget-area .sidebar-wrapper h4 {
+  font-size: 1.11rem;
+  font-family: "robo-bold", sans-serif;
+  margin-top: 1em;
+  margin-bottom: -10px;
+}
+/* line 92, sass/layout/_structure.scss */
+#page .site-content .widget-area .sidebar-wrapper .sidebar-icon {
+  padding-left: 30%;
+}
+/* line 95, sass/layout/_structure.scss */
+#page .site-content .widget-area .sidebar-wrapper .sidebar-icon img {
+  width: 60px;
+}
+/* line 99, sass/layout/_structure.scss */
+#page .site-content .widget-area .sidebar-wrapper .sidebar-wysiwyg {
+  text-align: left;
+}
+
+/*--------------------------------------------------------------
+## Footer
+--------------------------------------------------------------*/
+/* line 1, sass/layout/_footer.scss */
 .site-footer {
   background-color: #082947;
   color: #ffffff;
@@ -1088,32 +1167,141 @@ object {
   line-height: 1.3;
 }
 @media (min-width: 760px) {
-  /* line 1, sass/pages/_footer.scss */
+  /* line 1, sass/layout/_footer.scss */
   .site-footer {
     padding-left: 2rem;
     padding-right: 2rem;
   }
 }
-/* line 15, sass/pages/_footer.scss */
+/* line 15, sass/layout/_footer.scss */
 .site-footer .footer-wrapper .company-info .associations {
   margin-top: 1em;
 }
-/* line 18, sass/pages/_footer.scss */
-.site-footer .footer-wrapper .company-info .associations .naca-logo {
+/* line 18, sass/layout/_footer.scss */
+.site-footer .footer-wrapper .company-info .associations figure {
+  display: inline-block;
+  margin: 0;
+}
+/* line 22, sass/layout/_footer.scss */
+.site-footer .footer-wrapper .company-info .associations figure .naca-logo {
   width: 120px;
   background-color: #ffffff;
   margin-right: 5px;
 }
-/* line 24, sass/pages/_footer.scss */
-.site-footer .footer-wrapper .company-info .associations .avvo-logo {
+/* line 28, sass/layout/_footer.scss */
+.site-footer .footer-wrapper .company-info .associations figure .avvo-logo {
   width: 100px;
   background-color: #ffffff;
   padding: .48rem .5rem;
 }
-/* line 31, sass/pages/_footer.scss */
+/* line 37, sass/layout/_footer.scss */
 .site-footer .footer-wrapper .company-info .disclaimer {
   font-family: "robo-it", sans-serif;
   font-size: 0.5rem;
 }
+
+/*--------------------------------------------------------------
+# Pages
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## The Firm
+--------------------------------------------------------------*/
+/* line 7, sass/pages/_the-firm.scss */
+.page-template-page-firm #page .site-content .widget-area .sidebar-wrapper {
+  text-align: center;
+}
+/* line 11, sass/pages/_the-firm.scss */
+.page-template-page-firm #page .site-content .widget-area .sidebar-wrapper h4 {
+  padding: 0 1.5rem;
+}
+/* line 14, sass/pages/_the-firm.scss */
+.page-template-page-firm #page .site-content .widget-area .sidebar-wrapper .sidebar-icon {
+  padding-left: 0;
+}
+/* line 16, sass/pages/_the-firm.scss */
+.page-template-page-firm #page .site-content .widget-area .sidebar-wrapper .sidebar-icon img {
+  width: 60px;
+}
+/* line 20, sass/pages/_the-firm.scss */
+.page-template-page-firm #page .site-content .widget-area .sidebar-wrapper .sidebar-wysiwyg {
+  text-align: center;
+}
+/* line 22, sass/pages/_the-firm.scss */
+.page-template-page-firm #page .site-content .widget-area .sidebar-wrapper .sidebar-wysiwyg a {
+  text-decoration: none;
+  font-size: 1.063rem;
+  color: #fff;
+}
+/* line 27, sass/pages/_the-firm.scss */
+.page-template-page-firm #page .site-content .widget-area .sidebar-wrapper .sidebar-wysiwyg h6 {
+  text-align: left;
+  font-family: "robo-it", sans-serif;
+}
+/* line 35, sass/pages/_the-firm.scss */
+.page-template-page-firm #page .community-involvement {
+  background-color: #939597;
+  color: #fff;
+  font-size: 0.8125rem;
+  font-family: "robo-regular", sans-serif;
+  overflow: hidden;
+  padding-bottom: 2.5rem;
+}
+/* line 43, sass/pages/_the-firm.scss */
+.page-template-page-firm #page .community-involvement .wrapper .header {
+  background-color: #4d809b;
+  text-align: center;
+}
+/* line 46, sass/pages/_the-firm.scss */
+.page-template-page-firm #page .community-involvement .wrapper .header h1 {
+  color: #fff;
+  font-size: 1.688rem;
+  font-family: "cor-bold", sans-serif;
+  padding: 0.625rem 0;
+  margin: 0;
+}
+/* line 54, sass/pages/_the-firm.scss */
+.page-template-page-firm #page .community-involvement .wrapper .wysiwyg {
+  padding-left: 1.5625rem;
+  padding-right: 1.5625rem;
+}
+@media (min-width: 760px) {
+  /* line 54, sass/pages/_the-firm.scss */
+  .page-template-page-firm #page .community-involvement .wrapper .wysiwyg {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+/* line 57, sass/pages/_the-firm.scss */
+.page-template-page-firm #page .community-involvement .wrapper .wysiwyg p img {
+  width: 400px;
+}
+/* line 61, sass/pages/_the-firm.scss */
+.page-template-page-firm #page .community-involvement .wrapper .wysiwyg ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* line 64, sass/pages/_the-firm.scss */
+.page-template-page-firm #page .community-involvement .wrapper .wysiwyg ul li {
+  padding-left: 1.25rem;
+  position: relative;
+  padding-bottom: 10px;
+}
+/* line 68, sass/pages/_the-firm.scss */
+.page-template-page-firm #page .community-involvement .wrapper .wysiwyg ul li::before {
+  content: "\25B8";
+  position: absolute;
+  left: 0;
+  color: #fff;
+}
+/* line 74, sass/pages/_the-firm.scss */
+.page-template-page-firm #page .community-involvement .wrapper .wysiwyg ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*--------------------------------------------------------------
+## Resources
+--------------------------------------------------------------*/
 
 /*# sourceMappingURL=style.css.map */

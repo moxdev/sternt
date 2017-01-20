@@ -15,16 +15,22 @@
             .associations {
                 margin-top:1em;
 
-                .naca-logo {
-                    width: 120px;
-                    background-color: #ffffff;
-                    margin-right: 5px;
-                }
+                figure {
+                    display: inline-block;
+                    margin: 0;
 
-                .avvo-logo {
-                    width: 100px;
-                    background-color: #ffffff;
-                    padding: .48rem .5rem;
+                    .naca-logo {
+                        width: 120px;
+                        background-color: #ffffff;
+                        margin-right: 5px;
+                    }
+
+                    .avvo-logo {
+                        width: 100px;
+                        background-color: #ffffff;
+                        padding: .48rem .5rem;
+                    }
+
                 }
             }
 
