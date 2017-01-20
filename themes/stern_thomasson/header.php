@@ -45,8 +45,6 @@
 			endif; ?>
 		</div><!-- .site-branding -->
 
-
-
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<div class="close">X</div>
 			<div class="masthead-phone">
@@ -59,5 +57,9 @@
 			<?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu' ) ); ?>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
+
+	<?php  if ( has_post_thumbnail() ) {
+		the_post_thumbnail('featured-post');
+	} ?>
 
 	<div id="content" class="site-content">

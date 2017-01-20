@@ -34,6 +34,7 @@ function stern_thomasson_setup() {
 	 * provide it for us.
 	 */
 	add_theme_support( 'title-tag' );
+    add_image_size( 'featured-image', '1500', 9999 );
 
 	/*
 	 * Enable support for Post Thumbnails on posts and pages.
