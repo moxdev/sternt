@@ -1603,6 +1603,12 @@
 		"oAP": "\/page-firm.php",
 		"oF": 0
 		},
+	"\/page-resources.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-resources.php",
+		"oF": 0
+		},
 	"\/page-single-column.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -1845,6 +1851,12 @@
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/71003e884ce0703869ee38afdd9570c8828563f3\/_pages.scssc",
+		"oF": 0
+		},
+	"\/sass\/.sass-cache\/71003e884ce0703869ee38afdd9570c8828563f3\/_resources.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/.sass-cache\/71003e884ce0703869ee38afdd9570c8828563f3\/_resources.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/71003e884ce0703869ee38afdd9570c8828563f3\/_the-firm.scssc": {
@@ -3539,6 +3551,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/sass\/pages\/_pages.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/pages\/_resources.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/pages\/_resources.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

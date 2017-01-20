@@ -1,8 +1,8 @@
 <?php
 /**
- * Template Name: Firm Page
+ * Template Name: Resources Page
  *
- * This is the template for displaying the Firm Page
+ * This is the template for displaying the Resources Page
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
@@ -30,5 +30,5 @@ get_header(); ?>
         </main><!-- #main -->
     </div><!-- #primary -->
 <?php
-get_sidebar();
+
 get_footer();

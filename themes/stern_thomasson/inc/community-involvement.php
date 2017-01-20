@@ -11,6 +11,7 @@ function stern_thomasson_community_involvement() {
     if ( function_exists( 'get_field' ) ) {
 
         $header = get_field('community_involvement_header');
+        $img = get_field('community_involvement_image');
         $text = get_field('community_involvement_text_area'); ?>
 
             <section class="community-involvement">
@@ -18,6 +19,12 @@ function stern_thomasson_community_involvement() {
                     <?php if (!empty( $header )): ?>
                         <div class="header">
                             <h1><?php echo $header; ?></h1>
+                        </div>
+                    <?php endif; ?>
+
+                    <?php if (!empty( $img )): ?>
+                        <div class="community-featured-img">
+                            <img src="<?php echo $img['url'] ?>" alt="<?php $img['alt'] ?>" title="<?php $img['title'] ?>">
                         </div>
                     <?php endif; ?>
 

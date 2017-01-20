@@ -40,10 +40,30 @@
                             font-size: 1.125rem;
                             color: #4d809b;
                             margin: 0;
+                            padding-bottom:.25em;
                         }
                         p {
-                            margin-top: .5em;
-                            margin-bottom: 1em;
+                            margin:0;
+                            padding-bottom: 1em;
+                        }
+                        ul {
+                            list-style: none;
+                            @include reset;
+                            li{
+                                padding-left: 1.25rem;
+                                position: relative;
+                                padding-bottom: 0.625rem;
+                                &::before {
+                                    content: "\25B8";
+                                    position: absolute;
+                                    color: $color__brand-2;
+                                    left: 0;
+                                }
+                                a {
+                                    color: $color__text-main;
+                                    text-decoration: none;
+                                }
+                            }
                         }
                     }
                 }

@@ -24,6 +24,11 @@
   left: 0;
 }
 
+@mixin reset {
+  padding:0;
+  margin: 0;
+}
+
 // Breakpoints for neat span-columns
 
 $breakpoints: (
