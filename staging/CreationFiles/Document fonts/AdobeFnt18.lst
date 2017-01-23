@@ -3,6 +3,14 @@
 
 %BeginFont
 Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:\.DS_Store
+FileLength:6148
+FileModTime:1484557807
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
 FontType:Type1
 FontName:Cormorant-Bold
 FamilyName:Cormorant
@@ -20,7 +28,7 @@ UsesStandardEncoding:yes
 isCFF:yes
 hasSVG:no
 FileLength:246932
-FileModTime:1484307747
+FileModTime:1480608044
 NameArray:0,Mac,4,Cormorant Bold
 NameArray:0,Win,1,Cormorant
 %EndFont
@@ -44,7 +52,7 @@ UsesStandardEncoding:yes
 isCFF:yes
 hasSVG:no
 FileLength:248568
-FileModTime:1484307747
+FileModTime:1480608044
 NameArray:0,Mac,4,Cormorant SemiBold
 NameArray:0,Win,1,Cormorant SemiBold
 NameArray:0,Win,16,Cormorant
@@ -67,7 +75,7 @@ OutlineFileName:\Roboto-Bold.ttf
 DataFormat:sfntData
 hasSVG:no
 FileLength:135820
-FileModTime:1484307747
+FileModTime:1383833966
 NameArray:0,Mac,18,Roboto Bold
 NameArray:0,Mac,4,Roboto Bold
 NameArray:0,Win,1,Roboto
@@ -90,7 +98,7 @@ OutlineFileName:\Roboto-Italic.ttf
 DataFormat:sfntData
 hasSVG:no
 FileLength:148540
-FileModTime:1484307747
+FileModTime:1383833968
 NameArray:0,Mac,18,Roboto Italic
 NameArray:0,Mac,4,Roboto Italic
 NameArray:0,Win,1,Roboto
@@ -113,7 +121,7 @@ OutlineFileName:\Roboto-Medium.ttf
 DataFormat:sfntData
 hasSVG:no
 FileLength:137308
-FileModTime:1484307747
+FileModTime:1383833970
 NameArray:0,Mac,18,Roboto Medium
 NameArray:0,Mac,4,Roboto Medium
 NameArray:0,Win,1,Roboto Medium
@@ -137,7 +145,7 @@ OutlineFileName:\Roboto-Regular.ttf
 DataFormat:sfntData
 hasSVG:no
 FileLength:145348
-FileModTime:1484307747
+FileModTime:1383833972
 NameArray:0,Mac,18,Roboto Regular
 NameArray:0,Mac,4,Roboto Regular
 NameArray:0,Win,1,Roboto

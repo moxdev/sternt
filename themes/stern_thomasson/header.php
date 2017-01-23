@@ -58,8 +58,14 @@
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
 
+	<?php if ( is_front_page() ):
+		if ( function_exists( 'stern_thomasson_home_carousel' ) ) {
+			    stern_thomasson_home_carousel();
+			}
+	endif ?>
+
 	<?php  if ( has_post_thumbnail() ) {
-		the_post_thumbnail('featured-post');
+		the_post_thumbnail('featured-image');
 	} ?>
 
 	<div id="content" class="site-content">

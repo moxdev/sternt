@@ -7,7 +7,7 @@
 		"uuidString": "CD94DE19-6C7F-43F3-93BE-DA683C7958BE"
 		}
 	],
-"creatorBuild": "25479",
+"creatorBuild": "25504",
 "files": {
 	"\/*project\/notes.html": {
 		"ft": 8192,
@@ -1394,6 +1394,22 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/imgs\/justice.jpg": {
+		"ft": 16384,
+		"iS": 519870,
+		"oA": 0,
+		"oAP": "\/imgs\/justice.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/law-books.jpg": {
+		"ft": 16384,
+		"iS": 189098,
+		"oA": 0,
+		"oAP": "\/imgs\/law-books.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/imgs\/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1472,6 +1488,12 @@
 		"oAP": "\/inc\/community-involvement.php",
 		"oF": 0
 		},
+	"\/inc\/contact-sidebar.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/contact-sidebar.php",
+		"oF": 0
+		},
 	"\/inc\/custom-header.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -1494,6 +1516,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/footer-colophon.php",
+		"oF": 0
+		},
+	"\/inc\/home-carousel.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/home-carousel.php",
 		"oF": 0
 		},
 	"\/inc\/jetpack.php": {
@@ -1525,6 +1553,42 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/customizer-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/home-carousel.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/home-carousel-min.js",
+		"oF": 2,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/map-directions.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/map-directions-min.js",
+		"oF": 2,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/min\/home-carousel-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/home-carousel-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/min\/map-directions-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/map-directions-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -1620,6 +1684,21 @@
 		"oA": 2,
 		"oAP": "\/page.php",
 		"oF": 0
+		},
+	"\/plugins\/mm4-directions-map\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/plugins\/mm4-directions-map\/index.php",
+		"oF": 0
+		},
+	"\/plugins\/mm4-directions-map\/map-directions.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/plugins\/mm4-directions-map\/map-directions-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/plugins\/mm4-you-contact-form\/inc\/contact.php": {
 		"ft": 8192,
@@ -1841,10 +1920,22 @@
 		"oAP": "\/sass\/.sass-cache\/4b3b82acdfa4b0038f66f8ff02b461a076cc31ac\/_is-size.scssc",
 		"oF": 0
 		},
+	"\/sass\/.sass-cache\/71003e884ce0703869ee38afdd9570c8828563f3\/_contact.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/.sass-cache\/71003e884ce0703869ee38afdd9570c8828563f3\/_contact.scssc",
+		"oF": 0
+		},
 	"\/sass\/.sass-cache\/71003e884ce0703869ee38afdd9570c8828563f3\/_footer.scssc": {
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/71003e884ce0703869ee38afdd9570c8828563f3\/_footer.scssc",
+		"oF": 0
+		},
+	"\/sass\/.sass-cache\/71003e884ce0703869ee38afdd9570c8828563f3\/_frontpage.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/.sass-cache\/71003e884ce0703869ee38afdd9570c8828563f3\/_frontpage.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/71003e884ce0703869ee38afdd9570c8828563f3\/_pages.scssc": {
@@ -3542,6 +3633,32 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/sass\/pages\/_contact.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/pages\/_contact.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/pages\/_frontpage.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/pages\/_frontpage.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/sass\/pages\/_pages.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -4478,6 +4595,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-await-in-loop": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
@@ -5017,6 +5138,10 @@
 		"prefer-const": {
 			"active": 0,
 			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
+			},
+		"prefer-destructuring": {
+			"active": 0,
+			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
 			},
 		"prefer-numeric-literals": {
 			"active": 0,

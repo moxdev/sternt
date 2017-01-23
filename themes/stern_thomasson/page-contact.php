@@ -26,6 +26,13 @@ get_header(); ?>
 
             endwhile; // End of the loop.
             ?>
+            <?php if(function_exists('mm4_you_contact_form')) {
+                mm4_you_contact_form();
+            } ?>
+
+            <?php if ( function_exists( 'stern_thomasson_contact_directions_map' ) ) {
+                stern_thomasson_contact_directions_map();
+            } ?>
 
         </main><!-- #main -->
     </div><!-- #primary -->

@@ -7,7 +7,7 @@ Author: Chris Stielper
 License: GPL
 */
 
-// Setup the options page for our plugin. 
+// Setup the options page for our plugin.
 add_action('admin_menu', 'mm4_you_add_gcf_interface');
 
 function mm4_you_add_gcf_interface() {
@@ -20,15 +20,15 @@ function mm4_you_cf_options() {?>
     	<h1>Contact Form Settings</h1>
 		<p>Enter the page ID of the contact form "Thank You" page. This is the page users will see after the form is submitted.<br>
 		<input type="text" name="mm4-you-cf-page-id" size="5" value="<?php echo get_option('mm4-you-cf-page-id'); ?>"></p>
-		
+
 		<p>Enter the email address(es) that you would like the contact form to submit to. (Separate multiple email addresses with a comma and replace the "@" symbol with "_AT_").<br>
 		<input type="text" name="mm4-you-cf-email-add" size="25" value="<?php echo get_option('mm4-you-cf-email-add'); ?>"></p>
-		
+
 		<input type="hidden" name="action" value="update">
 		<input type="hidden" name="page_options" value="mm4-you-cf-page-id, mm4-you-cf-email-add">
-		
+
 		<p><input type="submit" name="Submit" value="Update Options"></p>
-		
+
 	</form>
 <?php }
 
@@ -36,7 +36,7 @@ function mm4_you_cf_options() {?>
 // Include the JS validation
 // Markup our form
 function mm4_you_contact_form() {
-	$ty_page = get_option('mm4-you-cf-page-id'); 
+	$ty_page = get_option('mm4-you-cf-page-id');
 	$action = get_permalink($ty_page);
 
 	wp_enqueue_script('mm4-you-validate', get_template_directory_uri() . '/plugins/mm4-you-contact-form/js/min/mm4-you-validate-min.js', array(), NULL, TRUE ); ?>
@@ -45,26 +45,23 @@ function mm4_you_contact_form() {
 		<?php $recipients = get_option('mm4-you-cf-email-add'); ?>
 		<input type="hidden" value="<?php echo $recipients; ?>" name="recipients" id="recipients">
 		<input type="hidden" value="Online Contact Form for <?php echo bloginfo('name'); ?>" name="subject" id="subject">
-		<label for="first-name"><span class="asterisk">*</span> First Name:
-			<input type="text" name="first-name" id="first-name" class="required" data-error-label="First Name">
+		<label for="name">Name
+			<input type="text" name="name" id="name" class="required" data-error-label="First Name">
 		</label>
-		<label for="last-name"><span class="asterisk">*</span> Last Name:
-			<input type="text" name="last-name" id="last-name" class="required" data-error-label="Last Name">
-		</label>
-		<label for="email-address"><span class="asterisk">*</span> Email:
+		<label for="email-address">Email
 			<input type="email" name="email-address" id="email-address" class="required" data-error-label="Email">
 		</label>
-		<label for="primary-phone"><span class="asterisk">*</span> Primary Phone:
+		<label for="primary-phone">Phone
 			<input type="tel" name="primary-phone" id="primary-phone" class="required" data-error-label="Primary Phone">
 		</label>
-		<label for="comments">Comments:
+		<label for="comments">what would you like to know?
 			<textarea name="comments" id="comments" rows="6"></textarea>
 		</label>
 		<label for="spam" class="honey">What is 1 plus two + 4?
 			<input name="spam" type="text" size="4" id="spam" maxlength="4" class="honey">
 		</label>
 		<div class="msg-box"></div>
-		<input type="submit" value="Submit">
+		<input type="submit" value="we will reply shortly">
 	</form>
 <?php }
 

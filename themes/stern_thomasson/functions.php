@@ -34,7 +34,6 @@ function stern_thomasson_setup() {
 	 * provide it for us.
 	 */
 	add_theme_support( 'title-tag' );
-    add_image_size( 'featured-image', '1500', 9999 );
 
 	/*
 	 * Enable support for Post Thumbnails on posts and pages.
@@ -42,6 +41,9 @@ function stern_thomasson_setup() {
 	 * @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
 	 */
 	add_theme_support( 'post-thumbnails' );
+    add_image_size('home-cta', 600, 450, true);
+    add_image_size('home-carousel', 1500, 750, true);
+    add_image_size( 'featured-image', 1500, 500, true );
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
@@ -103,6 +105,19 @@ function stern_thomasson_widgets_init() {
 add_action( 'widgets_init', 'stern_thomasson_widgets_init' );
 
 /**
+ * Register Scripts
+ */
+function stern_thomasson_register_scripts()  {
+    if (!is_admin()) {
+        wp_deregister_script('jquery');
+        // Load the copy of jQuery that comes with WordPress
+        // The last parameter set to TRUE states that it should be loaded in the footer.
+        wp_register_script('jquery', '/wp-includes/js/jquery/jquery.js', FALSE, NULL, TRUE);
+    }
+}
+add_action('init', 'stern_thomasson_register_scripts');
+
+/**
  * Enqueue scripts and styles.
  */
 function stern_thomasson_scripts() {
@@ -115,6 +130,21 @@ function stern_thomasson_scripts() {
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
+
+    if(is_front_page()) {
+        if(function_exists('get_field')) {
+            $imgs = get_field('carousel_images');
+            if($imgs) {
+                wp_enqueue_script( 'stern_thomasson-home-carousel', get_template_directory_uri() . '/js/min/home-carousel-min.js', array('jquery'), NULL, true );
+            }
+        }
+    }
+
+    if( is_page_template( 'page-contact.php' ) ) {
+        wp_enqueue_script( 'stern_thomasson-directions-map', get_template_directory_uri() . '/js/min/map-directions-min.js', array('jquery'), NULL, true );
+        // wp_enqueue_script('google-maps-api', 'http://maps.google.com/maps/api/js?sensor=false&key=AIzaSyDqcS80RSqBcZepAEhhxKHkSzYLZeNI0Ho', array(), NULL, true );
+        // wp_enqueue_script( 'mm4-you-google-map-api', 'http://maps.google.com/maps/api/js?sensor=false&key=AIzaSyDqcS80RSqBcZepAEhhxKHkSzYLZeNI0Ho', array(), '', true );
+    }
 }
 add_action( 'wp_enqueue_scripts', 'stern_thomasson_scripts' );
 
@@ -148,6 +178,7 @@ function wp_editor_fontsize_filter( $buttons ) {
         return $buttons;
 }
 add_filter('mce_buttons_2', 'wp_editor_fontsize_filter');
+
 
 /**
  * Implement the Custom Header feature.
@@ -185,6 +216,21 @@ require get_template_directory() . '/inc/footer-colophon.php';
 require get_template_directory() . '/inc/sidebar-content.php';
 
 /**
+ * Load the Home Page image carousel.
+ */
+require get_template_directory() . '/inc/home-carousel.php';
+
+/**
  * Load the Firm Page community involvement section.
  */
 require get_template_directory() . '/inc/community-involvement.php';
+
+/**
+ * Include MM4 Contact Form Plugin
+ */
+include_once( get_template_directory() . '/plugins/mm4-you-contact-form/mm4-you-cf.php' );
+
+/**
+ * Include Directions Map on Contact Page
+ */
+require( get_template_directory() . '/inc/contact-sidebar.php' );

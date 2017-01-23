@@ -1,0 +1,152 @@
+.page-template-frontpage {
+    .home-carousel {
+        position: relative;
+
+        &:before, &:after {
+            content: '';
+            display: block;
+            position: absolute;
+        }
+
+        &:before {
+            background-color: $color__brand-1;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            z-index: 15;
+            opacity: .5;
+        }
+
+        h1 {
+            position: relative;
+            z-index: 20;
+            color:#FFF;
+            text-shadow: 0 0 15px rgba(0, 0, 0, .5);
+            padding: 2.5em 1.25rem .75em;
+            font-size: 1.625em;
+            width: 90%;
+            margin: 0;
+
+            span {
+                display: block;
+            }
+
+            .piece-2 {
+                margin-left: 1.5em;
+            }
+
+            .piece-3 {
+                margin-left: .5em;
+            }
+
+            .highlight {
+                font-family: $font__bold;
+                font-size: 1.25em;
+                // margin:0;
+            }
+        }
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            z-index: 10;
+
+            li {
+                background-size: cover;
+                opacity: 0;
+                transition:opacity 1s ease-in-out;
+
+                &.active {
+                    opacity: 1;
+                }
+            }
+        }
+
+        ul, ul li {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom:0;
+        }
+
+        ol {
+            list-style: none;
+            // margin: 0;
+            padding: 0 0 1em;
+            position: relative;
+            z-index: 20;
+            // text-align: center;
+            display: none;
+
+            li {
+                display: inline-block;
+            }
+
+            a {
+                display: block;
+                width: 25px;
+                height: 25px;
+                text-indent: 100%;
+                white-space: nowrap;
+                overflow: hidden;
+                background-color: $color__brand-2;
+                border-radius: 50%;
+                margin: 0 .375em;
+                transition:background-color .25s;
+
+
+                &:hover {
+                    background-color: #333;
+                }
+            }
+
+            .active > a {
+                background-color: #666;
+
+                &:hover {
+                    cursor: text;
+                }
+            }
+        }
+
+        @include respond-to(x-small) {
+            h1 {
+                font-size: 2.125em;
+            }
+        }
+
+        @include respond-to(small) {
+            h1 {
+                font-size: 2.75em;
+
+                .highlight {
+                    font-size: 1.375em;
+                }
+            }
+
+            ol {
+                display: block;
+            }
+        }
+
+        @include respond-to(medium) {
+            &:after {
+                left: 40%;
+                bottom: 40%;
+            }
+        }
+
+        @include respond-to(large) {
+            h1 {
+                padding: 4em 1.25rem .75em;
+
+                .highlight {
+                    font-size: 1.625em;
+                }
+            }
+        }
+    }
+}
