@@ -31,4 +31,10 @@ select {
 
 textarea, input {
 	width: 100%;
+	margin-top: .25em;
+	font-family: $font__bold;
+}
+
+input[type="submit"] {
+	margin-top: 1em;
 }

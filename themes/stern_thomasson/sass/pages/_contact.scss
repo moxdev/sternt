@@ -5,7 +5,6 @@
         .honey {
             display: none !important;
         }
-
         .site-content {
             background-image: url(imgs/justice.jpg);
             background-size: cover;
@@ -14,7 +13,6 @@
             padding-bottom: 4em;
 
             .content-area {
-
                 .site-main {
                     color: #fff;
 
@@ -46,12 +44,12 @@
                     }
                     .sidebar-wrapper {
                         margin-top: 2em;
-                        margin-bottom: 2em;
+                        // margin-bottom: 2em;
 
                         h2  {
                             font-family: $font__bold;
                             text-transform: uppercase;
-                            margin: .5em 0 .5em;
+                            margin: .25em 0;
                         }
 
                         .sidebar-info {
@@ -69,6 +67,8 @@
                                 margin-top: 1em;
 
                                 label {
+                                    text-transform: capitalize;
+                                    font-family: $font__bold;
                                 }
 
                                 #response-panel span {
@@ -78,11 +78,10 @@
                                 .adp, .adp table, .adp-details, .adp-legal {
                                     color: $white;
                                 }
-
                             }
                         }
                         .disclaimer {
-                            font-size:0.5rem;
+                            font-size:0.625rem;
                             font-family: $font__it;
                             .bold {
                                 font-family: $font__bold;
@@ -91,6 +90,9 @@
                     }
                 }
             }
+        }
+        .site-footer {
+            margin-top: -10px; //remove when background is fixed
         }
     }
 }

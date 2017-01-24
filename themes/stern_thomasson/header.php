@@ -50,6 +50,7 @@
 			<div class="masthead-phone">
 				<?php $phone = get_field( 'phone', 'option' );
 				if ($phone): ?>
+					<div class="callout">Call for a Free Consultation</div>
 					<a href="tel:<?php echo $phone; ?>"><?php echo $phone; ?></a>
 				<?php endif; ?>
 			</div>
