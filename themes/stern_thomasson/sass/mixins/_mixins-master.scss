@@ -38,7 +38,8 @@ $breakpoints: (
   'tablet'     : ( min-width:  760px ),
   'medium'     : ( min-width:  960px ),
   'large'      : ( min-width: 1200px ),
-  'x-large'    : ( min-width: 1500px )
+  'x-large'    : ( min-width: 1500px ),
+  'xx-large'   : ( min-width: 1800px ),
 );
 
 @mixin respond-to($name) {

@@ -1136,9 +1136,18 @@ object {
 }
 /* line 9, sass/layout/_structure.scss */
 #page .site-content {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
   padding-left: 1.5625rem;
   padding-right: 1.5625rem;
   margin-bottom: 2.5rem;
+}
+/* line 20, sass/neat/mixins/_clearfix.scss */
+#page .site-content::after {
+  clear: both;
+  content: "";
+  display: block;
 }
 @media (min-width: 760px) {
   /* line 9, sass/layout/_structure.scss */
@@ -1147,26 +1156,14 @@ object {
     padding-right: 2rem;
   }
 }
-/* line 12, sass/layout/_structure.scss */
-#page .site-content .content-area {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
-/* line 20, sass/neat/mixins/_clearfix.scss */
-#page .site-content .content-area::after {
-  clear: both;
-  content: "";
-  display: block;
-}
-/* line 15, sass/layout/_structure.scss */
+/* line 14, sass/layout/_structure.scss */
 #page .site-content .content-area .site-main {
   font-family: "robo-regular", sans-serif;
   font-size: 0.8125rem;
   color: #58585b;
 }
 /* line 21, sass/layout/_structure.scss */
-#page .site-content .content-area .site-main article .entry-header h1 {
+#page .site-content .content-area .site-main article .page-wrapper .entry-header h1 {
   color: #082947;
   font-family: "cor-bold", sans-serif;
   font-size: 1.688rem;
@@ -1174,55 +1171,72 @@ object {
   padding-top: 0.67em;
   letter-spacing: 1px;
 }
-@media (min-width: 1200px) {
-  /* line 30, sass/layout/_structure.scss */
-  #page .site-content .content-area .site-main article .entry-header h1::before {
-    background-image: url(imgs/paragraph-logo.svg);
-    background-repeat: no-repeat;
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    content: "";
-  }
-}
-/* line 42, sass/layout/_structure.scss */
-#page .site-content .content-area .site-main article .entry-content h3 {
+/* line 33, sass/layout/_structure.scss */
+#page .site-content .content-area .site-main article .page-wrapper .entry-content h3 {
   font-family: "robo-medium", sans-serif;
   font-size: 1.125rem;
   color: #4d809b;
   margin: 0;
   padding-bottom: .25em;
 }
-/* line 49, sass/layout/_structure.scss */
-#page .site-content .content-area .site-main article .entry-content p {
+/* line 40, sass/layout/_structure.scss */
+#page .site-content .content-area .site-main article .page-wrapper .entry-content p {
   margin: 0;
   padding-bottom: 1em;
 }
-/* line 53, sass/layout/_structure.scss */
-#page .site-content .content-area .site-main article .entry-content ul {
+/* line 44, sass/layout/_structure.scss */
+#page .site-content .content-area .site-main article .page-wrapper .entry-content ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-/* line 56, sass/layout/_structure.scss */
-#page .site-content .content-area .site-main article .entry-content ul li {
+/* line 47, sass/layout/_structure.scss */
+#page .site-content .content-area .site-main article .page-wrapper .entry-content ul li {
   padding-left: 1.25rem;
   position: relative;
   padding-bottom: 0.625rem;
 }
-/* line 60, sass/layout/_structure.scss */
-#page .site-content .content-area .site-main article .entry-content ul li::before {
+/* line 51, sass/layout/_structure.scss */
+#page .site-content .content-area .site-main article .page-wrapper .entry-content ul li::before {
   content: "\25B8";
   position: absolute;
   color: #4d809b;
   left: 0;
 }
-/* line 66, sass/layout/_structure.scss */
-#page .site-content .content-area .site-main article .entry-content ul li a {
+/* line 57, sass/layout/_structure.scss */
+#page .site-content .content-area .site-main article .page-wrapper .entry-content ul li a {
   color: #58585b;
   text-decoration: none;
 }
-/* line 77, sass/layout/_structure.scss */
+@media (min-width: 960px) {
+  /* line 67, sass/layout/_structure.scss */
+  #page .site-content .content-area .site-main article .page-wrapper .entry-header h1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    font-size: 3.563rem;
+    padding-top: 0;
+  }
+  /* line 72, sass/layout/_structure.scss */
+  #page .site-content .content-area .site-main article .page-wrapper .entry-header h1:before {
+    background-image: url(imgs/paragraph-logo.svg);
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 80px;
+    content: "";
+    margin-top: 15px;
+    margin-right: 10px;
+  }
+  /* line 83, sass/layout/_structure.scss */
+  #page .site-content .content-area .site-main article .page-wrapper .entry-content {
+    font-size: 1.125rem;
+    margin-left: 3em;
+  }
+}
+/* line 93, sass/layout/_structure.scss */
 #page .site-content .widget-area .sidebar-wrapper {
   background-color: #082947;
   color: #fff;
@@ -1231,31 +1245,53 @@ object {
   text-align: left;
   padding: 1.563rem;
 }
-/* line 84, sass/layout/_structure.scss */
+/* line 100, sass/layout/_structure.scss */
 #page .site-content .widget-area .sidebar-wrapper h3 {
   font-size: 2.3rem;
   font-family: "cor-semi", sans-serif;
   margin: 0;
   margin-bottom: .5em;
 }
-/* line 90, sass/layout/_structure.scss */
+/* line 106, sass/layout/_structure.scss */
 #page .site-content .widget-area .sidebar-wrapper h4 {
   font-size: 1.11rem;
   font-family: "robo-bold", sans-serif;
   margin-top: 1em;
   margin-bottom: -10px;
 }
-/* line 96, sass/layout/_structure.scss */
+/* line 112, sass/layout/_structure.scss */
 #page .site-content .widget-area .sidebar-wrapper .sidebar-icon {
   padding-left: 30%;
 }
-/* line 99, sass/layout/_structure.scss */
+/* line 115, sass/layout/_structure.scss */
 #page .site-content .widget-area .sidebar-wrapper .sidebar-icon img {
   width: 60px;
 }
-/* line 103, sass/layout/_structure.scss */
+/* line 119, sass/layout/_structure.scss */
 #page .site-content .widget-area .sidebar-wrapper .sidebar-wysiwyg {
   text-align: left;
+}
+@media (min-width: 960px) {
+  /* line 9, sass/layout/_structure.scss */
+  #page .site-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  /* line 126, sass/layout/_structure.scss */
+  #page .site-content .content-area {
+    -webkit-box-flex: 2;
+        -ms-flex: 2;
+            flex: 2;
+    margin-right: 1.5em;
+  }
+  /* line 130, sass/layout/_structure.scss */
+  #page .site-content .widget-area {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    max-width: 300px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1263,6 +1299,9 @@ object {
 --------------------------------------------------------------*/
 /* line 1, sass/layout/_footer.scss */
 .site-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background-color: #082947;
   color: #ffffff;
   text-align: center;
@@ -1280,31 +1319,39 @@ object {
     padding-right: 2rem;
   }
 }
-/* line 15, sass/layout/_footer.scss */
+/* line 16, sass/layout/_footer.scss */
 .site-footer .footer-wrapper .company-info .associations {
   margin-top: 1em;
 }
-/* line 18, sass/layout/_footer.scss */
+/* line 19, sass/layout/_footer.scss */
 .site-footer .footer-wrapper .company-info .associations figure {
   display: inline-block;
   margin: 0;
 }
-/* line 22, sass/layout/_footer.scss */
+/* line 23, sass/layout/_footer.scss */
 .site-footer .footer-wrapper .company-info .associations figure .naca-logo {
   width: 120px;
   background-color: #ffffff;
   margin-right: 5px;
 }
-/* line 28, sass/layout/_footer.scss */
+/* line 29, sass/layout/_footer.scss */
 .site-footer .footer-wrapper .company-info .associations figure .avvo-logo {
   width: 100px;
   background-color: #ffffff;
   padding: .48rem .5rem;
 }
-/* line 37, sass/layout/_footer.scss */
+/* line 38, sass/layout/_footer.scss */
 .site-footer .footer-wrapper .company-info .disclaimer {
   font-family: "robo-it", sans-serif;
-  font-size: 0.5rem;
+  font-size: 0.625rem;
+}
+@media (min-width: 960px) {
+  /* line 12, sass/layout/_footer.scss */
+  .site-footer .footer-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1325,16 +1372,17 @@ object {
 }
 /* line 11, sass/pages/_frontpage.scss */
 .page-template-frontpage .home-carousel:before {
-  background-color: #082947;
+  background-color: #000;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
   z-index: 15;
-  opacity: .5;
+  opacity: .6;
 }
-/* line 21, sass/pages/_frontpage.scss */
+/* line 20, sass/pages/_frontpage.scss */
 .page-template-frontpage .home-carousel h1 {
+  font-family: "cor-bold", sans-serif;
   position: relative;
   z-index: 20;
   color: #FFF;
@@ -1344,42 +1392,123 @@ object {
   width: 90%;
   margin: 0;
 }
-/* line 31, sass/pages/_frontpage.scss */
+/* line 30, sass/pages/_frontpage.scss */
 .page-template-frontpage .home-carousel h1 span {
   display: block;
 }
-/* line 35, sass/pages/_frontpage.scss */
-.page-template-frontpage .home-carousel h1 .piece-2 {
-  margin-left: 1.5em;
-}
-/* line 39, sass/pages/_frontpage.scss */
-.page-template-frontpage .home-carousel h1 .piece-3 {
+/* line 33, sass/pages/_frontpage.scss */
+.page-template-frontpage .home-carousel h1 .title {
   margin-left: .5em;
 }
-/* line 43, sass/pages/_frontpage.scss */
+/* line 36, sass/pages/_frontpage.scss */
 .page-template-frontpage .home-carousel h1 .highlight {
-  font-family: "robo-bold", sans-serif;
+  font-family: "cor-bold", sans-serif;
   font-size: 1.25em;
 }
-/* line 50, sass/pages/_frontpage.scss */
+@media (min-width: 400px) {
+  /* line 36, sass/pages/_frontpage.scss */
+  .page-template-frontpage .home-carousel h1 .highlight {
+    font-size: 1.375em;
+  }
+}
+@media (min-width: 960px) {
+  /* line 36, sass/pages/_frontpage.scss */
+  .page-template-frontpage .home-carousel h1 .highlight {
+    font-size: 1.5em;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 36, sass/pages/_frontpage.scss */
+  .page-template-frontpage .home-carousel h1 .highlight {
+    font-size: 1.625em;
+  }
+}
+@media (min-width: 310px) {
+  /* line 20, sass/pages/_frontpage.scss */
+  .page-template-frontpage .home-carousel h1 {
+    font-size: 2.125em;
+  }
+}
+@media (min-width: 400px) {
+  /* line 20, sass/pages/_frontpage.scss */
+  .page-template-frontpage .home-carousel h1 {
+    font-size: 2.75em;
+  }
+}
+@media screen and (min-width: 510px) {
+  /* line 20, sass/pages/_frontpage.scss */
+  .page-template-frontpage .home-carousel h1 {
+    width: 80%;
+  }
+}
+@media (min-width: 560px) {
+  /* line 20, sass/pages/_frontpage.scss */
+  .page-template-frontpage .home-carousel h1 {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 660px) {
+  /* line 20, sass/pages/_frontpage.scss */
+  .page-template-frontpage .home-carousel h1 {
+    width: 60%;
+  }
+}
+@media (min-width: 760px) {
+  /* line 20, sass/pages/_frontpage.scss */
+  .page-template-frontpage .home-carousel h1 {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 910px) {
+  /* line 20, sass/pages/_frontpage.scss */
+  .page-template-frontpage .home-carousel h1 {
+    width: 40%;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 20, sass/pages/_frontpage.scss */
+  .page-template-frontpage .home-carousel h1 {
+    padding: 5em 1.25rem .75em;
+    width: 35%;
+  }
+}
+@media (min-width: 1500px) {
+  /* line 20, sass/pages/_frontpage.scss */
+  .page-template-frontpage .home-carousel h1 {
+    width: 30%;
+  }
+}
+@media (min-width: 1800px) {
+  /* line 20, sass/pages/_frontpage.scss */
+  .page-template-frontpage .home-carousel h1 {
+    width: 25%;
+  }
+}
+@media screen and (min-width: 2160px) {
+  /* line 20, sass/pages/_frontpage.scss */
+  .page-template-frontpage .home-carousel h1 {
+    width: 20%;
+  }
+}
+/* line 85, sass/pages/_frontpage.scss */
 .page-template-frontpage .home-carousel ul {
   list-style: none;
   margin: 0;
   padding: 0;
   z-index: 10;
 }
-/* line 56, sass/pages/_frontpage.scss */
+/* line 91, sass/pages/_frontpage.scss */
 .page-template-frontpage .home-carousel ul li {
   background-size: cover;
   opacity: 0;
   -webkit-transition: opacity 1s ease-in-out;
   transition: opacity 1s ease-in-out;
 }
-/* line 61, sass/pages/_frontpage.scss */
+/* line 96, sass/pages/_frontpage.scss */
 .page-template-frontpage .home-carousel ul li.active {
   opacity: 1;
 }
-/* line 67, sass/pages/_frontpage.scss */
+/* line 102, sass/pages/_frontpage.scss */
 .page-template-frontpage .home-carousel ul, .page-template-frontpage .home-carousel ul li {
   position: absolute;
   left: 0;
@@ -1387,79 +1516,56 @@ object {
   top: 0;
   bottom: 0;
 }
-/* line 75, sass/pages/_frontpage.scss */
+/* line 110, sass/pages/_frontpage.scss */
 .page-template-frontpage .home-carousel ol {
   list-style: none;
   padding: 0 0 1em;
   position: relative;
   z-index: 20;
-  display: none;
 }
-/* line 84, sass/pages/_frontpage.scss */
+/* line 116, sass/pages/_frontpage.scss */
 .page-template-frontpage .home-carousel ol li {
   display: inline-block;
 }
-/* line 88, sass/pages/_frontpage.scss */
+/* line 120, sass/pages/_frontpage.scss */
 .page-template-frontpage .home-carousel ol a {
   display: block;
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
   background-color: #4d809b;
   border-radius: 50%;
-  margin: 0 .375em;
+  margin-right: .375em;
   -webkit-transition: background-color .25s;
   transition: background-color .25s;
 }
-/* line 101, sass/pages/_frontpage.scss */
+@media (min-width: 400px) {
+  /* line 120, sass/pages/_frontpage.scss */
+  .page-template-frontpage .home-carousel ol a {
+    width: 25px;
+    height: 25px;
+    margin: 0 .375em;
+  }
+}
+/* line 137, sass/pages/_frontpage.scss */
 .page-template-frontpage .home-carousel ol a:hover {
   background-color: #333;
 }
-/* line 106, sass/pages/_frontpage.scss */
+/* line 142, sass/pages/_frontpage.scss */
 .page-template-frontpage .home-carousel ol .active > a {
   background-color: #666;
 }
-/* line 109, sass/pages/_frontpage.scss */
+/* line 145, sass/pages/_frontpage.scss */
 .page-template-frontpage .home-carousel ol .active > a:hover {
   cursor: text;
 }
-@media (min-width: 310px) {
-  /* line 116, sass/pages/_frontpage.scss */
-  .page-template-frontpage .home-carousel h1 {
-    font-size: 2.125em;
-  }
-}
-@media (min-width: 400px) {
-  /* line 122, sass/pages/_frontpage.scss */
-  .page-template-frontpage .home-carousel h1 {
-    font-size: 2.75em;
-  }
-  /* line 125, sass/pages/_frontpage.scss */
-  .page-template-frontpage .home-carousel h1 .highlight {
-    font-size: 1.375em;
-  }
-  /* line 130, sass/pages/_frontpage.scss */
-  .page-template-frontpage .home-carousel ol {
-    display: block;
-  }
-}
 @media (min-width: 960px) {
-  /* line 136, sass/pages/_frontpage.scss */
+  /* line 152, sass/pages/_frontpage.scss */
   .page-template-frontpage .home-carousel:after {
     left: 40%;
     bottom: 40%;
-  }
-}
-@media (min-width: 1200px) {
-  /* line 143, sass/pages/_frontpage.scss */
-  .page-template-frontpage .home-carousel h1 {
-    padding: 4em 1.25rem .75em;
-  }
-  /* line 146, sass/pages/_frontpage.scss */
-  .page-template-frontpage .home-carousel h1 .highlight {
-    font-size: 1.625em;
   }
 }
 

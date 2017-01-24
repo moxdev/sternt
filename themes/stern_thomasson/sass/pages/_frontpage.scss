@@ -9,16 +9,16 @@
         }
 
         &:before {
-            background-color: $color__brand-1;
+            background-color: #000;
             left: 0;
             right: 0;
             top: 0;
             bottom: 0;
             z-index: 15;
-            opacity: .5;
+            opacity: .6;
         }
-
         h1 {
+            font-family: $font__alt-bold;
             position: relative;
             z-index: 20;
             color:#FFF;
@@ -27,23 +27,58 @@
             font-size: 1.625em;
             width: 90%;
             margin: 0;
-
             span {
                 display: block;
             }
-
-            .piece-2 {
-                margin-left: 1.5em;
-            }
-
-            .piece-3 {
+            .title {
                 margin-left: .5em;
             }
-
             .highlight {
-                font-family: $font__bold;
+                font-family: $font__alt-bold;
                 font-size: 1.25em;
-                // margin:0;
+                @include respond-to(small) {
+                    font-size: 1.375em;
+                }
+                @include respond-to(medium) {
+                    font-size: 1.5em;
+                }
+                @include respond-to(large) {
+                    font-size: 1.625em;
+                }
+            }
+            @include respond-to(x-small) {
+                font-size: 2.125em;
+            }
+            @include respond-to(small) {
+                font-size: 2.75em;
+            }
+            @media screen and (min-width: 510px) {
+                width: 80%;
+            }
+            @include respond-to(small-land) {
+                width:70%;
+            }
+            @media screen and (min-width: 660px) {
+                width: 60%;
+            }
+            @include respond-to(tablet) {
+                width: 50%
+            }
+            @media screen and (min-width: 910px) {
+                width: 40%;
+            }
+            @include respond-to(large) {
+                padding: 5em 1.25rem .75em;
+                width: 35%;
+            }
+            @include respond-to(x-large) {
+                width: 30%;
+            }
+            @include respond-to(xx-large) {
+                width: 25%;
+            }
+            @media screen and (min-width: 2160px) {
+                width: 20%;
             }
         }
 
@@ -74,12 +109,9 @@
 
         ol {
             list-style: none;
-            // margin: 0;
             padding: 0 0 1em;
             position: relative;
             z-index: 20;
-            // text-align: center;
-            display: none;
 
             li {
                 display: inline-block;
@@ -87,16 +119,20 @@
 
             a {
                 display: block;
-                width: 25px;
-                height: 25px;
+                width: 20px;
+                height: 20px;
                 text-indent: 100%;
                 white-space: nowrap;
                 overflow: hidden;
                 background-color: $color__brand-2;
                 border-radius: 50%;
-                margin: 0 .375em;
+                margin-right: .375em;
                 transition:background-color .25s;
-
+                @include respond-to(small) {
+                    width: 25px;
+                    height: 25px;
+                    margin: 0 .375em;
+                }
 
                 &:hover {
                     background-color: #333;
@@ -112,40 +148,10 @@
             }
         }
 
-        @include respond-to(x-small) {
-            h1 {
-                font-size: 2.125em;
-            }
-        }
-
-        @include respond-to(small) {
-            h1 {
-                font-size: 2.75em;
-
-                .highlight {
-                    font-size: 1.375em;
-                }
-            }
-
-            ol {
-                display: block;
-            }
-        }
-
         @include respond-to(medium) {
             &:after {
                 left: 40%;
                 bottom: 40%;
-            }
-        }
-
-        @include respond-to(large) {
-            h1 {
-                padding: 4em 1.25rem .75em;
-
-                .highlight {
-                    font-size: 1.625em;
-                }
             }
         }
     }

@@ -12,13 +12,11 @@ function stern_thomasson_home_carousel() {
         $imgs = get_field('carousel_images');
         if( $imgs ): ?>
             <div class="home-carousel">
-                <?php $on_page_title_1 = get_field('on_page_title_part_1');
-                $on_page_title_2 = get_field('on_page_title_part_2');
-                $on_page_title_3 = get_field('on_page_title_part_3');
+                <?php $title = get_field('carousel_title');
                 $i = 0;
-                if($on_page_title_1 || $on_page_title_2 || $on_page_title_3) { ?>
+                if($title) { ?>
                     <h1 class="wrapper">
-                    <?php if($on_page_title_1): ?><span class="piece-1"><?php echo $on_page_title_1; ?></span><?php endif; if($on_page_title_2): ?> <span class="piece-2"><?php echo $on_page_title_2; ?></span><?php endif; if($on_page_title_3): ?> <span class="highlight piece-3"><?php echo $on_page_title_3; ?></span><?php endif; ?>
+                    <?php if($title): ?> <span class="highlight title"><?php echo $title; ?></span><?php endif; ?>
                     </h1>
                 <?php } ?>
                 <ul>

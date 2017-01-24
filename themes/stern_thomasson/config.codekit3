@@ -9,6 +9,12 @@
 	],
 "creatorBuild": "25504",
 "files": {
+	"\/*project\/notes.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project\/notes.html",
+		"oF": 0
+		},
 	"\/*project\/port-function.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -1240,6 +1246,12 @@
 		"oAP": "\/functions.php",
 		"oF": 0
 		},
+	"\/header.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/header.php",
+		"oF": 0
+		},
 	"\/imgs\/avvo-logo.png": {
 		"ft": 32768,
 		"iS": 43539,
@@ -1289,6 +1301,30 @@
 		"iS": 5281,
 		"oA": 0,
 		"oAP": "\/imgs\/bubble.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/carousel\/flag.jpg": {
+		"ft": 16384,
+		"iS": 172950,
+		"oA": 0,
+		"oAP": "\/imgs\/carousel\/flag.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/carousel\/justice.jpg": {
+		"ft": 16384,
+		"iS": 519870,
+		"oA": 0,
+		"oAP": "\/imgs\/carousel\/justice.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/carousel\/meeting.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/imgs\/carousel\/meeting.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -1379,14 +1415,6 @@
 		"iS": 7303,
 		"oA": 0,
 		"oAP": "\/imgs\/gavel.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/imgs\/justice.jpg": {
-		"ft": 16384,
-		"iS": 519870,
-		"oA": 0,
-		"oAP": "\/imgs\/justice.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -1554,11 +1582,29 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/js\/map-directions.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/map-directions-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/min\/home-carousel-min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/min\/home-carousel-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/min\/map-directions-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/map-directions-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -3083,6 +3129,32 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/sass\/forms\/_buttons.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/forms\/_buttons.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/forms\/_fields.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/forms\/_fields.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/sass\/forms\/_forms.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -3122,6 +3194,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/sass\/layout\/_structure.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/layout\/_structure.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/sass\/media\/_captions.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -3157,6 +3242,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/sass\/media\/_media.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/mixins\/_mixins-master.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/mixins\/_mixins-master.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -3222,6 +3320,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/sass\/navigation\/_links.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/navigation\/_masthead.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/navigation\/_masthead.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -3538,6 +3649,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/sass\/pages\/_contact.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/pages\/_contact.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/sass\/pages\/_frontpage.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -3788,6 +3912,22 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/stern.sublime-workspace",
+		"oF": 0
+		},
+	"\/style.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/style-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/style.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/style.css.map",
 		"oF": 0
 		},
 	"\/template-parts\/content-none.php": {

@@ -1,4 +1,5 @@
 .site-footer {
+    display: flex;
     background-color: $color__brand-1;
     color: #ffffff;
     text-align: center;
@@ -36,8 +37,12 @@
 
             .disclaimer {
                 font-family: $font__it;
-                font-size: 0.5rem;
+                font-size: 0.625rem;
             }
         }
+        @include respond-to(medium) {
+            display: flex;
+        }
     }
+
 }
