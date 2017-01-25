@@ -1319,31 +1319,45 @@ object {
     padding-right: 2rem;
   }
 }
-/* line 16, sass/layout/_footer.scss */
-.site-footer .footer-wrapper .company-info .associations {
+/* line 17, sass/layout/_footer.scss */
+.site-footer .footer-wrapper .associations {
   margin-top: 1em;
 }
 /* line 19, sass/layout/_footer.scss */
-.site-footer .footer-wrapper .company-info .associations figure {
+.site-footer .footer-wrapper .associations figure {
   display: inline-block;
   margin: 0;
 }
-/* line 23, sass/layout/_footer.scss */
-.site-footer .footer-wrapper .company-info .associations figure .naca-logo {
-  width: 120px;
+/* line 22, sass/layout/_footer.scss */
+.site-footer .footer-wrapper .associations figure .naca-logo {
+  width: 122px;
   background-color: #ffffff;
   margin-right: 5px;
 }
-/* line 29, sass/layout/_footer.scss */
-.site-footer .footer-wrapper .company-info .associations figure .avvo-logo {
+/* line 27, sass/layout/_footer.scss */
+.site-footer .footer-wrapper .associations figure .avvo-logo {
   width: 100px;
   background-color: #ffffff;
   padding: .48rem .5rem;
 }
-/* line 38, sass/layout/_footer.scss */
-.site-footer .footer-wrapper .company-info .disclaimer {
+/* line 35, sass/layout/_footer.scss */
+.site-footer .footer-wrapper .disclaimer {
   font-family: "robo-it", sans-serif;
   font-size: 0.625rem;
+  width: 90%;
+  margin: auto;
+}
+@media (min-width: 560px) {
+  /* line 35, sass/layout/_footer.scss */
+  .site-footer .footer-wrapper .disclaimer {
+    width: 70%;
+  }
+}
+@media (min-width: 760px) {
+  /* line 35, sass/layout/_footer.scss */
+  .site-footer .footer-wrapper .disclaimer {
+    width: 60%;
+  }
 }
 @media (min-width: 960px) {
   /* line 12, sass/layout/_footer.scss */

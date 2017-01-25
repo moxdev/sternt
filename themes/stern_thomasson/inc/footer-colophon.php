@@ -31,18 +31,16 @@ function stern_thomasson_footer_colophon() { ?>
             if ( $fax):
                 echo "Fax: " . $fax . "<br>";
             endif;
-
             ?>
-            <div class="associations">
-                <figure>
-                    <img class="naca-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/imgs/naca-web-logo.png" alt="national association of consumer advocates logo">
-                    <img class="avvo-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/imgs/avvo-logo.png" alt="avvo logo">
-                </figure>
-            </div>
-
-            <div class="disclaimer">
-                <p>The information on this page and website do not constitute legal advice. A thorough evaluation of your facts and circumstances is necessary before any lawyer can provide you with a competent legal opinion.</p>
-            </div>
+        </div>
+        <div class="associations">
+            <figure>
+                <img class="naca-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/imgs/naca-web-logo.png" alt="national association of consumer advocates logo">
+                <img class="avvo-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/imgs/avvo-logo.png" alt="avvo logo">
+            </figure>
+        </div>
+        <div class="disclaimer">
+            <p>The information on this page and website do not constitute legal advice. A thorough evaluation of your facts and circumstances is necessary before any lawyer can provide you with a competent legal opinion.</p>
         </div>
     </div>
 

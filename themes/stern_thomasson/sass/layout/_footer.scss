@@ -12,37 +12,41 @@
     .footer-wrapper {
 
         .company-info {
+        }
 
-            .associations {
-                margin-top:1em;
-
-                figure {
-                    display: inline-block;
-                    margin: 0;
-
-                    .naca-logo {
-                        width: 120px;
-                        background-color: #ffffff;
-                        margin-right: 5px;
-                    }
-
-                    .avvo-logo {
-                        width: 100px;
-                        background-color: #ffffff;
-                        padding: .48rem .5rem;
-                    }
-
+        .associations {
+            margin-top:1em;
+            figure {
+                display: inline-block;
+                margin: 0;
+                .naca-logo {
+                    width: 122px;
+                    background-color: #ffffff;
+                    margin-right: 5px;
+                }
+                .avvo-logo {
+                    width: 100px;
+                    background-color: #ffffff;
+                    padding: .48rem .5rem;
                 }
             }
+        }
 
-            .disclaimer {
-                font-family: $font__it;
-                font-size: 0.625rem;
+        .disclaimer {
+            font-family: $font__it;
+            font-size: 0.625rem;
+            width: 90%;
+            margin:auto;
+            @include respond-to(small-land) {
+                width: 70%;
+            }
+            @include respond-to(tablet) {
+                width: 60%;
             }
         }
+
         @include respond-to(medium) {
             display: flex;
         }
     }
-
 }
