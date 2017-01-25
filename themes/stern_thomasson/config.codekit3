@@ -1053,10 +1053,40 @@
 		"oAP": "\/404.php",
 		"oF": 0
 		},
+	"\/android-chrome-192x192.png": {
+		"ft": 32768,
+		"iS": 2114,
+		"oA": 0,
+		"oAP": "\/android-chrome-192x192.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/android-chrome-256x256.png": {
+		"ft": 32768,
+		"iS": 3744,
+		"oA": 0,
+		"oAP": "\/android-chrome-256x256.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 1304,
+		"oA": 0,
+		"oAP": "\/apple-touch-icon.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/archive.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/archive.php",
+		"oF": 0
+		},
+	"\/browserconfig.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/browserconfig.xml",
 		"oF": 0
 		},
 	"\/bs-config.js": {
@@ -1072,6 +1102,28 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/comments.php",
+		"oF": 0
+		},
+	"\/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 493,
+		"oA": 0,
+		"oAP": "\/favicon-16x16.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 597,
+		"oA": 0,
+		"oAP": "\/favicon-32x32.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/favicon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/favicon.ico",
 		"oF": 0
 		},
 	"\/fonts\/Cormorant-Bold.eot": {
@@ -1328,6 +1380,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/imgs\/community.jpg": {
+		"ft": 16384,
+		"iS": 216304,
+		"oA": 0,
+		"oAP": "\/imgs\/community.jpg",
+		"oF": 0,
+		"opt": 1
+		},
 	"\/imgs\/creation-files\/background\/bk-500.png": {
 		"ft": 32768,
 		"iS": 1922,
@@ -1401,6 +1461,98 @@
 		"oA": 2,
 		"oAP": "\/imgs\/creation-files\/background\/pattern-test.ai",
 		"oF": 0
+		},
+	"\/imgs\/fav.png": {
+		"ft": 32768,
+		"iS": 1662,
+		"oA": 0,
+		"oAP": "\/imgs\/fav.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/favicons.zip": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/imgs\/favicons.zip",
+		"oF": 0
+		},
+	"\/imgs\/favicons\/android-chrome-192x192.png": {
+		"ft": 32768,
+		"iS": 2114,
+		"oA": 0,
+		"oAP": "\/imgs\/favicons\/android-chrome-192x192.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/favicons\/android-chrome-256x256.png": {
+		"ft": 32768,
+		"iS": 3744,
+		"oA": 0,
+		"oAP": "\/imgs\/favicons\/android-chrome-256x256.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/favicons\/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 1304,
+		"oA": 0,
+		"oAP": "\/imgs\/favicons\/apple-touch-icon.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/favicons\/browserconfig.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/imgs\/favicons\/browserconfig.xml",
+		"oF": 0
+		},
+	"\/imgs\/favicons\/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 493,
+		"oA": 0,
+		"oAP": "\/imgs\/favicons\/favicon-16x16.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/favicons\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 597,
+		"oA": 0,
+		"oAP": "\/imgs\/favicons\/favicon-32x32.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/favicons\/favicon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/imgs\/favicons\/favicon.ico",
+		"oF": 0
+		},
+	"\/imgs\/favicons\/manifest.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/imgs\/favicons\/manifest-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/imgs\/favicons\/mstile-150x150.png": {
+		"ft": 32768,
+		"iS": 1256,
+		"oA": 0,
+		"oAP": "\/imgs\/favicons\/mstile-150x150.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/favicons\/safari-pinned-tab.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/imgs\/favicons\/safari-pinned-tab.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/imgs\/gavel-x100.png": {
 		"ft": 32768,
@@ -1665,6 +1817,22 @@
 		"oAP": "\/LICENSE",
 		"oF": 0
 		},
+	"\/manifest.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/manifest-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/mstile-150x150.png": {
+		"ft": 32768,
+		"iS": 1256,
+		"oA": 0,
+		"oAP": "\/mstile-150x150.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/page-about.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -1779,6 +1947,16 @@
 		"oAP": "\/rtl-min.css",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/safari-pinned-tab.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/safari-pinned-tab.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/sass\/.sass-cache\/0bb1a3e1dde3aa4c688e07600b762557a8b339e4\/_settings.scssc": {
 		"ft": 8192,

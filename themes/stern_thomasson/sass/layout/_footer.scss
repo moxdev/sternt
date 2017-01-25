@@ -10,6 +10,10 @@
     line-height: 1.3;
     .footer-wrapper {
         .company-info {
+            a {
+                text-decoration: none;
+                color: inherit;
+            }
         }
         .footer-right {
             margin-left: auto;
@@ -34,12 +38,13 @@
                 font-family: $font__it;
                 font-size: 0.625rem;
                 width: 100%;
-                @include respond-to(small-land) {
-                    width: 70%;
-                }
-                @include respond-to(tablet) {
-                    width: 60%;
-                }
+                margin: 0 auto;
+                // @include respond-to(small-land) {
+                //     width: 70%;
+                // }
+                // @include respond-to(tablet) {
+                //     width: 60%;
+                // }
             }
         }
         @include respond-to(medium) {
@@ -52,16 +57,26 @@
                     font-family: $font__bold;
                     font-size: 1.063rem;
                 }
-                a {
-                    text-decoration: none;
-                    color: inherit;
-                }
             }
             .footer-right {
+                flex: 1;
                 text-align: right;
                 margin-left: auto;
                 .disclaimer {
+                    display: block;
+                    width: 60%;
+                    text-align: right;
+                    margin-right: 0;
                     margin-left:auto;
+                    @include respond-to(large) {
+                       width: 40%;
+                    }
+                    @include respond-to(x-large) {
+                       width: 30%;
+                    }
+                    @media screen and (min-width: 1900px) {
+                        width: 20%;
+                    }
                 }
             }
         }

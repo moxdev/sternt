@@ -22,21 +22,19 @@
                         .entry-header h1 {
                             color: $color__brand-1;
                             font-family: $font__alt-bold;
-                            font-size: 1.688rem;
+                            font-size: 1.813rem;
                             margin: 0;
-                            // padding-top: 0.67em;
-                            letter-spacing: 1px;
                             @include respond-to(large) {
 
                             }
                         }
                         .entry-content {
+                            margin-top: .5em;
                             h3 {
                                 font-family: $font__med;
                                 font-size: 1.125rem;
                                 color: #4d809b;
-                                margin: 0;
-                                padding-bottom:.25em;
+                                margin: 0 0 .25em;
                             }
                             p {
                                 margin:0;
@@ -66,23 +64,16 @@
                             .entry-header {
                                 // width: 80%;
                                 h1 {
-                                    display: flex;
-                                    align-items: stretch;
                                     font-size: 3.563rem;
-                                    &:before {
-                                        background-image: url(imgs/paragraph-logo.svg);
-                                        background-repeat: no-repeat;
-                                        width: 50px;
-                                        height: 80px;
-                                        content:"";
-                                        margin-top: 15px;
-                                        margin-right: 10px;
-                                    }
+                                    margin-top: -16px;
                                 }
                             }
                             .entry-content {
                                 font-size:1.125rem;
-                                margin-left: 3em;
+                                margin: 0;
+                                h3 {
+                                    font-size: 1.563rem;
+                                }
                             }
                         }
                     }

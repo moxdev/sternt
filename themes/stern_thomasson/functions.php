@@ -41,9 +41,10 @@ function stern_thomasson_setup() {
 	 * @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
 	 */
 	add_theme_support( 'post-thumbnails' );
-    add_image_size('home-cta', 600, 450, true);
-    add_image_size('home-carousel', 1500, 750, true);
-    add_image_size( 'featured-image', 1500, 500, true );
+    add_image_size('home-cta', 600, 450, TRUE);
+    add_image_size('home-carousel', 1500, 750, TRUE);
+    add_image_size( 'featured-image', 1500, 500, TRUE );
+    add_image_size( 'community-involvement', 1500, 500, array( 'center', 'top' ) );
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
@@ -142,8 +143,6 @@ function stern_thomasson_scripts() {
 
     if( is_page_template( 'page-contact.php' ) ) {
         wp_enqueue_script( 'stern_thomasson-directions-map', get_template_directory_uri() . '/js/min/map-directions-min.js', array('jquery'), NULL, true );
-        // wp_enqueue_script('google-maps-api', 'http://maps.google.com/maps/api/js?sensor=false&key=AIzaSyDqcS80RSqBcZepAEhhxKHkSzYLZeNI0Ho', array(), NULL, true );
-        // wp_enqueue_script( 'mm4-you-google-map-api', 'http://maps.google.com/maps/api/js?sensor=false&key=AIzaSyDqcS80RSqBcZepAEhhxKHkSzYLZeNI0Ho', array(), '', true );
     }
 }
 add_action( 'wp_enqueue_scripts', 'stern_thomasson_scripts' );
