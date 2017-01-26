@@ -6,11 +6,16 @@
     background-repeat: repeat;
     background-color: #ffffff;
 
+    .attachment-featured-image {
+        width: 100%;
+    }
+
     .site-content {
         @include outer-container;
         @include padding-left-right;
         margin-bottom: 2.5rem;
         padding-top: 1.25rem;
+
         .content-area {
             .site-main {
                 font-family: $font__main;
@@ -22,11 +27,8 @@
                         .entry-header h1 {
                             color: $color__brand-1;
                             font-family: $font__alt-bold;
-                            font-size: 1.813rem;
+                            font-size: 1.938rem;
                             margin: 0;
-                            @include respond-to(large) {
-
-                            }
                         }
                         .entry-content {
                             margin-top: .5em;
@@ -92,13 +94,16 @@
                     font-size:2.3rem;
                     font-family: $font__alt-semi;
                     margin: 0;
-                    margin-bottom: .5em;
+                    // margin-bottom: .5em;
                 }
                 h4 {
                     font-size: 1.11rem;
                     font-family: $font__bold;
                     margin-top: 1em;
                     margin-bottom: -10px;
+                    &:first-child {
+                        margin-top: .5em;
+                    }
                 }
                 .sidebar-icon {
                     // margin-top:
@@ -109,6 +114,27 @@
                 }
                 .sidebar-wysiwyg {
                     text-align: left;
+                    p {
+                        &:first-child {
+                            margin-top: .5em;
+                        }
+                    }
+                }
+            }
+        }
+        @include respond-to(small) {
+            .widget-area {
+                .sidebar-wrapper {
+                    h3 {
+                        text-align: center;
+                    }
+                    .sidebar-icon {
+                        padding-left:0;
+                        text-align: center;
+                        img {
+                            width: 60px;
+                        }
+                    }
                 }
             }
         }
@@ -122,15 +148,23 @@
             .widget-area {
                 flex: 1;
                 max-width: 300px;
+                .sidebar-wrapper {
+                    .sidebar-icon {
+                        img {
+                            width: 80px;
+                        }
+                    }
+                }
             }
         }
         @include respond-to(large) {
             .widget-area {
-                max-width: 350px;
+                max-width: 300px;
+                margin-left: 1.25rem;
                 .sidebar-wrapper {
                     font-size: 0.875rem;
                     h3 {
-                        font-size: 2.813rem;
+                        font-size: 2.7rem;
                     }
                 }
             }

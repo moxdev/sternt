@@ -43,7 +43,7 @@ function stern_thomasson_setup() {
 	add_theme_support( 'post-thumbnails' );
     add_image_size('home-cta', 600, 450, TRUE);
     add_image_size('home-carousel', 1500, 750, TRUE);
-    add_image_size( 'featured-image', 1500, 500, TRUE );
+    add_image_size( 'featured-image', 1500, 400, array( 'center', 'top' ) );
     add_image_size( 'community-involvement', 1500, 500, array( 'center', 'top' ) );
 
 	// This theme uses wp_nav_menu() in one location.

@@ -115,7 +115,6 @@
             }
         }
     }
-
     @include respond-to(medium) {
         align-items: center;
         .site-branding {
@@ -153,6 +152,19 @@
                         }
                         a {
                             font-size: 1.063rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @include respond-to(large) {
+        .main-navigation {
+            .menu-menu-container {
+                ul {
+                    li {
+                        a {
+                            font-size: 1.25rem;
                         }
                     }
                 }
