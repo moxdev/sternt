@@ -30,13 +30,14 @@ get_header(); ?>
                 mm4_you_contact_form();
             } ?>
 
-            <?php if ( function_exists( 'stern_thomasson_contact_directions_map' ) ) {
-                stern_thomasson_contact_directions_map();
-            } ?>
-
         </main><!-- #main -->
     </div><!-- #primary -->
 
 <?php
 get_sidebar();
 get_footer();
+
+/*<?php if ( function_exists( 'stern_thomasson_contact_directions_map' ) ) {
+    stern_thomasson_contact_directions_map();
+} ?>
+*/
