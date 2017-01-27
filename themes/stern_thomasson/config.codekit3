@@ -1624,6 +1624,14 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/imgs\/paragraph-logo-25x60.png": {
+		"ft": 32768,
+		"iS": 301,
+		"oA": 0,
+		"oAP": "\/imgs\/paragraph-logo-25x60.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/imgs\/paragraph-logo.png": {
 		"ft": 32768,
 		"iS": 1414,
@@ -4069,6 +4077,14 @@
 		"oA": 2,
 		"oAP": "\/search.php",
 		"oF": 0
+		},
+	"\/sftp-config.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/sftp-config-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
 		},
 	"\/sidebar-right.php": {
 		"ft": 8192,

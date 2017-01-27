@@ -609,7 +609,7 @@ a {
 }
 /* line 4, sass/navigation/_links.scss */
 a:visited {
-  color: #58585b;
+  color: #4d809b;
 }
 /* line 7, sass/navigation/_links.scss */
 a:hover, a:focus, a:active {
@@ -1671,8 +1671,8 @@ object {
 @media (min-width: 960px) {
   @-webkit-keyframes dropLogo {
     0% {
-      -webkit-transform: translateY(-100%);
-              transform: translateY(-100%);
+      -webkit-transform: translateY(-25%);
+              transform: translateY(-25%);
     }
     100% {
       -webkit-transform: translateY(0);
@@ -1681,8 +1681,8 @@ object {
   }
   @keyframes dropLogo {
     0% {
-      -webkit-transform: translateY(-100%);
-              transform: translateY(-100%);
+      -webkit-transform: translateY(-25%);
+              transform: translateY(-25%);
     }
     100% {
       -webkit-transform: translateY(0);
@@ -1699,30 +1699,34 @@ object {
             align-items: stretch;
   }
   /* line 185, sass/pages/_frontpage.scss */
-  .page-template-frontpage #page .site-content .content-area .site-main article .page-wrapper .entry-header h1:before {
-    background-image: url(imgs/paragraph-logo.svg);
+  .page-template-frontpage #page .site-content .content-area .site-main article .page-wrapper .entry-header h1::before {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    background-image: url(/wp-content/themes/stern_thomasson/imgs/paragraph-logo-25x60.png);
     background-repeat: no-repeat;
     width: 40px;
     height: 60px;
     content: "";
     margin-top: 5px;
+    margin-right: 0;
     -webkit-animation-name: dropLogo;
             animation-name: dropLogo;
     -webkit-animation-iteration-count: 1;
             animation-iteration-count: 1;
     -webkit-animation-timing-function: ease-out;
             animation-timing-function: ease-out;
-    -webkit-animation-duration: 2s;
-            animation-duration: 2s;
+    -webkit-animation-duration: 3s;
+            animation-duration: 3s;
   }
-  /* line 200, sass/pages/_frontpage.scss */
+  /* line 201, sass/pages/_frontpage.scss */
   .page-template-frontpage #page .site-content .content-area .site-main article .page-wrapper .entry-content {
     font-size: 1.125rem;
     margin-left: 2.5em;
   }
 }
 @media (min-width: 1200px) {
-  /* line 210, sass/pages/_frontpage.scss */
+  /* line 211, sass/pages/_frontpage.scss */
   .page-template-frontpage #page .site-content .widget-area {
     max-width: 350px;
   }

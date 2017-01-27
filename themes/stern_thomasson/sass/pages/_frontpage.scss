@@ -171,7 +171,7 @@
                             @include respond-to(medium) {
                                 @keyframes dropLogo {
                                   0% {
-                                    transform: translateY(-100%);
+                                    transform: translateY(-25%);
                                   }
                                   100% {
                                     transform: translateY(0);
@@ -182,18 +182,19 @@
                                     h1 {
                                         display: flex;
                                         align-items: stretch;
-                                        &:before {
-                                            background-image: url(imgs/paragraph-logo.svg);
+                                        &::before {
+                                            display: inline-flex;
+                                            background-image: url(/wp-content/themes/stern_thomasson/imgs/paragraph-logo-25x60.png);
                                             background-repeat: no-repeat;
                                             width: 40px;
                                             height: 60px;
                                             content:"";
                                             margin-top: 5px;
-                                            // margin-right: 10px;
+                                            margin-right: 0;
                                             animation-name: dropLogo;
                                             animation-iteration-count: 1;
                                             animation-timing-function: ease-out;
-                                            animation-duration: 2s;
+                                            animation-duration: 3s;
                                         }
                                     }
                                 }
