@@ -46,6 +46,10 @@
                 //     width: 60%;
                 // }
             }
+            .mm4 {
+                text-decoration: none;
+                color: #fff;
+            }
         }
         @include respond-to(medium) {
             display: flex;

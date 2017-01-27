@@ -45,14 +45,14 @@ function mm4_you_contact_form() {
 		<?php $recipients = get_option('mm4-you-cf-email-add'); ?>
 		<input type="hidden" value="<?php echo $recipients; ?>" name="recipients" id="recipients">
 		<input type="hidden" value="Online Contact Form for <?php echo bloginfo('name'); ?>" name="subject" id="subject">
-		<label for="name">Name
-			<input type="text" name="name" id="name" class="required" data-error-label="First Name">
+		<label for="first-name">Name
+			<input type="text" name="first-name" id="first-name" class="required" data-error-label="Name">
 		</label>
 		<label for="email-address">Email
 			<input type="email" name="email-address" id="email-address" class="required" data-error-label="Email">
 		</label>
 		<label for="primary-phone">Phone
-			<input type="tel" name="primary-phone" id="primary-phone" class="required" data-error-label="Primary Phone">
+			<input type="tel" name="primary-phone" id="primary-phone" class="required" data-error-label="Phone">
 		</label>
 		<label for="comments">what would you like to know?
 			<textarea name="comments" id="comments" rows="6"></textarea>

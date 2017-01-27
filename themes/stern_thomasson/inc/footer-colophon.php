@@ -43,6 +43,7 @@ function stern_thomasson_footer_colophon() { ?>
             <div class="disclaimer">
                 <p>The information on this page and website do not constitute legal advice. A thorough evaluation of your facts and circumstances is necessary before any lawyer can provide you with a competent legal opinion.</p>
             </div>
+            <a class="mm4" href="https://www.mm4solutions.com/" target="_blank" id="mms">Website by Millennium Marketing Solutions</a>
         </div>
     </div>
 

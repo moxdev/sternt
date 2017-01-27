@@ -11,33 +11,32 @@
 
 get_header(); ?>
 
-    <div id="primary" class="content-area">
-        <main id="main" class="site-main" role="main">
+    <div class="contact-wrapper">
+        <div id="primary" class="content-area">
+            <main id="main" class="site-main" role="main">
 
-            <?php
-            while ( have_posts() ) : the_post();
+                <?php
+                while ( have_posts() ) : the_post();
 
-                get_template_part( 'template-parts/content', 'page' );
+                    get_template_part( 'template-parts/content', 'page' );
 
-                // If comments are open or we have at least one comment, load up the comment template.
-                if ( comments_open() || get_comments_number() ) :
-                    comments_template();
-                endif;
+                    // If comments are open or we have at least one comment, load up the comment template.
+                    if ( comments_open() || get_comments_number() ) :
+                        comments_template();
+                    endif;
 
-            endwhile; // End of the loop.
-            ?>
-            <?php if(function_exists('mm4_you_contact_form')) {
-                mm4_you_contact_form();
-            } ?>
+                endwhile; // End of the loop.
+                ?>
+                <?php if(function_exists('mm4_you_contact_form')) {
+                    mm4_you_contact_form();
+                } ?>
 
-        </main><!-- #main -->
-    </div><!-- #primary -->
+            </main><!-- #main -->
+        </div><!-- #primary -->
+
+        <?php get_sidebar(); ?>
+
+    </div><!-- .contact-wrapper -->
 
 <?php
-get_sidebar();
 get_footer();
-
-/*<?php if ( function_exists( 'stern_thomasson_contact_directions_map' ) ) {
-    stern_thomasson_contact_directions_map();
-} ?>
-*/
