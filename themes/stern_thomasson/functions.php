@@ -169,15 +169,14 @@ if( function_exists('acf_add_options_page') ) {
 }
 
 /**
- * Add font-size to page wysiwyg.
+ * ADD STYLES TO WYSIWYG
  */
-function wp_editor_fontsize_filter( $buttons ) {
+function my_mce_buttons_2( $buttons ) {
         array_shift( $buttons );
         array_unshift( $buttons, 'fontsizeselect');
         return $buttons;
 }
-add_filter('mce_buttons_2', 'wp_editor_fontsize_filter');
-
+add_filter('mce_buttons_2', 'my_mce_buttons_2');
 
 /**
  * Implement the Custom Header feature.
