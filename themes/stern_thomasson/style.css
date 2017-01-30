@@ -1668,6 +1668,36 @@ object {
 .page-template-frontpage #page .site-content {
   padding-top: 0;
 }
+@media screen and (min-width: 460px) {
+  /* line 172, sass/pages/_frontpage.scss */
+  .page-template-frontpage #page .site-content .content-area .site-main article .page-wrapper .entry-header h1 {
+    padding-right: 2em;
+  }
+}
+@media screen and (min-width: 530px) {
+  /* line 177, sass/pages/_frontpage.scss */
+  .page-template-frontpage #page .site-content .content-area .site-main article .page-wrapper .entry-header h1 {
+    padding-right: 6em;
+  }
+}
+@media screen and (min-width: 650px) {
+  /* line 182, sass/pages/_frontpage.scss */
+  .page-template-frontpage #page .site-content .content-area .site-main article .page-wrapper .entry-header h1 {
+    padding-right: 10em;
+  }
+}
+@media screen and (min-width: 790px) {
+  /* line 187, sass/pages/_frontpage.scss */
+  .page-template-frontpage #page .site-content .content-area .site-main article .page-wrapper .entry-header h1 {
+    padding-right: 14em;
+  }
+}
+@media screen and (min-width: 910px) {
+  /* line 192, sass/pages/_frontpage.scss */
+  .page-template-frontpage #page .site-content .content-area .site-main article .page-wrapper .entry-header h1 {
+    padding-right: 18em;
+  }
+}
 @media (min-width: 960px) {
   @-webkit-keyframes dropLogo {
     0% {
@@ -1689,7 +1719,7 @@ object {
               transform: translateY(0);
     }
   }
-  /* line 182, sass/pages/_frontpage.scss */
+  /* line 205, sass/pages/_frontpage.scss */
   .page-template-frontpage #page .site-content .content-area .site-main article .page-wrapper .entry-header h1 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1697,18 +1727,19 @@ object {
     -webkit-box-align: stretch;
         -ms-flex-align: stretch;
             align-items: stretch;
+    padding-right: 0;
   }
-  /* line 185, sass/pages/_frontpage.scss */
+  /* line 209, sass/pages/_frontpage.scss */
   .page-template-frontpage #page .site-content .content-area .site-main article .page-wrapper .entry-header h1::before {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
-    background-image: url(/wp-content/themes/stern_thomasson/imgs/paragraph-logo-25x60.png);
+    background-image: url(/wp-content/themes/stern_thomasson/imgs/paragraph-logo.svg);
     background-repeat: no-repeat;
-    width: 40px;
-    height: 60px;
+    width: 65px;
+    height: 90px;
     content: "";
-    margin-top: 5px;
+    margin-top: 20px;
     margin-right: 0;
     -webkit-animation-name: dropLogo;
             animation-name: dropLogo;
@@ -1719,14 +1750,20 @@ object {
     -webkit-animation-duration: 3s;
             animation-duration: 3s;
   }
-  /* line 201, sass/pages/_frontpage.scss */
+  /* line 225, sass/pages/_frontpage.scss */
   .page-template-frontpage #page .site-content .content-area .site-main article .page-wrapper .entry-content {
     font-size: 1.125rem;
-    margin-left: 2.5em;
+    margin-left: 3.2em;
+  }
+}
+@media screen and (min-width: 1280px) {
+  /* line 231, sass/pages/_frontpage.scss */
+  .page-template-frontpage #page .site-content .content-area .site-main article .page-wrapper .entry-header h1 {
+    padding-right: 4em;
   }
 }
 @media (min-width: 1200px) {
-  /* line 211, sass/pages/_frontpage.scss */
+  /* line 240, sass/pages/_frontpage.scss */
   .page-template-frontpage #page .site-content .widget-area {
     max-width: 350px;
   }

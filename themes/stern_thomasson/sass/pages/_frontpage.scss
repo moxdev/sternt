@@ -168,6 +168,31 @@
                             .entry-content {
 
                             }
+                            @media screen and (min-width:460px) {
+                                .entry-header h1 {
+                                    padding-right:2em;
+                                }
+                            }
+                            @media screen and (min-width:530px) {
+                                .entry-header h1 {
+                                    padding-right:6em;
+                                }
+                            }
+                            @media screen and (min-width:650px) {
+                                .entry-header h1 {
+                                    padding-right:10em;
+                                }
+                            }
+                            @media screen and (min-width:790px) {
+                                .entry-header h1 {
+                                    padding-right:14em;
+                                }
+                            }
+                            @media screen and (min-width:910px) {
+                                .entry-header h1 {
+                                    padding-right:18em;
+                                }
+                            }
                             @include respond-to(medium) {
                                 @keyframes dropLogo {
                                   0% {
@@ -177,30 +202,34 @@
                                     transform: translateY(0);
                                   }
                                 }
-                                .entry-header {
-                                    // width: 80%;
-                                    h1 {
-                                        display: flex;
-                                        align-items: stretch;
-                                        &::before {
-                                            display: inline-flex;
-                                            background-image: url(/wp-content/themes/stern_thomasson/imgs/paragraph-logo-25x60.png);
-                                            background-repeat: no-repeat;
-                                            width: 40px;
-                                            height: 60px;
-                                            content:"";
-                                            margin-top: 5px;
-                                            margin-right: 0;
-                                            animation-name: dropLogo;
-                                            animation-iteration-count: 1;
-                                            animation-timing-function: ease-out;
-                                            animation-duration: 3s;
-                                        }
+                                .entry-header h1 {
+                                    display: flex;
+                                    align-items: stretch;
+                                    padding-right: 0;
+                                    &::before {
+                                        display: inline-flex;
+                                        background-image: url(/wp-content/themes/stern_thomasson/imgs/paragraph-logo.svg);
+                                        // background-image: url(/wp-content/themes/stern_thomasson/imgs/paragraph-logo-25x60.png);
+                                        background-repeat: no-repeat;
+                                        width: 65px;
+                                        height: 90px;
+                                        content:"";
+                                        margin-top: 20px;
+                                        margin-right: 0;
+                                        animation-name: dropLogo;
+                                        animation-iteration-count: 1;
+                                        animation-timing-function: ease-out;
+                                        animation-duration: 3s;
                                     }
                                 }
                                 .entry-content {
                                     font-size:1.125rem;
-                                    margin-left: 2.5em;
+                                    margin-left: 3.2em;
+                                }
+                            }
+                            @media screen and (min-width:1280px) {
+                                .entry-header h1 {
+                                    padding-right:4em;
                                 }
                             }
                         }
