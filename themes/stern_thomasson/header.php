@@ -14,6 +14,7 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
@@ -52,7 +53,6 @@
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
-			<div class="close">X</div>
 			<div class="masthead-phone">
 				<?php $phone = get_field( 'phone', 'option' );
 				if ($phone): ?>

@@ -2,8 +2,9 @@
 // $size__site-sidebar: 25%;
 
 #page {
-    background-image: url(imgs/paper-background.svg);
+    background-image: url(imgs/paper-background-1.svg);
     background-repeat: repeat;
+    background-size: cover;
     background-color: #ffffff;
 
     .attachment-featured-image {
@@ -83,6 +84,15 @@
             }
         }
         .widget-area {
+            a {
+                color: #fff;
+                &:hover {
+                    color: #000 !important;
+                }
+                &:visited {
+                    color: #fff !important;
+                }
+            }
             .sidebar-wrapper {
                 background-color:$color__brand-1;
                 color: #fff;

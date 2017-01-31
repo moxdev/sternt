@@ -2,13 +2,11 @@
     #page {
         .home-carousel {
             position: relative;
-
             &:before, &:after {
                 content: '';
                 display: block;
                 position: absolute;
             }
-
             &:before {
                 background-color: #000;
                 left: 0;
@@ -148,11 +146,17 @@
                     }
                 }
             }
-
             @include respond-to(medium) {
                 &:after {
                     left: 40%;
                     bottom: 40%;
+                }
+            }
+            @include respond-to(x-large) {
+                height: 600px;
+                margin-bottom: 2em;
+                h1 {
+                    padding-top: 7em;
                 }
             }
         }
@@ -196,30 +200,34 @@
                             @include respond-to(medium) {
                                 @keyframes dropLogo {
                                   0% {
-                                    transform: translateY(-25%);
+                                    transform: translateY(-35%);
                                   }
                                   100% {
                                     transform: translateY(0);
                                   }
                                 }
-                                .entry-header h1 {
-                                    display: flex;
-                                    align-items: stretch;
-                                    padding-right: 0;
-                                    &::before {
-                                        display: inline-flex;
-                                        background-image: url(/wp-content/themes/stern_thomasson/imgs/paragraph-logo.svg);
-                                        // background-image: url(/wp-content/themes/stern_thomasson/imgs/paragraph-logo-25x60.png);
-                                        background-repeat: no-repeat;
-                                        width: 65px;
-                                        height: 90px;
-                                        content:"";
-                                        margin-top: 20px;
-                                        margin-right: 0;
-                                        animation-name: dropLogo;
-                                        animation-iteration-count: 1;
-                                        animation-timing-function: ease-out;
-                                        animation-duration: 3s;
+                                .entry-header {
+                                    position: relative;
+                                    h1 {
+                                        padding-right: 0;
+                                        padding-left: 1em;
+                                        // flex: 1;
+                                        &:before {
+                                            position: absolute;
+                                            left: 0;
+                                            background-image: url(/wp-content/themes/stern_thomasson/imgs/paragraph-logo.svg);
+                                            // background-image: url(/wp-content/themes/stern_thomasson/imgs/paragraph-logo-25x60.png);
+                                            background-repeat: no-repeat;
+                                            width: 65px;
+                                            height: 90px;
+                                            content:"";
+                                            margin-top: 20px;
+                                            margin-right: 0;
+                                            animation-name: dropLogo;
+                                            animation-iteration-count: 1;
+                                            animation-timing-function: ease-out;
+                                            animation-duration: 1s;
+                                        }
                                     }
                                 }
                                 .entry-content {

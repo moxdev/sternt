@@ -1340,6 +1340,38 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/imgs\/background\/paper-background-500-tiny.png": {
+		"ft": 32768,
+		"iS": 275,
+		"oA": 0,
+		"oAP": "\/imgs\/background\/paper-background-500-tiny.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/background\/paper-background-500.png": {
+		"ft": 32768,
+		"iS": 2269,
+		"oA": 0,
+		"oAP": "\/imgs\/background\/paper-background-500.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/background\/paper-background-900-tiny.png": {
+		"ft": 32768,
+		"iS": 5833,
+		"oA": 0,
+		"oAP": "\/imgs\/background\/paper-background-900-tiny.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/background\/paper-background.png": {
+		"ft": 32768,
+		"iS": 384,
+		"oA": 0,
+		"oAP": "\/imgs\/background\/paper-background.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/imgs\/bubble-x100.png": {
 		"ft": 32768,
 		"iS": 912,
@@ -1377,6 +1409,30 @@
 		"iS": 0,
 		"oA": 0,
 		"oAP": "\/imgs\/carousel\/meeting.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/carousel\/modified\/flag.jpg": {
+		"ft": 16384,
+		"iS": 126934,
+		"oA": 0,
+		"oAP": "\/imgs\/carousel\/modified\/flag.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/carousel\/modified\/justice.jpg": {
+		"ft": 16384,
+		"iS": 121587,
+		"oA": 0,
+		"oAP": "\/imgs\/carousel\/modified\/justice.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/carousel\/modified\/meeting.jpg": {
+		"ft": 16384,
+		"iS": 113632,
+		"oA": 0,
+		"oAP": "\/imgs\/carousel\/modified\/meeting.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -1613,6 +1669,32 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/imgs\/paper-background-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/imgs\/paper-background-1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/imgs\/paper-background-500-tiny.png": {
+		"ft": 32768,
+		"iS": 275,
+		"oA": 0,
+		"oAP": "\/imgs\/paper-background-500-tiny.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/paper-background-900-tiny.png": {
+		"ft": 32768,
+		"iS": 5833,
+		"oA": 0,
+		"oAP": "\/imgs\/paper-background-900-tiny.png",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/imgs\/paper-background.svg": {
 		"ft": 2097152,

@@ -22,6 +22,7 @@
             .contact-wrapper {
                 @include outer-container;
                 @include padding-left-right;
+                width: 100%;
                 .content-area {
                     max-width: 900px;
                     .site-main {
@@ -48,23 +49,14 @@
                                     margin:0;
                                     padding-bottom: 1em;
                                 }
-                                ul {
-                                    list-style: none;
-                                    @include reset;
-                                    li{
-                                        padding-left: 1.25rem;
-                                        position: relative;
-                                        padding-bottom: 0.625rem;
-                                        &::before {
-                                            content: "\25B8";
-                                            position: absolute;
-                                            color: $color__brand-2;
-                                            left: 0;
-                                        }
-                                        a {
-                                            color: $color__text-main;
-                                            text-decoration: none;
-                                        }
+
+                                a {
+                                    color: #fff;
+                                    &:hover {
+                                        color: $color__brand-4;
+                                    }
+                                    &:visited {
+                                        color: #fff;
                                     }
                                 }
                             }
@@ -98,11 +90,9 @@
                             }
                             .msg-box span {
                                 display: block;
-                                padding: .5em 1em 0;
+                                padding: .5em;
                                 background: #f8ece7;
-                                border: 1px solid #de9f87;
                                 color: #bd3e0f;
-                                margin-bottom: .5em;
                             }
                         }
                     }
@@ -139,6 +129,15 @@
 
                         .sidebar-info {
                             color: $white;
+                            a {
+                                color: #fff;
+                                &:hover {
+                                    color: $color__brand-4;
+                                }
+                                &:visited {
+                                    color: #fff;
+                                }
+                            }
                         }
                         .map-wrapper {
                             margin: 2em 0;
@@ -163,6 +162,10 @@
 
                                 .adp, .adp table, .adp-details, .adp-legal {
                                     color: $white;
+                                }
+                                .adp-text {
+                                    color: #000;
+                                    font-family: $font__bold;
                                 }
                             }
                         }
