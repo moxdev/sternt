@@ -9,31 +9,36 @@
 
 function stern_thomasson_home_carousel() {
     if(function_exists('get_field')) {
-        $imgs = get_field('carousel_images');
-        if( $imgs ): ?>
+        if( have_rows( 'slides' ) ): ?>
             <div class="home-carousel">
-                <?php $title = get_field('carousel_title');
-                $i = 0;
-                if($title) { ?>
-                    <h1 class="wrapper">
-                    <?php if($title): ?> <span class="highlight title"><?php echo $title; ?></span><?php endif; ?>
-                    </h1>
-                <?php } ?>
                 <ul>
-                    <?php foreach( $imgs as $img ): ?>
-                        <li style="background-image:url(<?php echo $img['sizes']['home-carousel']; ?>)">
-                            <div class="screen-reader-text">
-                                <img src="<?php echo $img['sizes']['home-carousel']; ?>" alt="<?php echo $img['alt']; ?>">
+                <?php while ( have_rows( 'slides' ) ) : the_row(); ?>
+                    <li>
+                        <?php $caption = get_sub_field( 'image_caption' );
+                        $imageArr = get_sub_field( 'image' );
+                        $image = wp_get_attachment_image_src($imageArr[id], 'home-carousel'); ?>
+
+                        <img src="<?php echo $image[0] ?>" alt="<?php echo $imageArr[title]; ?>">
+
+                        <?php if( $caption ): ?>
+                            <div class="slide-caption">
+                                <span class="caption-line"><?php echo $caption; ?></span>
                             </div>
-                        </li>
-                    <?php endforeach; ?>
+                        <?php endif; ?>
+
+                    </li>
+                <?php endwhile; ?>
                 </ul>
+
+                <?php $rows = get_field('slides');
+                $rowCount = count($rows); ?>
+
                 <ol class="carousel-nav">
-                    <?php foreach( $imgs as $img ):
-                        $i++; ?>
+                    <?php for ($i = 1; $i <= $rowCount; $i++) { ?>
                         <li><a href="#"><?php echo $i; ?></a></li>
-                    <?php endforeach; ?>
-                </ol>
+                    <?php } ?>
+                </ol> ?>
+
             </div>
         <?php endif;
     }
