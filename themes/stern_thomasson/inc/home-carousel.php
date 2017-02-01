@@ -14,31 +14,28 @@ function stern_thomasson_home_carousel() {
                 <ul>
                 <?php while ( have_rows( 'slides' ) ) : the_row(); ?>
                     <li>
-                        <?php $caption = get_sub_field( 'image_caption' );
+                        <?php $caption = get_sub_field( 'image_caption_line' );
                         $imageArr = get_sub_field( 'image' );
                         $image = wp_get_attachment_image_src($imageArr[id], 'home-carousel'); ?>
 
                         <img src="<?php echo $image[0] ?>" alt="<?php echo $imageArr[title]; ?>">
 
                         <?php if( $caption ): ?>
-                            <div class="slide-caption">
-                                <span class="caption-line"><?php echo $caption; ?></span>
-                            </div>
+                            <span class="caption"><h1><?php echo $caption; ?></h1></span>
                         <?php endif; ?>
-
                     </li>
                 <?php endwhile; ?>
                 </ul>
 
-                <?php $rows = get_field('slides');
-                $rowCount = count($rows); ?>
-
                 <ol class="carousel-nav">
-                    <?php for ($i = 1; $i <= $rowCount; $i++) { ?>
-                        <li><a href="#"><?php echo $i; ?></a></li>
-                    <?php } ?>
-                </ol> ?>
+                    <?php for ( $i = 0; $i <= 2; $i++ ) { ?>
 
+                        <li>
+                            <a href="#"><?php echo $i; ?></a>
+                        </li> <?php
+
+                    } ?>
+                </ol>
             </div>
         <?php endif;
     }

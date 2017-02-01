@@ -1041,6 +1041,16 @@
 		"oAP": "\/*project\/sass\/.sass-cache\/f84eb413cb43129722aead8b4638e30c7097e4d4\/_neat.scssc",
 		"oF": 0
 		},
+	"\/*project\/style-min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/*project\/style-min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/*project\/style.css": {
 		"aP": 0,
 		"bl": 0,
