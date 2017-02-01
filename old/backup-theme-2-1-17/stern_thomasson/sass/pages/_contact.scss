@@ -1,0 +1,222 @@
+// contact.scss
+
+.page-template-page-contact {
+    #page {
+        .honey {
+            display: none !important;
+        }
+        .site-content {
+            width:100%;
+            max-width: none;
+            margin-left: 0;
+            margin-right: 0;
+            padding-left: 0;
+            padding-right: 0;
+            padding-top: 1.25rem;
+            margin-bottom: 0;
+            background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('imgs/justice.jpg');
+            background-size:cover;
+            background-repeat: no-repeat;
+            padding-bottom: 2em;
+
+            .contact-wrapper {
+                @include outer-container;
+                @include padding-left-right;
+                width: 100%;
+                .content-area {
+                    max-width: 900px;
+                    .site-main {
+                        font-family: $font__main;
+                        font-size: 0.8125rem;
+                        color: #fff;
+
+                        article {
+                            .entry-header h1 {
+                                color: #fff;
+                                font-family: $font__alt-bold;
+                                font-size: 1.938rem;
+                                margin: 0;
+                            }
+                            .entry-content {
+                                margin-top: .5em;
+                                h3 {
+                                    font-family: $font__med;
+                                    font-size: 1.125rem;
+                                    color: #4d809b;
+                                    margin: 0 0 .25em;
+                                }
+                                p {
+                                    margin:0;
+                                    padding-bottom: 1em;
+                                }
+
+                                a {
+                                    color: #fff;
+                                    &:hover {
+                                        color: $color__brand-4;
+                                    }
+                                    &:visited {
+                                        color: #fff;
+                                    }
+                                }
+                            }
+                            @include respond-to(medium) {
+                                .entry-header {
+                                    // width: 80%;
+                                    h1 {
+                                        font-size: 3.563rem;
+                                        margin-top: -16px;
+                                    }
+                                }
+                                .entry-content {
+                                    font-size:1.125rem;
+                                    margin: 0;
+                                    h3 {
+                                        font-size: 1.563rem;
+                                    }
+                                }
+                            }
+                        }
+                        form {
+                            label {
+                                display: block;
+                                color: $white;
+                                padding-top: 1em;
+                                font-family: $font__bold;
+                                text-transform: uppercase;
+                            }
+                            .error {
+                                color: #bd3e0f;
+                            }
+                            .msg-box span {
+                                display: block;
+                                padding: .5em;
+                                background: #f8ece7;
+                                color: #bd3e0f;
+                            }
+                        }
+                    }
+                }
+                .widget-area{
+                    .sidebar-wrapper {
+                        background-color: transparent;
+                        font-size:0.75rem;
+                        font-family: $font__main;
+                        text-align: left;
+                        padding:0;
+                        padding-top: 1.563rem;
+
+                        h2  {
+                            font-family: $font__bold;
+                            text-transform: uppercase;
+                            margin: .25em 0;
+                        }
+                        h3 {
+                            font-size:2.3rem;
+                            font-family: $font__alt-semi;
+                            margin: 0;
+                            // margin-bottom: .5em;
+                        }
+                        h4 {
+                            font-size: 1.11rem;
+                            font-family: $font__bold;
+                            margin-top: 1em;
+                            margin-bottom: -10px;
+                            &:first-child {
+                                margin-top: .5em;
+                            }
+                        }
+
+                        .sidebar-info {
+                            color: $white;
+                            a {
+                                color: #fff;
+                                &:hover {
+                                    color: $color__brand-4;
+                                }
+                                &:visited {
+                                    color: #fff;
+                                }
+                            }
+                        }
+                        .map-wrapper {
+                            margin: 2em 0;
+
+                            #map-canvas {
+                                height:200px;
+                            }
+
+                            form {
+                                color: $white;
+                                margin-top: 1em;
+
+                                label {
+                                    text-transform: capitalize;
+                                    font-family: $font__bold;
+                                }
+
+                                #response-panel span {
+                                    color: $white;
+                                    background-color: #000;
+                                }
+
+                                .adp, .adp table, .adp-details, .adp-legal {
+                                    color: $white;
+                                }
+                                .adp-text {
+                                    color: #000;
+                                    font-family: $font__bold;
+                                }
+                            }
+                        }
+                        .disclaimer {
+                            font-size:0.625rem;
+                            font-family: $font__it;
+                            .bold {
+                                font-family: $font__bold;
+                            }
+                        }
+                    }
+                }
+                @include respond-to(medium) {
+                    display: flex;
+                    padding-top: 2rem;
+                    input[type="submit"] {
+                        width: 50%;
+                    }
+                    .content-area {
+                        flex: 2;
+                        margin-right: 1.5em;
+                    }
+                    .widget-area {
+                        flex: 1;
+                        max-width: 300px;
+                        .sidebar-wrapper {
+                            padding-top: 0;
+                            .sidebar-icon {
+                                img {
+                                    width: 80px;
+                                }
+                            }
+                        }
+                    }
+                }
+                @include respond-to(large) {
+                    .widget-area {
+                        max-width: 300px;
+                        margin-left: 1.25rem;
+                        .sidebar-wrapper {
+                            font-size: 0.875rem;
+                            h3 {
+                                font-size: 2.7rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .site-footer {
+            margin-top: -10px; //remove when background is fixed
+        }
+    }
+}

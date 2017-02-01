@@ -9,6 +9,12 @@
 	],
 "creatorBuild": "25504",
 "files": {
+	"\/*project\/header.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project\/header.php",
+		"oF": 0
+		},
 	"\/*project\/notes.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -1035,6 +1041,16 @@
 		"oAP": "\/*project\/sass\/.sass-cache\/f84eb413cb43129722aead8b4638e30c7097e4d4\/_neat.scssc",
 		"oF": 0
 		},
+	"\/*project\/style.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/*project\/style-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/.jscsrc": {
 		"ft": 8192,
 		"oA": 2,
@@ -1059,7 +1075,7 @@
 		"oA": 0,
 		"oAP": "\/android-chrome-192x192.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/android-chrome-256x256.png": {
 		"ft": 32768,
@@ -1067,7 +1083,7 @@
 		"oA": 0,
 		"oAP": "\/android-chrome-256x256.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/apple-touch-icon.png": {
 		"ft": 32768,
@@ -1075,7 +1091,7 @@
 		"oA": 0,
 		"oAP": "\/apple-touch-icon.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/archive.php": {
 		"ft": 8192,
@@ -1110,7 +1126,7 @@
 		"oA": 0,
 		"oAP": "\/favicon-16x16.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/favicon-32x32.png": {
 		"ft": 32768,
@@ -1118,7 +1134,7 @@
 		"oA": 0,
 		"oAP": "\/favicon-32x32.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/favicon.ico": {
 		"ft": 8192,
@@ -1270,6 +1286,16 @@
 		"oAP": "\/fonts\/Roboto-Regular.woff2",
 		"oF": 0
 		},
+	"\/fonts\/stylesheet-min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/stylesheet-min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/fonts\/stylesheet.css": {
 		"aP": 0,
 		"bl": 0,
@@ -1310,7 +1336,7 @@
 		"oA": 0,
 		"oAP": "\/imgs\/avvo-logo.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/imgs\/avvo-white-logo.png": {
 		"ft": 32768,
@@ -1318,7 +1344,7 @@
 		"oA": 0,
 		"oAP": "\/imgs\/avvo-white-logo.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/imgs\/avvo-white-logo.svg": {
 		"ft": 2097152,
@@ -1378,7 +1404,7 @@
 		"oA": 0,
 		"oAP": "\/imgs\/bubble-x100.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/imgs\/bubble.png": {
 		"ft": 32768,
@@ -1386,7 +1412,7 @@
 		"oA": 0,
 		"oAP": "\/imgs\/bubble.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/imgs\/carousel\/flag.jpg": {
 		"ft": 16384,
@@ -1394,7 +1420,7 @@
 		"oA": 0,
 		"oAP": "\/imgs\/carousel\/flag.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/imgs\/carousel\/justice.jpg": {
 		"ft": 16384,
@@ -1410,7 +1436,7 @@
 		"oA": 0,
 		"oAP": "\/imgs\/carousel\/meeting.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/imgs\/carousel\/modified\/flag.jpg": {
 		"ft": 16384,
@@ -1442,7 +1468,7 @@
 		"oA": 0,
 		"oAP": "\/imgs\/community.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/imgs\/creation-files\/background\/bk-500.png": {
 		"ft": 32768,
@@ -1450,7 +1476,7 @@
 		"oA": 0,
 		"oAP": "\/imgs\/creation-files\/background\/bk-500.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/imgs\/creation-files\/background\/bk-500.svg": {
 		"ft": 2097152,
@@ -1468,7 +1494,7 @@
 		"oA": 0,
 		"oAP": "\/imgs\/creation-files\/background\/paper-background-1500.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/imgs\/creation-files\/background\/paper-background-cropped.ai": {
 		"ft": 8192,
@@ -1510,7 +1536,7 @@
 		"oA": 0,
 		"oAP": "\/imgs\/creation-files\/background\/paper-background.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/imgs\/creation-files\/background\/pattern-test.ai": {
 		"ft": 8192,
@@ -1524,7 +1550,7 @@
 		"oA": 0,
 		"oAP": "\/imgs\/fav.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/imgs\/favicons.zip": {
 		"ft": 8192,
@@ -1538,7 +1564,7 @@
 		"oA": 0,
 		"oAP": "\/imgs\/favicons\/android-chrome-192x192.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/imgs\/favicons\/android-chrome-256x256.png": {
 		"ft": 32768,
@@ -1546,7 +1572,7 @@
 		"oA": 0,
 		"oAP": "\/imgs\/favicons\/android-chrome-256x256.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/imgs\/favicons\/apple-touch-icon.png": {
 		"ft": 32768,
@@ -1554,7 +1580,7 @@
 		"oA": 0,
 		"oAP": "\/imgs\/favicons\/apple-touch-icon.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/imgs\/favicons\/browserconfig.xml": {
 		"ft": 8192,
@@ -1568,7 +1594,7 @@
 		"oA": 0,
 		"oAP": "\/imgs\/favicons\/favicon-16x16.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/imgs\/favicons\/favicon-32x32.png": {
 		"ft": 32768,
@@ -1576,7 +1602,7 @@
 		"oA": 0,
 		"oAP": "\/imgs\/favicons\/favicon-32x32.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/imgs\/favicons\/favicon.ico": {
 		"ft": 8192,
@@ -1598,7 +1624,7 @@
 		"oA": 0,
 		"oAP": "\/imgs\/favicons\/mstile-150x150.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/imgs\/favicons\/safari-pinned-tab.svg": {
 		"ft": 2097152,
@@ -1616,7 +1642,7 @@
 		"oA": 0,
 		"oAP": "\/imgs\/gavel-x100.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/imgs\/gavel.png": {
 		"ft": 32768,
@@ -1624,7 +1650,7 @@
 		"oA": 0,
 		"oAP": "\/imgs\/gavel.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/imgs\/justice.jpg": {
 		"ft": 16384,
@@ -1632,7 +1658,7 @@
 		"oA": 0,
 		"oAP": "\/imgs\/justice.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/imgs\/law-books.jpg": {
 		"ft": 16384,
@@ -1640,7 +1666,7 @@
 		"oA": 0,
 		"oAP": "\/imgs\/law-books.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/imgs\/logo.svg": {
 		"ft": 2097152,
@@ -1658,7 +1684,7 @@
 		"oA": 0,
 		"oAP": "\/imgs\/naca-web-logo.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/imgs\/naca-web-logo.svg": {
 		"ft": 2097152,
@@ -1720,7 +1746,7 @@
 		"oA": 0,
 		"oAP": "\/imgs\/paragraph-logo.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/imgs\/paragraph-logo.svg": {
 		"ft": 2097152,
@@ -1738,7 +1764,7 @@
 		"oA": 0,
 		"oAP": "\/imgs\/trophy-x100.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/imgs\/trophy.png": {
 		"ft": 32768,
@@ -1746,7 +1772,7 @@
 		"oA": 0,
 		"oAP": "\/imgs\/trophy.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/inc\/community-involvement.php": {
 		"ft": 8192,
@@ -1814,6 +1840,15 @@
 		"oAP": "\/index.php",
 		"oF": 0
 		},
+	"\/js\/customizer-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/customizer-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/customizer.js": {
 		"ft": 64,
 		"mi": 1,
@@ -1829,6 +1864,15 @@
 		"oA": 0,
 		"oAP": "\/js\/min\/home-carousel-min.js",
 		"oF": 2,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/map-directions-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/map-directions-min-min.js",
+		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
@@ -1850,6 +1894,15 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/js\/min\/map-directions-min-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/map-directions-min-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/min\/map-directions-min.js": {
 		"ft": 64,
 		"mi": 1,
@@ -1859,11 +1912,29 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/js\/navigation-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/navigation-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/navigation.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/navigation-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/skip-link-focus-fix-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/skip-link-focus-fix-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -1889,6 +1960,16 @@
 		"oAP": "\/languages\/stern_thomasson.pot",
 		"oF": 0
 		},
+	"\/layouts\/content-sidebar-min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/layouts\/content-sidebar-min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/layouts\/content-sidebar.css": {
 		"aP": 0,
 		"bl": 0,
@@ -1896,6 +1977,16 @@
 		"ma": 0,
 		"oA": 2,
 		"oAP": "\/layouts\/content-sidebar-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/layouts\/sidebar-content-min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/layouts\/sidebar-content-min-min.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -1929,7 +2020,7 @@
 		"oA": 0,
 		"oAP": "\/mstile-150x150.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/page-about.php": {
 		"ft": 8192,
@@ -1973,6 +2064,15 @@
 		"oAP": "\/plugins\/mm4-directions-map\/index.php",
 		"oF": 0
 		},
+	"\/plugins\/mm4-directions-map\/map-directions-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/plugins\/mm4-directions-map\/map-directions-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/plugins\/mm4-directions-map\/map-directions.js": {
 		"ft": 64,
 		"mi": 1,
@@ -1988,11 +2088,29 @@
 		"oAP": "\/plugins\/mm4-you-contact-form\/inc\/contact.php",
 		"oF": 0
 		},
+	"\/plugins\/mm4-you-contact-form\/js\/min\/mm4-you-validate-min-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/plugins\/mm4-you-contact-form\/js\/min\/mm4-you-validate-min-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/plugins\/mm4-you-contact-form\/js\/min\/mm4-you-validate-min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/plugins\/mm4-you-contact-form\/js\/min\/mm4-you-validate-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/plugins\/mm4-you-contact-form\/js\/mm4-you-validate-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/plugins\/mm4-you-contact-form\/js\/mm4-you-validate-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -2010,6 +2128,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/plugins\/mm4-you-contact-form\/mm4-you-cf.php",
+		"oF": 0
+		},
+	"\/README.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/README.html",
 		"oF": 0
 		},
 	"\/README.md": {
@@ -2035,6 +2159,16 @@
 		"oA": 2,
 		"oAP": "\/readme.txt",
 		"oF": 0
+		},
+	"\/rtl-min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/rtl-min-min.css",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/rtl.css": {
 		"aP": 0,
@@ -4152,7 +4286,7 @@
 		"oA": 0,
 		"oAP": "\/screenshot.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/search.php": {
 		"ft": 8192,

@@ -28,8 +28,7 @@
                         .entry-header h1 {
                             color: $color__brand-1;
                             font-family: $font__alt-bold;
-                            font-size: 1.938rem;
-                            margin: 0;
+                            font-size: 2.2rem;
                         }
                         .entry-content {
                             margin-top: .5em;
@@ -50,7 +49,7 @@
                                     padding-left: 1.25rem;
                                     position: relative;
                                     padding-bottom: 0.625rem;
-                                    &::before {
+                                    &:before {
                                         content: "\25B8";
                                         position: absolute;
                                         color: $color__brand-2;
@@ -104,7 +103,7 @@
                     font-size:2.3rem;
                     font-family: $font__alt-semi;
                     margin: 0;
-                    // margin-bottom: .5em;
+                    text-align: center;
                 }
                 h4 {
                     font-size: 1.11rem;
@@ -116,8 +115,9 @@
                     }
                 }
                 .sidebar-icon {
-                    // margin-top:
-                    padding-left: 30%;
+                    margin-top: .5rem;
+                    margin-bottom: .5rem;
+                    text-align: center;
                     img {
                         width: 60px;
                     }

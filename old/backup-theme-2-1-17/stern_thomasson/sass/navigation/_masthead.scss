@@ -1,0 +1,174 @@
+// masthead.scss
+
+#masthead {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 5px solid #939597;
+    @include padding-left-right;
+    padding-top: 0.9375rem;
+    .site-branding {
+        flex: 1 0 auto;
+        #logo svg {
+            max-width: 175px;
+            display: block;
+        }
+    }
+    .main-navigation {
+        .close {
+            display: none;
+        }
+        .masthead-phone {
+            .callout {
+                display: none;
+                color: $color__brand-4;
+            }
+            a {
+                text-decoration: none;
+                color: $color__brand-1;
+            }
+        }
+        button {
+            display: block;
+            margin-left: auto;
+            background: transparent;
+            color: $color__brand-2;
+            font-size: 0.9375rem;
+            padding-right: 0;
+        }
+        .menu-menu-container {
+            ul {
+                display: none;
+                .current-menu-item {
+                    a {
+                        color: $color__brand-1;
+                    }
+                }
+                li {
+                    list-style: none;
+                    a {
+                        text-decoration: none;
+                        color: $color__brand-2;
+                    }
+                }
+            }
+        }
+    }
+    .toggled {
+        display: block;
+        position:fixed;
+        top:0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        height:100%;
+        width:100%;
+        background:$color__brand-1;
+        overflow:auto;
+        z-index:9999;
+        -webkit-transition: all 0.5s;
+        transition: all 0.5s;
+
+        // &::before {
+        //     content: "X";
+        //     position: absolute;
+        //     color: #fff;
+        //     top: 10px;
+        //     right: 10px;
+        // }
+
+        .close {
+            display: block;
+            text-align: right;
+            color: #fff;
+            font-size: 1.5em;
+            padding-right: 20px;
+            padding-top: 20px;
+            // margin: 0;
+        }
+
+        .masthead-phone, .menu-toggle {
+            display: none;
+        }
+
+        .menu-menu-container {
+            text-align: left;
+            // margin-top: 2em;
+
+            ul {
+                display: block;
+                list-style: none;
+                margin: 0 auto;
+
+                li {
+                    // margin: 0 auto;
+
+                    a {
+                        color:#fff;
+                        display:block;
+                        padding:8px 0;
+                        text-decoration:none;
+                    }
+                }
+            }
+        }
+    }
+    @include respond-to(medium) {
+        align-items: center;
+        .site-branding {
+            #logo {
+                svg {
+                    max-width: 275px;
+                    padding-bottom: 1em;
+                }
+            }
+        }
+        .main-navigation {
+            .masthead-phone {
+                text-align: right;
+                .callout {
+                    display: block;
+                    font-size: 1.188rem;
+                    font-family: $font__alt-bold;
+                }
+                a {
+                    font-size: 1.838rem;
+                }
+            }
+            button {
+                display: none;
+            }
+            .menu-menu-container {
+                ul {
+                    display: inline-flex;
+                    margin: auto;
+
+                    li {
+                        padding: .5em;
+                        &:last-child {
+                            padding-right: 0;
+                        }
+                        a {
+                            font-size: 1.063rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @include respond-to(large) {
+        .main-navigation {
+            .menu-menu-container {
+                ul {
+                    li {
+                        a {
+                            font-size: 1.25rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+} // #masthead

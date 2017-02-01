@@ -1,0 +1,14 @@
+@import "bourbon/bourbon";
+@import "neat/neat-helpers";
+
+// Change the grid settings
+$column: 90px;
+$gutter: 10px;
+$grid-columns: 12;
+$max-width: 1400px;
+
+// Visual Grid - Set to true to view the grid
+$visual-grid: false;
+$visual-grid-color: #d6d6d6;
+$visual-grid-index: back;
+$visual-grid-opacity: 0.2;
