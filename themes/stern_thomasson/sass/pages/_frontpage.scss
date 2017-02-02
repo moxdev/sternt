@@ -1,166 +1,34 @@
 .page-template-frontpage {
     #page {
-        .home-carousel {
-            position: relative;
-            &:before, &:after {
-                content: '';
-                display: block;
-                position: absolute;
-            }
-            &:before {
-                background-color: #000;
-                left: 0;
-                right: 0;
-                top: 0;
-                bottom: 0;
-                z-index: 15;
-                opacity: .6;
-            }
-            h1 {
-                font-family: $font__alt-bold;
-                position: relative;
-                z-index: 20;
-                color:#FFF;
-                text-shadow: 0 0 15px rgba(0, 0, 0, .5);
-                padding: 2.5em 0 .75em;
-                font-size: 3.5rem;
-                width: 90%;
-                margin: 0;
-                line-height: 1;
-                span {
-                    display: block;
-                }
-                .title {
-                    margin-left: .5em;
-                }
-                .highlight {
-                    font-family: $font__alt-bold;
-                    font-size: 1.25em;
-                    @include respond-to(small) {
-                        font-size: 1.375em;
-                    }
-                    @include respond-to(medium) {
-                        font-size: 1.5em;
-                    }
-                    @include respond-to(large) {
-                        font-size: 1.625em;
-                    }
-                }
-                @include respond-to(x-small) {
-                    font-size: 2.125em;
-                }
-                @include respond-to(small) {
-                    font-size: 2.75em;
-                }
-                @media screen and (min-width: 510px) {
-                    width: 80%;
-                }
-                @include respond-to(small-land) {
-                    width:70%;
-                }
-                @media screen and (min-width: 660px) {
-                    width: 60%;
-                }
-                @include respond-to(tablet) {
-                    width: 50%
-                }
-                @media screen and (min-width: 910px) {
-                    width: 40%;
-                }
-                @include respond-to(large) {
-                    padding: 5em 1.25rem .75em;
-                    width: 35%;
-                }
-                @include respond-to(x-large) {
-                    width: 30%;
-                }
-                @include respond-to(xx-large) {
-                    width: 25%;
-                }
-                @media screen and (min-width: 2160px) {
-                    width: 20%;
-                }
-            }
+
+        #home-carousel {
+            border: 1px solid red;
+            min-height:300px;
+            position:relative;
 
             ul {
-                list-style: none;
-                margin: 0;
-                padding: 0;
-                z-index: 10;
-
-                li {
-                    background-size: cover;
-                    opacity: 0;
-                    transition:opacity 1s ease-in-out;
-
-                    &.active {
-                        opacity: 1;
-                    }
-                }
-            }
-
-            ul, ul li {
-                position: absolute;
-                left: 0;
-                right: 0;
-                top: 0;
+                list-style:none;
+                position:absolute;
+                overflow:hidden;
+                left:0;
+                top:0;
+                right:0;
                 bottom:0;
-            }
-
-            ol {
-                list-style: none;
-                padding: 0 0 1em;
-                position: relative;
-                z-index: 20;
+                padding:0;
+                margin:0;
 
                 li {
-                    display: inline-block;
+
                 }
 
-                a {
-                    display: block;
-                    width: 20px;
-                    height: 20px;
-                    text-indent: 100%;
-                    white-space: nowrap;
-                    overflow: hidden;
-                    background-color: $color__brand-2;
-                    border-radius: 50%;
-                    margin-right: .375em;
-                    transition:background-color .25s;
-                    @include respond-to(small) {
-                        width: 25px;
-                        height: 25px;
-                        margin: 0 .375em;
-                    }
-
-                    &:hover {
-                        background-color: #333;
-                    }
-                }
-
-                .active > a {
-                    background-color: #666;
-
-                    &:hover {
-                        cursor: text;
-                    }
+                .active {
+                    opacity:1;
                 }
             }
-            @include respond-to(medium) {
-                &:after {
-                    left: 40%;
-                    bottom: 40%;
-                }
-            }
-            @include respond-to(x-large) {
-                height: 600px;
-                margin-bottom: 2em;
-                h1 {
-                    padding-top: 7em;
-                }
-            }
+
         }
+
+
         .site-content {
             padding-top: 0;
             .content-area {

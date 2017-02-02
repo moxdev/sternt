@@ -131,14 +131,13 @@ function stern_thomasson_scripts() {
 		wp_enqueue_script( 'comment-reply' );
 	}
 
-    if(is_front_page()) {
-        if(function_exists('get_field')) {
-            $imgs = get_field('carousel_images');
-            if($imgs) {
-                wp_enqueue_script( 'stern_thomasson-home-carousel', get_template_directory_uri() . '/js/min/home-carousel-min.js', array('jquery'), NULL, true );
-            }
-        }
+    if( is_page_template('frontpage.php') ) {
+        wp_enqueue_script( 'stern_thomasson-images-loaded', get_template_directory_uri() . '/js/jquery-imagesloaded.js', array('jquery'), NULL, true );
+        wp_enqueue_script( 'stern_thomasson-image-fill', get_template_directory_uri() . '/js/jquery-imagefill.js', array('jquery', 'stern_thomasson-images-loaded'), NULL, true );
+        wp_enqueue_script( 'stern_thomasson-touchswipe', get_template_directory_uri() . '/js/jquery-touchSwipe.js', array('jquery', 'stern_thomasson-image-fill'), NULL, true );
+        wp_enqueue_script( 'stern_thomasson-home-carousel', get_template_directory_uri() . '/js/home-carousel.js', array('jquery', 'stern_thomasson-images-loaded', 'stern_thomasson-image-fill', 'stern_thomasson-touchswipe'), NULL, true );
     }
+
 
     if( is_page_template( 'page-contact.php' ) ) {
         wp_enqueue_script( 'stern_thomasson-directions-map', get_template_directory_uri() . '/js/min/map-directions-min.js', array('jquery'), NULL, true );

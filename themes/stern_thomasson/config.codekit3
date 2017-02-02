@@ -1810,6 +1810,12 @@
 		"oAP": "\/inc\/footer-colophon.php",
 		"oF": 0
 		},
+	"\/inc\/home-carousel.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/home-carousel.php",
+		"oF": 0
+		},
 	"\/inc\/jetpack.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -1834,48 +1840,57 @@
 		"oAP": "\/index.php",
 		"oF": 0
 		},
-	"\/js\/customizer-min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/customizer-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"\/js\/customizer.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/customizer-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 1,
 		"tS": 0
 		},
 	"\/js\/home-carousel.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/min\/home-carousel-min.js",
-		"oF": 2,
+		"oF": 3,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/js\/map-directions-min.js": {
+	"\/js\/jquery-imagefill.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/map-directions-min-min.js",
-		"oF": 0,
+		"oA": 1,
+		"oAP": "\/js\/jquery-imagefill-min.js",
+		"oF": 1,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/jquery-imagesloaded.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/js\/jquery-imagesloaded-min.js",
+		"oF": 1,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/jquery-touchSwipe.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/js\/jquery-touchSwipe-min.js",
+		"oF": 1,
 		"sC": 1,
 		"tS": 0
 		},
 	"\/js\/map-directions.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/map-directions-min.js",
-		"oF": 0,
+		"oA": 1,
+		"oAP": "\/js\/min\/map-directions-min.js",
+		"oF": 3,
 		"sC": 1,
 		"tS": 0
 		},
@@ -1888,12 +1903,30 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/js\/min\/map-directions-min-min.js": {
+	"\/js\/min\/jquery-imagefill.min.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/min\/map-directions-min-min-min.js",
-		"oF": 0,
+		"oA": 1,
+		"oAP": "\/js\/min\/jquery-imagefill.min-min.js",
+		"oF": 1,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/min\/jquery.imagesloaded.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/js\/min\/jquery.imagesloaded.min-min.js",
+		"oF": 1,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/min\/jquery.touchSwipe.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/js\/min\/jquery.touchSwipe.min-min.js",
+		"oF": 1,
 		"sC": 1,
 		"tS": 0
 		},
@@ -1906,39 +1939,21 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/js\/navigation-min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/navigation-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"\/js\/navigation.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/navigation-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/skip-link-focus-fix-min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/skip-link-focus-fix-min-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 1,
 		"tS": 0
 		},
 	"\/js\/skip-link-focus-fix.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/skip-link-focus-fix-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 1,
 		"tS": 0
 		},
