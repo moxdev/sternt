@@ -178,6 +178,20 @@ function my_mce_buttons_2( $buttons ) {
 add_filter('mce_buttons_2', 'my_mce_buttons_2');
 
 /**
+ * Implement the custom disclaimer section.
+ */
+function stern_thomasson_disclaimer() {
+    $disclaimer = get_field( 'disclaimer_text' );
+    if( ($disclaimer) ): ?>
+
+        <div class="disclaimer-wrapper">
+            <p><?php echo $disclaimer ?></p>
+        </div>
+
+    <?php endif;
+}
+
+/**
  * Implement the Custom Header feature.
  */
 require get_template_directory() . '/inc/custom-header.php';

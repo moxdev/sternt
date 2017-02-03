@@ -61,6 +61,11 @@
                                     }
                                 }
                             }
+                            .disclaimer-wrapper {
+                                font-size: 0.625rem;
+                                font-style: italic;
+                                font-style: $font__it;
+                            }
                         }
                         @include respond-to(medium) {
                             .entry-header {
@@ -75,6 +80,9 @@
                                 margin: 0;
                                 h3 {
                                     font-size: 1.563rem;
+                                }
+                                .disclaimer-wrapper {
+                                    font-size: 0.9375rem;
                                 }
                             }
                         }
