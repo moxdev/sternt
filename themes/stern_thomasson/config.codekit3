@@ -1398,6 +1398,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/imgs\/background\/resized\/lawyers-meeting-crop.jpg": {
+		"ft": 16384,
+		"iS": 184110,
+		"oA": 0,
+		"oAP": "\/imgs\/background\/resized\/lawyers-meeting-crop.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/imgs\/bubble-x100.png": {
 		"ft": 32768,
 		"iS": 912,
@@ -1414,51 +1422,89 @@
 		"oF": 0,
 		"opt": 1
 		},
-	"\/imgs\/carousel\/flag.jpg": {
+	"\/imgs\/carousel\/justice-flag.jpg": {
 		"ft": 16384,
-		"iS": 172950,
+		"iS": 194247,
 		"oA": 0,
-		"oAP": "\/imgs\/carousel\/flag.jpg",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/imgs\/carousel\/justice.jpg": {
-		"ft": 16384,
-		"iS": 519870,
-		"oA": 0,
-		"oAP": "\/imgs\/carousel\/justice.jpg",
+		"oAP": "\/imgs\/carousel\/justice-flag.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/imgs\/carousel\/meeting.jpg": {
+	"\/imgs\/carousel\/justice-scales.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 157972,
 		"oA": 0,
-		"oAP": "\/imgs\/carousel\/meeting.jpg",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/imgs\/carousel\/modified\/flag.jpg": {
-		"ft": 16384,
-		"iS": 126934,
-		"oA": 0,
-		"oAP": "\/imgs\/carousel\/modified\/flag.jpg",
+		"oAP": "\/imgs\/carousel\/justice-scales.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/imgs\/carousel\/modified\/justice.jpg": {
+	"\/imgs\/carousel\/law-books.jpg": {
 		"ft": 16384,
-		"iS": 121587,
+		"iS": 232750,
 		"oA": 0,
-		"oAP": "\/imgs\/carousel\/modified\/justice.jpg",
+		"oAP": "\/imgs\/carousel\/law-books.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/imgs\/carousel\/modified\/meeting.jpg": {
+	"\/imgs\/carousel\/lawyers-at-table.jpg": {
 		"ft": 16384,
-		"iS": 113632,
+		"iS": 120500,
 		"oA": 0,
-		"oAP": "\/imgs\/carousel\/modified\/meeting.jpg",
+		"oAP": "\/imgs\/carousel\/lawyers-at-table.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/carousel\/lawyers-meeting.jpg": {
+		"ft": 16384,
+		"iS": 184110,
+		"oA": 0,
+		"oAP": "\/imgs\/carousel\/lawyers-meeting.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/carousel\/tinified.zip": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/imgs\/carousel\/tinified.zip",
+		"oF": 0
+		},
+	"\/imgs\/carousel\/tinified\/justice-flag.jpg": {
+		"ft": 16384,
+		"iS": 144039,
+		"oA": 0,
+		"oAP": "\/imgs\/carousel\/tinified\/justice-flag.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/carousel\/tinified\/justice-scales.jpg": {
+		"ft": 16384,
+		"iS": 113305,
+		"oA": 0,
+		"oAP": "\/imgs\/carousel\/tinified\/justice-scales.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/carousel\/tinified\/law-books.jpg": {
+		"ft": 16384,
+		"iS": 196829,
+		"oA": 0,
+		"oAP": "\/imgs\/carousel\/tinified\/law-books.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/carousel\/tinified\/lawyers-at-table.jpg": {
+		"ft": 16384,
+		"iS": 92902,
+		"oA": 0,
+		"oAP": "\/imgs\/carousel\/tinified\/lawyers-at-table.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/carousel\/tinified\/lawyers-meeting.jpg": {
+		"ft": 16384,
+		"iS": 153026,
+		"oA": 0,
+		"oAP": "\/imgs\/carousel\/tinified\/lawyers-meeting.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -1808,6 +1854,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/footer-colophon.php",
+		"oF": 0
+		},
+	"\/inc\/home-carousel.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/home-carousel.php",
 		"oF": 0
 		},
 	"\/inc\/jetpack.php": {
