@@ -5,22 +5,6 @@
             min-height: 200px;
             overflow: hidden;
 
-            h1 {
-                font-family: $font__alt-bold;
-                position: absolute;
-                z-index: 30;
-                color:#FFF;
-                text-shadow: 0 0 15px rgba(0, 0, 0, .5);
-                padding: 1.5em 0 0 .5em;
-                width: 80%;
-                margin: 0;
-                line-height: 1;
-                text-transform: capitalize;
-                span {
-                    display: block;
-                }
-            }
-
             ul {
                 list-style: none;
                 margin: 0;
@@ -47,6 +31,27 @@
                     &.active {
                         opacity: 1;
                     }
+                }
+
+                span {
+                    display: inline-block;
+
+                    h1 {
+                        // display: table;
+                        vertical-align: middle;
+                        font-family: $font__alt-bold;
+                        position: absolute;
+                        z-index: 30;
+                        color:#FFF;
+                        text-shadow: 0 0 15px rgba(0, 0, 0, .5);
+                        margin: 0;
+                        line-height: 1;
+                        text-transform: capitalize;
+                        padding: 1em 0 0 .5em;
+                        width: 80%;
+                        font-size: 2em;
+                    }
+
                 }
             }
 
@@ -103,59 +108,128 @@
                 }
             }
             @include respond-to(small) {
-                // min-height: 250px;
+                min-height: 225px;
 
-                h1 {
-                    font-size: 2.6em;
-                    width: 90%;
-                    padding-top: .5em;
+                ul {
+                    span {
+                        h1 {
+                            font-size: 2.6em;
+                            width: 90%;
+                            padding-top: .5em;
+                        }
+                    }
                 }
             }
             @media screen and (min-width: 460px) {
-                // min-height: 300px;
-                h1 {
-                    font-size: 3.3em;
+                min-height: 250px;
+                ul {
+                    span {
+                        h1 {
+                            font-size: 3em;
+                            width: 85%;
+                        }
+                    }
                 }
             }
-            @media screen and (min-width: 510px) {
-                h1 {
-                    font-size: 3.5em;
-                    width: 85%;
-                }
-            }
+            // @media screen and (min-width: 510px) {
+
+            //     ul {
+            //         span {
+            //             h1 {
+            //                 // font-size: 3.3em;
+            //                 // width: 85%;
+            //             }
+            //         }
+            //     }
+            // }
             @include respond-to(small-land) {
-                h1 {
-                    font-size: 3em;
-                    width: 85%;
+
+                ul {
+                    span {
+                        h1 {
+                            padding-top: 1.5em;
+                            font-size: 3.2em;
+                            width: 90%;
+                        }
+                    }
                 }
             }
             @media screen and (min-width: 660px) {
-                min-height: 250px;
-                h1 {
-                    width: 90%;
-                    padding-top: 1em;
-                    font-size: 3.5em;
+
+                ul {
+                    span {
+                        h1 {
+                            width: 85%;
+                            padding-top: 1em;
+                            font-size: 3.5em;
+                        }
+                    }
                 }
             }
             @include respond-to(tablet) {
-                min-height: 400px;
-                h1 {
-                    width: 90%;
-                    padding-top: 1em;
-                    font-size: 3.5em;
+                min-height: 300px;
+
+                ul {
+                    span {
+                        h1 {
+                            width: 80%;
+                            padding-top: 1.5em;
+                            font-size: 3.7em;
+                        }
+                    }
                 }
             }
             @include respond-to(medium) {
-                &:after {
-                    left: 40%;
-                    bottom: 40%;
+                min-height: 400px;
+                ul {
+                    span {
+                        h1 {
+                            padding-top: 2.5em;
+                            font-size: 4.5em;
+                            // width: 65%;
+                        }
+                    }
+                }
+                ol {
+                    margin: 0 0 1.5em 1em;
+
+                     a {
+                        width: 25px;
+                        height: 25px;
+                     }
+                }
+            }
+            @include respond-to(large) {
+                ul {
+                    span {
+                        h1 {
+                            padding-top: 2em;
+                            font-size: 5em;
+                            width: 65%;
+                        }
+                    }
                 }
             }
             @include respond-to(x-large) {
-                height: 600px;
-                margin-bottom: 2em;
-                h1 {
-                    padding-top: 7em;
+                height: 500px;
+                margin-bottom: 1em;
+                ul {
+                    span {
+                        h1 {
+                            font-size: 6em;
+                            padding-top: 2.3em;
+                        }
+                    }
+                }
+            }
+            @media screen and (min-width: 1800px) {
+
+                ul {
+                    span {
+                        h1 {
+                            width: 55%;
+                        }
+                    }
                 }
             }
         }

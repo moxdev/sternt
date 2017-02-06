@@ -39,12 +39,12 @@
                 font-size: 0.625rem;
                 width: 100%;
                 margin: 0 auto;
-                // @include respond-to(small-land) {
-                //     width: 70%;
-                // }
-                // @include respond-to(tablet) {
-                //     width: 60%;
-                // }
+                @include respond-to(small-land) {
+                    width: 70%;
+                }
+                @include respond-to(tablet) {
+                    font-size: .7rem;
+                }
             }
             .mm4 {
                 text-decoration: none;
@@ -76,7 +76,7 @@
                        width: 40%;
                     }
                     @include respond-to(x-large) {
-                       width: 30%;
+                       width: 50%;
                     }
                     @media screen and (min-width: 1900px) {
                         width: 20%;
