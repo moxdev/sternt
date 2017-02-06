@@ -24,7 +24,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST") {
 	$comments = strip_tags($_POST["comments"]);
 	$sbjct = strip_tags($_POST["subject"]);
 
-	$from = "do-not-reply@landex.org";
+	$from = "do-not-reply@sternthomasson.com";
 	$subject = $sbjct;
 	$message = "Name: " . $name . "<br>" . "Email: " . $email . "<br>" . "Primary Phone: " . $primary_phone . "<br>" . "Comments: " . $comments;
 	$header='From: '.$from."\r\n".'Reply-To: '.$from."\r\n".'MIME-Version: 1.0'."\r\n".'Content-type: text/html; charser=iso-8859-1'."\r\n".'X-Mailer: PHP/'.phpversion();

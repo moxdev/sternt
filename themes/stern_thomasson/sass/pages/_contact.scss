@@ -7,14 +7,14 @@
         }
         .site-content {
             width:100%;
-            max-width: none;
+            max-width: 100%;
             margin-left: 0;
             margin-right: 0;
             padding-left: 0;
             padding-right: 0;
             padding-top: 1.25rem;
             margin-bottom: 0;
-            background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('imgs/justice.jpg');
+            background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('imgs/background/justice-scales.jpg');
             background-size:cover;
             background-repeat: no-repeat;
             padding-bottom: 2em;
@@ -175,6 +175,9 @@
                             .bold {
                                 font-family: $font__bold;
                             }
+                            @include respond-to(medium) {
+                                font-size: .8rem;
+                            }
                         }
                     }
                 }
@@ -216,7 +219,7 @@
             }
         }
         .site-footer {
-            margin-top: -10px; //remove when background is fixed
+            // margin-top: -10px; //remove when background is fixed
         }
     }
 }

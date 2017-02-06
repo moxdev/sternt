@@ -1366,6 +1366,14 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/imgs\/background\/justice-scales.jpg": {
+		"ft": 16384,
+		"iS": 113305,
+		"oA": 0,
+		"oAP": "\/imgs\/background\/justice-scales.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/imgs\/background\/paper-background-500-tiny.png": {
 		"ft": 32768,
 		"iS": 275,
@@ -1424,7 +1432,7 @@
 		},
 	"\/imgs\/carousel\/justice-flag.jpg": {
 		"ft": 16384,
-		"iS": 194247,
+		"iS": 144039,
 		"oA": 0,
 		"oAP": "\/imgs\/carousel\/justice-flag.jpg",
 		"oF": 0,
@@ -1432,7 +1440,7 @@
 		},
 	"\/imgs\/carousel\/justice-scales.jpg": {
 		"ft": 16384,
-		"iS": 157972,
+		"iS": 113305,
 		"oA": 0,
 		"oAP": "\/imgs\/carousel\/justice-scales.jpg",
 		"oF": 0,
@@ -1440,7 +1448,7 @@
 		},
 	"\/imgs\/carousel\/law-books.jpg": {
 		"ft": 16384,
-		"iS": 232750,
+		"iS": 196829,
 		"oA": 0,
 		"oAP": "\/imgs\/carousel\/law-books.jpg",
 		"oF": 0,
@@ -1448,7 +1456,7 @@
 		},
 	"\/imgs\/carousel\/lawyers-at-table.jpg": {
 		"ft": 16384,
-		"iS": 120500,
+		"iS": 92902,
 		"oA": 0,
 		"oAP": "\/imgs\/carousel\/lawyers-at-table.jpg",
 		"oF": 0,
@@ -1456,9 +1464,49 @@
 		},
 	"\/imgs\/carousel\/lawyers-meeting.jpg": {
 		"ft": 16384,
-		"iS": 184110,
+		"iS": 153026,
 		"oA": 0,
 		"oAP": "\/imgs\/carousel\/lawyers-meeting.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/carousel\/originals\/justice-flag.jpg": {
+		"ft": 16384,
+		"iS": 194247,
+		"oA": 0,
+		"oAP": "\/imgs\/carousel\/originals\/justice-flag.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/carousel\/originals\/justice-scales.jpg": {
+		"ft": 16384,
+		"iS": 157972,
+		"oA": 0,
+		"oAP": "\/imgs\/carousel\/originals\/justice-scales.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/carousel\/originals\/law-books.jpg": {
+		"ft": 16384,
+		"iS": 232750,
+		"oA": 0,
+		"oAP": "\/imgs\/carousel\/originals\/law-books.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/carousel\/originals\/lawyers-at-table.jpg": {
+		"ft": 16384,
+		"iS": 120500,
+		"oA": 0,
+		"oAP": "\/imgs\/carousel\/originals\/lawyers-at-table.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/carousel\/originals\/lawyers-meeting.jpg": {
+		"ft": 16384,
+		"iS": 184110,
+		"oA": 0,
+		"oAP": "\/imgs\/carousel\/originals\/lawyers-meeting.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -1467,46 +1515,6 @@
 		"oA": 2,
 		"oAP": "\/imgs\/carousel\/tinified.zip",
 		"oF": 0
-		},
-	"\/imgs\/carousel\/tinified\/justice-flag.jpg": {
-		"ft": 16384,
-		"iS": 144039,
-		"oA": 0,
-		"oAP": "\/imgs\/carousel\/tinified\/justice-flag.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/imgs\/carousel\/tinified\/justice-scales.jpg": {
-		"ft": 16384,
-		"iS": 113305,
-		"oA": 0,
-		"oAP": "\/imgs\/carousel\/tinified\/justice-scales.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/imgs\/carousel\/tinified\/law-books.jpg": {
-		"ft": 16384,
-		"iS": 196829,
-		"oA": 0,
-		"oAP": "\/imgs\/carousel\/tinified\/law-books.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/imgs\/carousel\/tinified\/lawyers-at-table.jpg": {
-		"ft": 16384,
-		"iS": 92902,
-		"oA": 0,
-		"oAP": "\/imgs\/carousel\/tinified\/lawyers-at-table.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/imgs\/carousel\/tinified\/lawyers-meeting.jpg": {
-		"ft": 16384,
-		"iS": 153026,
-		"oA": 0,
-		"oAP": "\/imgs\/carousel\/tinified\/lawyers-meeting.jpg",
-		"oF": 0,
-		"opt": 0
 		},
 	"\/imgs\/community.jpg": {
 		"ft": 16384,
@@ -2392,6 +2400,12 @@
 		"oAP": "\/sass\/.sass-cache\/4b3b82acdfa4b0038f66f8ff02b461a076cc31ac\/_is-size.scssc",
 		"oF": 0
 		},
+	"\/sass\/.sass-cache\/71003e884ce0703869ee38afdd9570c8828563f3\/_404-page.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/.sass-cache\/71003e884ce0703869ee38afdd9570c8828563f3\/_404-page.scssc",
+		"oF": 0
+		},
 	"\/sass\/.sass-cache\/71003e884ce0703869ee38afdd9570c8828563f3\/_contact.scssc": {
 		"ft": 8192,
 		"oA": 1,
@@ -2420,6 +2434,12 @@
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/71003e884ce0703869ee38afdd9570c8828563f3\/_resources.scssc",
+		"oF": 0
+		},
+	"\/sass\/.sass-cache\/71003e884ce0703869ee38afdd9570c8828563f3\/_single-column.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/.sass-cache\/71003e884ce0703869ee38afdd9570c8828563f3\/_single-column.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/71003e884ce0703869ee38afdd9570c8828563f3\/_the-firm.scssc": {
@@ -4105,6 +4125,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/sass\/pages\/_404-page.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/pages\/_404-page.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/sass\/pages\/_contact.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -4153,6 +4186,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/sass\/pages\/_resources.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/pages\/_single-column.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/pages\/_single-column.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

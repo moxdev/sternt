@@ -10,7 +10,7 @@
     @include padding-left-right;
     padding-top: 0.9375rem;
     .site-branding {
-        flex: 1 0 auto;
+        display: flex;
         #logo svg {
             max-width: 175px;
             display: block;
@@ -57,37 +57,18 @@
         }
     }
     .toggled {
-        display: block;
         position:fixed;
         top:0;
         right: 0;
         bottom: 0;
         left: 0;
-        height:100%;
-        width:100%;
+        min-height:100vh;
+        min-width:100vh;
         background:$color__brand-1;
-        overflow:auto;
+        overflow:hidden;
         z-index:9999;
         -webkit-transition: all 0.5s;
         transition: all 0.5s;
-
-        // &::before {
-        //     content: "X";
-        //     position: absolute;
-        //     color: #fff;
-        //     top: 10px;
-        //     right: 10px;
-        // }
-
-        .close {
-            display: block;
-            text-align: right;
-            color: #fff;
-            font-size: 1.5em;
-            padding-right: 20px;
-            padding-top: 20px;
-            // margin: 0;
-        }
 
         .masthead-phone, .menu-toggle {
             display: none;
@@ -95,12 +76,15 @@
 
         .menu-menu-container {
             text-align: left;
-            // margin-top: 2em;
+            padding-top: 1.5em;
 
             ul {
                 display: block;
                 list-style: none;
                 margin: 0 auto;
+                .current-menu-item {
+                    color: #fff;
+                }
 
                 li {
                     // margin: 0 auto;
@@ -110,14 +94,23 @@
                         display:block;
                         padding:8px 0;
                         text-decoration:none;
+                        font-size: 1.5rem;
+                        &:hover, &:visited, &:active, :link {
+                            color: #fff;
+                        }
                     }
                 }
             }
+        }
+        @include respond-to(medium) {
+            // visibility: hidden;
         }
     }
     @include respond-to(medium) {
         align-items: center;
         .site-branding {
+            display: block;
+            text-align: left;
             #logo {
                 svg {
                     max-width: 275px;
