@@ -779,13 +779,17 @@ a:hover, a:active {
 }
 /* line 81, sass/navigation/_masthead.scss */
 #masthead .toggled .menu-menu-container ul {
-  display: block;
+  display: block !important;
   list-style: none;
   margin: 0 auto;
 }
 /* line 85, sass/navigation/_masthead.scss */
 #masthead .toggled .menu-menu-container ul .current-menu-item {
   color: #fff;
+}
+/* line 89, sass/navigation/_masthead.scss */
+#masthead .toggled .menu-menu-container ul li {
+  display: block;
 }
 /* line 92, sass/navigation/_masthead.scss */
 #masthead .toggled .menu-menu-container ul li a {
@@ -806,56 +810,56 @@ a:hover, a:active {
         -ms-flex-align: center;
             align-items: center;
   }
-  /* line 111, sass/navigation/_masthead.scss */
+  /* line 108, sass/navigation/_masthead.scss */
   #masthead .site-branding {
     display: block;
     text-align: left;
   }
-  /* line 115, sass/navigation/_masthead.scss */
+  /* line 112, sass/navigation/_masthead.scss */
   #masthead .site-branding #logo svg {
     max-width: 275px;
     padding-bottom: 1em;
   }
-  /* line 122, sass/navigation/_masthead.scss */
+  /* line 119, sass/navigation/_masthead.scss */
   #masthead .main-navigation .masthead-phone {
     text-align: right;
   }
-  /* line 124, sass/navigation/_masthead.scss */
+  /* line 121, sass/navigation/_masthead.scss */
   #masthead .main-navigation .masthead-phone .callout {
     display: block;
     font-size: 1.188rem;
     font-family: "cor-bold", sans-serif;
   }
-  /* line 129, sass/navigation/_masthead.scss */
+  /* line 126, sass/navigation/_masthead.scss */
   #masthead .main-navigation .masthead-phone a {
     font-size: 1.838rem;
   }
-  /* line 133, sass/navigation/_masthead.scss */
+  /* line 130, sass/navigation/_masthead.scss */
   #masthead .main-navigation button {
     display: none;
   }
-  /* line 137, sass/navigation/_masthead.scss */
+  /* line 134, sass/navigation/_masthead.scss */
   #masthead .main-navigation .menu-menu-container ul {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
     margin: auto;
   }
-  /* line 141, sass/navigation/_masthead.scss */
+  /* line 138, sass/navigation/_masthead.scss */
   #masthead .main-navigation .menu-menu-container ul li {
     padding: .5em;
   }
-  /* line 143, sass/navigation/_masthead.scss */
+  /* line 140, sass/navigation/_masthead.scss */
   #masthead .main-navigation .menu-menu-container ul li:last-child {
     padding-right: 0;
   }
-  /* line 146, sass/navigation/_masthead.scss */
+  /* line 143, sass/navigation/_masthead.scss */
   #masthead .main-navigation .menu-menu-container ul li a {
     font-size: 1.063rem;
   }
 }
 @media (min-width: 1200px) {
-  /* line 159, sass/navigation/_masthead.scss */
+  /* line 156, sass/navigation/_masthead.scss */
   #masthead .main-navigation .menu-menu-container ul li a {
     font-size: 1.25rem;
   }
@@ -1401,7 +1405,7 @@ object {
 /* line 13, sass/layout/_footer.scss */
 .site-footer .footer-wrapper .company-info a {
   text-decoration: none;
-  color: inherit;
+  color: #fff;
 }
 /* line 18, sass/layout/_footer.scss */
 .site-footer .footer-wrapper .footer-right {
@@ -1961,11 +1965,25 @@ object {
 /*--------------------------------------------------------------
 ## Contact
 --------------------------------------------------------------*/
-/* line 5, sass/pages/_contact.scss */
+/* line 4, sass/pages/_contact.scss */
+.page-template-page-contact #page {
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("imgs/background/justice-scales.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("imgs/background/justice-scales.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* line 9, sass/pages/_contact.scss */
+.page-template-page-contact #page #masthead {
+  background-image: url(imgs/paper-background-1.svg);
+  background-repeat: repeat;
+  background-size: cover;
+  background-color: #ffffff;
+}
+/* line 16, sass/pages/_contact.scss */
 .page-template-page-contact #page .honey {
   display: none !important;
 }
-/* line 8, sass/pages/_contact.scss */
+/* line 19, sass/pages/_contact.scss */
 .page-template-page-contact #page .site-content {
   width: 100%;
   max-width: 100%;
@@ -1975,13 +1993,11 @@ object {
   padding-right: 0;
   padding-top: 1.25rem;
   margin-bottom: 0;
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("imgs/background/justice-scales.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("imgs/background/justice-scales.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: 2em;
 }
-/* line 22, sass/pages/_contact.scss */
+/* line 32, sass/pages/_contact.scss */
 .page-template-page-contact #page .site-content .contact-wrapper {
   max-width: 1400px;
   margin-left: auto;
@@ -1997,74 +2013,74 @@ object {
   display: block;
 }
 @media (min-width: 760px) {
-  /* line 22, sass/pages/_contact.scss */
+  /* line 32, sass/pages/_contact.scss */
   .page-template-page-contact #page .site-content .contact-wrapper {
     padding-left: 2rem;
     padding-right: 2rem;
   }
 }
-/* line 26, sass/pages/_contact.scss */
+/* line 36, sass/pages/_contact.scss */
 .page-template-page-contact #page .site-content .contact-wrapper .content-area {
   max-width: 900px;
 }
-/* line 28, sass/pages/_contact.scss */
+/* line 38, sass/pages/_contact.scss */
 .page-template-page-contact #page .site-content .contact-wrapper .content-area .site-main {
   font-family: "robo-regular", sans-serif;
   font-size: 0.8125rem;
   color: #fff;
 }
-/* line 34, sass/pages/_contact.scss */
+/* line 44, sass/pages/_contact.scss */
 .page-template-page-contact #page .site-content .contact-wrapper .content-area .site-main article .entry-header h1 {
   color: #fff;
   font-family: "cor-bold", sans-serif;
   font-size: 1.938rem;
   margin: 0;
 }
-/* line 40, sass/pages/_contact.scss */
+/* line 50, sass/pages/_contact.scss */
 .page-template-page-contact #page .site-content .contact-wrapper .content-area .site-main article .entry-content {
   margin-top: .5em;
 }
-/* line 42, sass/pages/_contact.scss */
+/* line 52, sass/pages/_contact.scss */
 .page-template-page-contact #page .site-content .contact-wrapper .content-area .site-main article .entry-content h3 {
   font-family: "robo-medium", sans-serif;
   font-size: 1.125rem;
   color: #4d809b;
   margin: 0 0 .25em;
 }
-/* line 48, sass/pages/_contact.scss */
+/* line 58, sass/pages/_contact.scss */
 .page-template-page-contact #page .site-content .contact-wrapper .content-area .site-main article .entry-content p {
   margin: 0;
   padding-bottom: 1em;
 }
-/* line 53, sass/pages/_contact.scss */
+/* line 63, sass/pages/_contact.scss */
 .page-template-page-contact #page .site-content .contact-wrapper .content-area .site-main article .entry-content a {
   color: #fff;
 }
-/* line 55, sass/pages/_contact.scss */
+/* line 65, sass/pages/_contact.scss */
 .page-template-page-contact #page .site-content .contact-wrapper .content-area .site-main article .entry-content a:hover {
   color: #58585b;
 }
-/* line 58, sass/pages/_contact.scss */
+/* line 68, sass/pages/_contact.scss */
 .page-template-page-contact #page .site-content .contact-wrapper .content-area .site-main article .entry-content a:visited {
   color: #fff;
 }
 @media (min-width: 960px) {
-  /* line 66, sass/pages/_contact.scss */
+  /* line 76, sass/pages/_contact.scss */
   .page-template-page-contact #page .site-content .contact-wrapper .content-area .site-main article .entry-header h1 {
     font-size: 3.563rem;
     margin-top: -16px;
   }
-  /* line 71, sass/pages/_contact.scss */
+  /* line 81, sass/pages/_contact.scss */
   .page-template-page-contact #page .site-content .contact-wrapper .content-area .site-main article .entry-content {
     font-size: 1.125rem;
     margin: 0;
   }
-  /* line 74, sass/pages/_contact.scss */
+  /* line 84, sass/pages/_contact.scss */
   .page-template-page-contact #page .site-content .contact-wrapper .content-area .site-main article .entry-content h3 {
     font-size: 1.563rem;
   }
 }
-/* line 81, sass/pages/_contact.scss */
+/* line 91, sass/pages/_contact.scss */
 .page-template-page-contact #page .site-content .contact-wrapper .content-area .site-main form label {
   display: block;
   color: #ffffff;
@@ -2072,18 +2088,18 @@ object {
   font-family: "robo-bold", sans-serif;
   text-transform: uppercase;
 }
-/* line 88, sass/pages/_contact.scss */
+/* line 98, sass/pages/_contact.scss */
 .page-template-page-contact #page .site-content .contact-wrapper .content-area .site-main form .error {
   color: #bd3e0f;
 }
-/* line 91, sass/pages/_contact.scss */
+/* line 101, sass/pages/_contact.scss */
 .page-template-page-contact #page .site-content .contact-wrapper .content-area .site-main form .msg-box span {
   display: block;
   padding: .5em;
   background: #f8ece7;
   color: #bd3e0f;
 }
-/* line 101, sass/pages/_contact.scss */
+/* line 111, sass/pages/_contact.scss */
 .page-template-page-contact #page .site-content .contact-wrapper .widget-area .sidebar-wrapper {
   background-color: transparent;
   font-size: 0.75rem;
@@ -2092,138 +2108,139 @@ object {
   padding: 0;
   padding-top: 1.563rem;
 }
-/* line 109, sass/pages/_contact.scss */
+/* line 119, sass/pages/_contact.scss */
 .page-template-page-contact #page .site-content .contact-wrapper .widget-area .sidebar-wrapper h2 {
   font-family: "robo-bold", sans-serif;
   text-transform: uppercase;
   margin: .25em 0;
 }
-/* line 114, sass/pages/_contact.scss */
+/* line 124, sass/pages/_contact.scss */
 .page-template-page-contact #page .site-content .contact-wrapper .widget-area .sidebar-wrapper h3 {
   font-size: 2.3rem;
   font-family: "cor-semi", sans-serif;
   margin: 0;
 }
-/* line 120, sass/pages/_contact.scss */
+/* line 130, sass/pages/_contact.scss */
 .page-template-page-contact #page .site-content .contact-wrapper .widget-area .sidebar-wrapper h4 {
   font-size: 1.11rem;
   font-family: "robo-bold", sans-serif;
   margin-top: 1em;
   margin-bottom: -10px;
 }
-/* line 125, sass/pages/_contact.scss */
+/* line 135, sass/pages/_contact.scss */
 .page-template-page-contact #page .site-content .contact-wrapper .widget-area .sidebar-wrapper h4:first-child {
   margin-top: .5em;
 }
-/* line 130, sass/pages/_contact.scss */
+/* line 140, sass/pages/_contact.scss */
 .page-template-page-contact #page .site-content .contact-wrapper .widget-area .sidebar-wrapper .sidebar-info {
   color: #ffffff;
 }
-/* line 132, sass/pages/_contact.scss */
+/* line 142, sass/pages/_contact.scss */
 .page-template-page-contact #page .site-content .contact-wrapper .widget-area .sidebar-wrapper .sidebar-info a {
   color: #fff;
+  text-decoration: none;
 }
-/* line 134, sass/pages/_contact.scss */
+/* line 145, sass/pages/_contact.scss */
 .page-template-page-contact #page .site-content .contact-wrapper .widget-area .sidebar-wrapper .sidebar-info a:hover {
   color: #58585b;
 }
-/* line 137, sass/pages/_contact.scss */
+/* line 148, sass/pages/_contact.scss */
 .page-template-page-contact #page .site-content .contact-wrapper .widget-area .sidebar-wrapper .sidebar-info a:visited {
   color: #fff;
 }
-/* line 142, sass/pages/_contact.scss */
+/* line 153, sass/pages/_contact.scss */
 .page-template-page-contact #page .site-content .contact-wrapper .widget-area .sidebar-wrapper .map-wrapper {
   margin: 2em 0;
 }
-/* line 145, sass/pages/_contact.scss */
+/* line 156, sass/pages/_contact.scss */
 .page-template-page-contact #page .site-content .contact-wrapper .widget-area .sidebar-wrapper .map-wrapper #map-canvas {
   height: 200px;
 }
-/* line 149, sass/pages/_contact.scss */
+/* line 160, sass/pages/_contact.scss */
 .page-template-page-contact #page .site-content .contact-wrapper .widget-area .sidebar-wrapper .map-wrapper form {
   color: #ffffff;
   margin-top: 1em;
 }
-/* line 153, sass/pages/_contact.scss */
+/* line 164, sass/pages/_contact.scss */
 .page-template-page-contact #page .site-content .contact-wrapper .widget-area .sidebar-wrapper .map-wrapper form label {
   text-transform: capitalize;
   font-family: "robo-bold", sans-serif;
 }
-/* line 158, sass/pages/_contact.scss */
+/* line 169, sass/pages/_contact.scss */
 .page-template-page-contact #page .site-content .contact-wrapper .widget-area .sidebar-wrapper .map-wrapper form #response-panel span {
   color: #ffffff;
   background-color: #000;
 }
-/* line 163, sass/pages/_contact.scss */
+/* line 174, sass/pages/_contact.scss */
 .page-template-page-contact #page .site-content .contact-wrapper .widget-area .sidebar-wrapper .map-wrapper form .adp, .page-template-page-contact #page .site-content .contact-wrapper .widget-area .sidebar-wrapper .map-wrapper form .adp table, .page-template-page-contact #page .site-content .contact-wrapper .widget-area .sidebar-wrapper .map-wrapper form .adp-details, .page-template-page-contact #page .site-content .contact-wrapper .widget-area .sidebar-wrapper .map-wrapper form .adp-legal {
   color: #ffffff;
 }
-/* line 166, sass/pages/_contact.scss */
+/* line 177, sass/pages/_contact.scss */
 .page-template-page-contact #page .site-content .contact-wrapper .widget-area .sidebar-wrapper .map-wrapper form .adp-text {
   color: #000;
   font-family: "robo-bold", sans-serif;
 }
-/* line 172, sass/pages/_contact.scss */
+/* line 183, sass/pages/_contact.scss */
 .page-template-page-contact #page .site-content .contact-wrapper .widget-area .sidebar-wrapper .disclaimer {
   font-size: 0.625rem;
   font-family: "robo-it", sans-serif;
 }
-/* line 175, sass/pages/_contact.scss */
+/* line 186, sass/pages/_contact.scss */
 .page-template-page-contact #page .site-content .contact-wrapper .widget-area .sidebar-wrapper .disclaimer .bold {
   font-family: "robo-bold", sans-serif;
 }
 @media (min-width: 960px) {
-  /* line 172, sass/pages/_contact.scss */
+  /* line 183, sass/pages/_contact.scss */
   .page-template-page-contact #page .site-content .contact-wrapper .widget-area .sidebar-wrapper .disclaimer {
     font-size: .8rem;
   }
 }
 @media (min-width: 960px) {
-  /* line 22, sass/pages/_contact.scss */
+  /* line 32, sass/pages/_contact.scss */
   .page-template-page-contact #page .site-content .contact-wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     padding-top: 2rem;
   }
-  /* line 187, sass/pages/_contact.scss */
+  /* line 198, sass/pages/_contact.scss */
   .page-template-page-contact #page .site-content .contact-wrapper input[type="submit"] {
     width: 50%;
   }
-  /* line 190, sass/pages/_contact.scss */
+  /* line 201, sass/pages/_contact.scss */
   .page-template-page-contact #page .site-content .contact-wrapper .content-area {
     -webkit-box-flex: 2;
         -ms-flex: 2;
             flex: 2;
     margin-right: 1.5em;
   }
-  /* line 194, sass/pages/_contact.scss */
+  /* line 205, sass/pages/_contact.scss */
   .page-template-page-contact #page .site-content .contact-wrapper .widget-area {
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
     max-width: 300px;
   }
-  /* line 197, sass/pages/_contact.scss */
+  /* line 208, sass/pages/_contact.scss */
   .page-template-page-contact #page .site-content .contact-wrapper .widget-area .sidebar-wrapper {
     padding-top: 0;
   }
-  /* line 200, sass/pages/_contact.scss */
+  /* line 211, sass/pages/_contact.scss */
   .page-template-page-contact #page .site-content .contact-wrapper .widget-area .sidebar-wrapper .sidebar-icon img {
     width: 80px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 208, sass/pages/_contact.scss */
+  /* line 219, sass/pages/_contact.scss */
   .page-template-page-contact #page .site-content .contact-wrapper .widget-area {
     max-width: 300px;
     margin-left: 1.25rem;
   }
-  /* line 211, sass/pages/_contact.scss */
+  /* line 222, sass/pages/_contact.scss */
   .page-template-page-contact #page .site-content .contact-wrapper .widget-area .sidebar-wrapper {
     font-size: 0.875rem;
   }
-  /* line 213, sass/pages/_contact.scss */
+  /* line 224, sass/pages/_contact.scss */
   .page-template-page-contact #page .site-content .contact-wrapper .widget-area .sidebar-wrapper h3 {
     font-size: 2.7rem;
   }

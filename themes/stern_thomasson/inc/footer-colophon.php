@@ -29,7 +29,7 @@ function stern_thomasson_footer_colophon() { ?>
                 echo "Phone: "?><a href="tel:<?php echo $phone ?>"><?php echo $phone . "<br>"; ?></a><?php
             endif;
             if ( $fax):
-                echo "Fax: " . $fax . "<br>";
+                echo "Fax: "?><a href="tel:<?php echo $fax ?>"><?php echo $fax . "<br>"; ?></a><?php
             endif;
             ?>
         </div>

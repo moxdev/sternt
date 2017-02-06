@@ -20,7 +20,7 @@ function stern_thomasson_contact_directions_map() { ?>
                 <h2>address/phone</h2>
                 <span><?php echo $address ?></span><br>
                 <span><?php echo $address_2 ?></span><br>
-                <span>Phone: </span><span><?php echo $phone ?></span><br>
+                <span>Phone: </span><span><a href="tel:<?php echo $phone ?>"><?php echo $phone ?></a></span><br>
                 <span>Fax: </span><span><?php echo $fax ?></span>
             </div>
 
