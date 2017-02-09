@@ -16,6 +16,9 @@
                         padding-left: 0;
                         img {
                             width: 60px;
+                            @include respond-to(medium) {
+                                width: 100px;
+                            }
                         }
                     }
                     .sidebar-wysiwyg {

@@ -332,5 +332,16 @@
                 }
             }
         }
+        @include respond-to(medium) {
+            .widget-area {
+                .sidebar-wrapper {
+                    .sidebar-icon {
+                        img {
+                            width: 80px;
+                        }
+                    }
+                }
+            }
+        }
     }
 }

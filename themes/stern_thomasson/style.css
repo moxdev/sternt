@@ -713,21 +713,28 @@ a:hover, a:active {
   max-width: 175px;
   display: block;
 }
-/* line 20, sass/navigation/_masthead.scss */
+@media (min-width: 400px) {
+  /* line 14, sass/navigation/_masthead.scss */
+  #masthead .site-branding #logo svg {
+    max-width: 200px;
+    margin-bottom: .5em;
+  }
+}
+/* line 24, sass/navigation/_masthead.scss */
 #masthead .main-navigation .close {
   display: none;
 }
-/* line 24, sass/navigation/_masthead.scss */
+/* line 28, sass/navigation/_masthead.scss */
 #masthead .main-navigation .masthead-phone .callout {
   display: none;
   color: #58585b;
 }
-/* line 28, sass/navigation/_masthead.scss */
+/* line 32, sass/navigation/_masthead.scss */
 #masthead .main-navigation .masthead-phone a {
   text-decoration: none;
   color: #082947;
 }
-/* line 33, sass/navigation/_masthead.scss */
+/* line 37, sass/navigation/_masthead.scss */
 #masthead .main-navigation button {
   display: block;
   margin-left: auto;
@@ -736,24 +743,24 @@ a:hover, a:active {
   font-size: 0.9375rem;
   padding-right: 0;
 }
-/* line 42, sass/navigation/_masthead.scss */
+/* line 46, sass/navigation/_masthead.scss */
 #masthead .main-navigation .menu-menu-container ul {
   display: none;
 }
-/* line 45, sass/navigation/_masthead.scss */
+/* line 49, sass/navigation/_masthead.scss */
 #masthead .main-navigation .menu-menu-container ul .current-menu-item a {
   color: #082947;
 }
-/* line 49, sass/navigation/_masthead.scss */
+/* line 53, sass/navigation/_masthead.scss */
 #masthead .main-navigation .menu-menu-container ul li {
   list-style: none;
 }
-/* line 51, sass/navigation/_masthead.scss */
+/* line 55, sass/navigation/_masthead.scss */
 #masthead .main-navigation .menu-menu-container ul li a {
   text-decoration: none;
   color: #4d809b;
 }
-/* line 59, sass/navigation/_masthead.scss */
+/* line 63, sass/navigation/_masthead.scss */
 #masthead .toggled {
   position: fixed;
   top: 0;
@@ -768,30 +775,30 @@ a:hover, a:active {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
-/* line 73, sass/navigation/_masthead.scss */
+/* line 77, sass/navigation/_masthead.scss */
 #masthead .toggled .masthead-phone, #masthead .toggled .menu-toggle {
   display: none;
 }
-/* line 77, sass/navigation/_masthead.scss */
+/* line 81, sass/navigation/_masthead.scss */
 #masthead .toggled .menu-menu-container {
   text-align: left;
   padding-top: 1.5em;
 }
-/* line 81, sass/navigation/_masthead.scss */
+/* line 85, sass/navigation/_masthead.scss */
 #masthead .toggled .menu-menu-container ul {
   display: block !important;
   list-style: none;
   margin: 0 auto;
 }
-/* line 85, sass/navigation/_masthead.scss */
+/* line 89, sass/navigation/_masthead.scss */
 #masthead .toggled .menu-menu-container ul .current-menu-item {
   color: #fff;
 }
-/* line 89, sass/navigation/_masthead.scss */
+/* line 93, sass/navigation/_masthead.scss */
 #masthead .toggled .menu-menu-container ul li {
   display: block;
 }
-/* line 92, sass/navigation/_masthead.scss */
+/* line 96, sass/navigation/_masthead.scss */
 #masthead .toggled .menu-menu-container ul li a {
   color: #fff;
   display: block;
@@ -799,7 +806,7 @@ a:hover, a:active {
   text-decoration: none;
   font-size: 1.5rem;
 }
-/* line 98, sass/navigation/_masthead.scss */
+/* line 102, sass/navigation/_masthead.scss */
 #masthead .toggled .menu-menu-container ul li a:hover, #masthead .toggled .menu-menu-container ul li a:visited, #masthead .toggled .menu-menu-container ul li a:active, #masthead .toggled .menu-menu-container ul li a :link {
   color: #fff;
 }
@@ -810,56 +817,56 @@ a:hover, a:active {
         -ms-flex-align: center;
             align-items: center;
   }
-  /* line 108, sass/navigation/_masthead.scss */
+  /* line 112, sass/navigation/_masthead.scss */
   #masthead .site-branding {
     display: block;
     text-align: left;
   }
-  /* line 112, sass/navigation/_masthead.scss */
+  /* line 116, sass/navigation/_masthead.scss */
   #masthead .site-branding #logo svg {
     max-width: 275px;
-    padding-bottom: 1em;
+    margin-bottom: 0;
   }
-  /* line 119, sass/navigation/_masthead.scss */
+  /* line 123, sass/navigation/_masthead.scss */
   #masthead .main-navigation .masthead-phone {
     text-align: right;
   }
-  /* line 121, sass/navigation/_masthead.scss */
+  /* line 125, sass/navigation/_masthead.scss */
   #masthead .main-navigation .masthead-phone .callout {
     display: block;
     font-size: 1.188rem;
     font-family: "cor-bold", sans-serif;
   }
-  /* line 126, sass/navigation/_masthead.scss */
+  /* line 130, sass/navigation/_masthead.scss */
   #masthead .main-navigation .masthead-phone a {
     font-size: 1.838rem;
   }
-  /* line 130, sass/navigation/_masthead.scss */
+  /* line 134, sass/navigation/_masthead.scss */
   #masthead .main-navigation button {
     display: none;
   }
-  /* line 134, sass/navigation/_masthead.scss */
+  /* line 138, sass/navigation/_masthead.scss */
   #masthead .main-navigation .menu-menu-container ul {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
     margin: auto;
   }
-  /* line 138, sass/navigation/_masthead.scss */
+  /* line 142, sass/navigation/_masthead.scss */
   #masthead .main-navigation .menu-menu-container ul li {
     padding: .5em;
   }
-  /* line 140, sass/navigation/_masthead.scss */
+  /* line 144, sass/navigation/_masthead.scss */
   #masthead .main-navigation .menu-menu-container ul li:last-child {
     padding-right: 0;
   }
-  /* line 143, sass/navigation/_masthead.scss */
+  /* line 147, sass/navigation/_masthead.scss */
   #masthead .main-navigation .menu-menu-container ul li a {
     font-size: 1.063rem;
   }
 }
 @media (min-width: 1200px) {
-  /* line 156, sass/navigation/_masthead.scss */
+  /* line 160, sass/navigation/_masthead.scss */
   #masthead .main-navigation .menu-menu-container ul li a {
     font-size: 1.25rem;
   }
@@ -1357,7 +1364,7 @@ object {
   }
   /* line 177, sass/layout/_structure.scss */
   #page .site-content .widget-area .sidebar-wrapper .sidebar-icon img {
-    width: 80px;
+    width: 100px;
   }
   /* line 181, sass/layout/_structure.scss */
   #page .site-content .widget-area .sidebar-wrapper h6 {
@@ -1837,6 +1844,12 @@ object {
     max-width: 350px;
   }
 }
+@media (min-width: 960px) {
+  /* line 339, sass/pages/_frontpage.scss */
+  .page-template-frontpage #page .widget-area .sidebar-wrapper .sidebar-icon img {
+    width: 80px;
+  }
+}
 
 /*--------------------------------------------------------------
 ## The Firm
@@ -1858,22 +1871,28 @@ object {
 .page-template-page-firm #page .site-content .widget-area .sidebar-wrapper .sidebar-icon img {
   width: 60px;
 }
-/* line 21, sass/pages/_the-firm.scss */
+@media (min-width: 960px) {
+  /* line 17, sass/pages/_the-firm.scss */
+  .page-template-page-firm #page .site-content .widget-area .sidebar-wrapper .sidebar-icon img {
+    width: 100px;
+  }
+}
+/* line 24, sass/pages/_the-firm.scss */
 .page-template-page-firm #page .site-content .widget-area .sidebar-wrapper .sidebar-wysiwyg {
   text-align: center;
 }
-/* line 23, sass/pages/_the-firm.scss */
+/* line 26, sass/pages/_the-firm.scss */
 .page-template-page-firm #page .site-content .widget-area .sidebar-wrapper .sidebar-wysiwyg a {
   text-decoration: none;
   font-size: 1.063rem;
   color: #fff;
 }
-/* line 28, sass/pages/_the-firm.scss */
+/* line 31, sass/pages/_the-firm.scss */
 .page-template-page-firm #page .site-content .widget-area .sidebar-wrapper .sidebar-wysiwyg h6 {
   text-align: left;
   font-family: "robo-it", sans-serif;
 }
-/* line 36, sass/pages/_the-firm.scss */
+/* line 39, sass/pages/_the-firm.scss */
 .page-template-page-firm #page .community-involvement {
   background-color: #939597;
   color: #fff;
@@ -1882,12 +1901,12 @@ object {
   overflow: hidden;
   padding-bottom: 2.5rem;
 }
-/* line 43, sass/pages/_the-firm.scss */
+/* line 46, sass/pages/_the-firm.scss */
 .page-template-page-firm #page .community-involvement .header {
   background-color: #4d809b;
   text-align: center;
 }
-/* line 46, sass/pages/_the-firm.scss */
+/* line 49, sass/pages/_the-firm.scss */
 .page-template-page-firm #page .community-involvement .header h1 {
   color: #fff;
   font-size: 1.688rem;
@@ -1895,7 +1914,7 @@ object {
   padding: 0.625rem 0;
   margin: 0;
 }
-/* line 54, sass/pages/_the-firm.scss */
+/* line 57, sass/pages/_the-firm.scss */
 .page-template-page-firm #page .community-involvement .wrapper {
   max-width: 1400px;
   margin-left: auto;
@@ -1910,38 +1929,38 @@ object {
   display: block;
 }
 @media (min-width: 760px) {
-  /* line 54, sass/pages/_the-firm.scss */
+  /* line 57, sass/pages/_the-firm.scss */
   .page-template-page-firm #page .community-involvement .wrapper {
     padding-left: 2rem;
     padding-right: 2rem;
   }
 }
-/* line 59, sass/pages/_the-firm.scss */
+/* line 62, sass/pages/_the-firm.scss */
 .page-template-page-firm #page .community-involvement .wrapper .wysiwyg ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-/* line 62, sass/pages/_the-firm.scss */
+/* line 65, sass/pages/_the-firm.scss */
 .page-template-page-firm #page .community-involvement .wrapper .wysiwyg ul li {
   padding-left: 1.25rem;
   position: relative;
   padding-bottom: 10px;
 }
-/* line 66, sass/pages/_the-firm.scss */
+/* line 69, sass/pages/_the-firm.scss */
 .page-template-page-firm #page .community-involvement .wrapper .wysiwyg ul li::before {
   content: "\25B8";
   position: absolute;
   left: 0;
   color: #fff;
 }
-/* line 72, sass/pages/_the-firm.scss */
+/* line 75, sass/pages/_the-firm.scss */
 .page-template-page-firm #page .community-involvement .wrapper .wysiwyg ul li a {
   color: #fff;
   text-decoration: none;
 }
 @media (min-width: 560px) {
-  /* line 83, sass/pages/_the-firm.scss */
+  /* line 86, sass/pages/_the-firm.scss */
   .page-template-page-firm #page .community-involvement .wrapper .wysiwyg ul {
     -webkit-columns: 2;
        -moz-columns: 2;
@@ -1949,11 +1968,11 @@ object {
   }
 }
 @media (min-width: 960px) {
-  /* line 91, sass/pages/_the-firm.scss */
+  /* line 94, sass/pages/_the-firm.scss */
   .page-template-page-firm #page .community-involvement .header h1 {
     font-size: 3.563rem;
   }
-  /* line 95, sass/pages/_the-firm.scss */
+  /* line 98, sass/pages/_the-firm.scss */
   .page-template-page-firm #page .community-involvement .wrapper {
     font-size: 1.125rem;
   }
@@ -1962,6 +1981,11 @@ object {
 /*--------------------------------------------------------------
 ## Resources
 --------------------------------------------------------------*/
+/* line 2, sass/pages/_resources.scss */
+.page-template-page-resources #page .site-content .content-area .site-main article .page-wrapper .entry-content ul li {
+  text-decoration: underline;
+}
+
 /*--------------------------------------------------------------
 ## Contact
 --------------------------------------------------------------*/

@@ -36,8 +36,8 @@ function stern_thomasson_footer_colophon() { ?>
         <div class="footer-right">
             <div class="associations">
                 <figure>
-                    <img class="naca-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/imgs/naca-web-logo.png" alt="national association of consumer advocates logo">
-                    <img class="avvo-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/imgs/avvo-logo.png" alt="avvo logo">
+                    <a href="http://www.consumeradvocates.org/" target="_blank"><img class="naca-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/imgs/naca-web-logo.png" alt="national association of consumer advocates logo"></a>
+                    <a href="https://www.avvo.com/" target="_blank"><img class="avvo-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/imgs/avvo-logo.png" alt="avvo logo"></a>
                 </figure>
             </div>
             <div class="disclaimer">
