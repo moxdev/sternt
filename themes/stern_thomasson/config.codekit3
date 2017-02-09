@@ -1858,12 +1858,6 @@
 		"oAP": "\/inc\/extras.php",
 		"oF": 0
 		},
-	"\/inc\/footer-colophon.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/inc\/footer-colophon.php",
-		"oF": 0
-		},
 	"\/inc\/home-carousel.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -3670,19 +3664,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/layout\/_structure.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/sass\/layout\/_structure.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/sass\/media\/_captions.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -3796,19 +3777,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/sass\/navigation\/_links.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/sass\/navigation\/_masthead.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/sass\/navigation\/_masthead.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -4151,19 +4119,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/pages\/_frontpage.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/sass\/pages\/_frontpage.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/sass\/pages\/_pages.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -4177,19 +4132,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/pages\/_resources.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/sass\/pages\/_resources.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/sass\/pages\/_single-column.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -4199,19 +4141,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/sass\/pages\/_single-column.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/sass\/pages\/_the-firm.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/sass\/pages\/_the-firm.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -4422,22 +4351,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/stern.sublime-workspace",
-		"oF": 0
-		},
-	"\/style.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/style-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/style.css.map": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/style.css.map",
 		"oF": 0
 		},
 	"\/template-parts\/content-none.php": {
