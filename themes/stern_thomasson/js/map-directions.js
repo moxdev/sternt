@@ -49,7 +49,7 @@ function initMap(map) {
     });
 
     var marker = new google.maps.Marker({
-        position: {lat: 40.7103808, lng: -74.3073667},
+        position: {lat: 40.710526, lng: -74.307129},
         map: map,
     });
 
