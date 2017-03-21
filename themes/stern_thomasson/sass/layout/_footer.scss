@@ -40,10 +40,11 @@
                 width: 100%;
                 margin: 0 auto;
                 @include respond-to(small-land) {
-                    width: 70%;
+                    width: 80%;
                 }
                 @include respond-to(tablet) {
                     font-size: .7rem;
+                    width: 100%;
                 }
             }
             .mm4 {
@@ -66,22 +67,22 @@
                 flex: 1;
                 text-align: right;
                 margin-left: auto;
-                .disclaimer {
-                    display: block;
-                    width: 60%;
-                    text-align: right;
-                    margin-right: 0;
-                    margin-left:auto;
-                    @include respond-to(large) {
-                       width: 40%;
-                    }
-                    @include respond-to(x-large) {
-                       width: 50%;
-                    }
-                    @media screen and (min-width: 1900px) {
-                        width: 20%;
-                    }
-                }
+                // .disclaimer {
+                //     display: block;
+                //     width: 60%;
+                //     text-align: right;
+                //     margin-right: 0;
+                //     margin-left:auto;
+                //     @include respond-to(large) {
+                //        width: 40%;
+                //     }
+                //     @include respond-to(x-large) {
+                //        width: 50%;
+                //     }
+                //     @media screen and (min-width: 1900px) {
+                //         width: 20%;
+                //     }
+                // }
             }
         }
     }

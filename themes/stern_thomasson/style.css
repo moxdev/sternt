@@ -1449,16 +1449,17 @@ object {
 @media (min-width: 560px) {
   /* line 37, sass/layout/_footer.scss */
   .site-footer .footer-wrapper .footer-right .disclaimer {
-    width: 70%;
+    width: 80%;
   }
 }
 @media (min-width: 760px) {
   /* line 37, sass/layout/_footer.scss */
   .site-footer .footer-wrapper .footer-right .disclaimer {
     font-size: .7rem;
+    width: 100%;
   }
 }
-/* line 49, sass/layout/_footer.scss */
+/* line 50, sass/layout/_footer.scss */
 .site-footer .footer-wrapper .footer-right .mm4 {
   text-decoration: none;
   color: #fff;
@@ -1473,49 +1474,23 @@ object {
         -ms-flex-align: start;
             align-items: flex-start;
   }
-  /* line 57, sass/layout/_footer.scss */
+  /* line 58, sass/layout/_footer.scss */
   .site-footer .footer-wrapper .company-info {
     text-align: left;
     font-size: 0.875rem;
   }
-  /* line 60, sass/layout/_footer.scss */
+  /* line 61, sass/layout/_footer.scss */
   .site-footer .footer-wrapper .company-info .bold-name {
     font-family: "robo-bold", sans-serif;
     font-size: 1.063rem;
   }
-  /* line 65, sass/layout/_footer.scss */
+  /* line 66, sass/layout/_footer.scss */
   .site-footer .footer-wrapper .footer-right {
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
     text-align: right;
     margin-left: auto;
-  }
-  /* line 69, sass/layout/_footer.scss */
-  .site-footer .footer-wrapper .footer-right .disclaimer {
-    display: block;
-    width: 60%;
-    text-align: right;
-    margin-right: 0;
-    margin-left: auto;
-  }
-}
-@media (min-width: 960px) and (min-width: 1200px) {
-  /* line 69, sass/layout/_footer.scss */
-  .site-footer .footer-wrapper .footer-right .disclaimer {
-    width: 40%;
-  }
-}
-@media (min-width: 960px) and (min-width: 1500px) {
-  /* line 69, sass/layout/_footer.scss */
-  .site-footer .footer-wrapper .footer-right .disclaimer {
-    width: 50%;
-  }
-}
-@media screen and (min-width: 960px) and (min-width: 1900px) {
-  /* line 69, sass/layout/_footer.scss */
-  .site-footer .footer-wrapper .footer-right .disclaimer {
-    width: 20%;
   }
 }
 

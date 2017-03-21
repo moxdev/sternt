@@ -123,9 +123,9 @@ add_action('init', 'stern_thomasson_register_scripts');
 function stern_thomasson_scripts() {
 	wp_enqueue_style( 'stern_thomasson-style', get_stylesheet_uri() );
 
-	wp_enqueue_script( 'stern_thomasson-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
+	wp_enqueue_script( 'stern_thomasson-navigation', get_template_directory_uri() . '/js/min/navigation.js', array(), '20151215', true );
 
-	wp_enqueue_script( 'stern_thomasson-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
+	wp_enqueue_script( 'stern_thomasson-skip-link-focus-fix', get_template_directory_uri() . '/js/min/skip-link-focus-fix.js', array(), '20151215', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
@@ -235,6 +235,11 @@ require get_template_directory() . '/inc/home-carousel.php';
  * Load the Firm Page community involvement section.
  */
 require get_template_directory() . '/inc/community-involvement.php';
+
+/**
+ * Load the FAQ Page question & answers section.
+ */
+require get_template_directory() . '/inc/faq_questions.php';
 
 /**
  * Include MM4 Contact Form Plugin
