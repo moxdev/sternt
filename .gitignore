@@ -4,10 +4,10 @@
 *.indd
 *.idlk
 *.pdf
-/old
-/plugins
-/staging
-/upgrade
+old/
+plugins/
+staging/
+upgrade/
 
 # Sublime Project #
 ###################
@@ -155,8 +155,8 @@ log/
 # CodeKit
 # config.codekit
 
-git rm --cached /Users/mox/Sites/htdocs/stern/wp-content/staging/CreationFiles/~sternthomasson~aoqm7-.idlk
+git rm --cached /Users/GraphicDesigner/Sites/htdocs/stern/wp-content/staging
 
-git rm --cached /Users/mox/Sites/htdocs/stern/wp-content/staging/CreationFiles/Sternthomasson.pdf
+git rm --cached /Users/GraphicDesigner/Sites/htdocs/stern/wp-content/old
 
-git rm --cached /Users/mox/Sites/htdocs/stern/wp-content/staging/CreationFiles/Sternthomasson.indd
+git rm --cached /Users/GraphicDesigner/Sites/htdocs/stern/wp-content/staging/plugins
