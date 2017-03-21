@@ -155,7 +155,7 @@ log/
 # CodeKit
 # config.codekit
 
-git rm --cached /Users/GraphicDesigner/Sites/htdocs/stern/wp-content/staging
+git rm -r --cached /Users/GraphicDesigner/Sites/htdocs/stern/wp-content/staging/
 
 git rm --cached /Users/GraphicDesigner/Sites/htdocs/stern/wp-content/old
 
