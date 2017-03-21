@@ -2375,6 +2375,12 @@
 		"oAP": "\/sass\/.sass-cache\/71003e884ce0703869ee38afdd9570c8828563f3\/_contact.scssc",
 		"oF": 0
 		},
+	"\/sass\/.sass-cache\/71003e884ce0703869ee38afdd9570c8828563f3\/_faq.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/.sass-cache\/71003e884ce0703869ee38afdd9570c8828563f3\/_faq.scssc",
+		"oF": 0
+		},
 	"\/sass\/.sass-cache\/71003e884ce0703869ee38afdd9570c8828563f3\/_footer.scssc": {
 		"ft": 8192,
 		"oA": 1,
@@ -4110,6 +4116,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/sass\/pages\/_contact.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/pages\/_faq.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/pages\/_faq.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

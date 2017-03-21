@@ -12,7 +12,7 @@ function stern_thomasson_faq_questions() {
 
         if( have_rows('faq_section') ): ?>
 
-            <section class="faq-section">
+            <div class="faq-wrapper">
 
             <?php while( have_rows('faq_section') ): the_row();
 
@@ -21,11 +21,11 @@ function stern_thomasson_faq_questions() {
 
                 ?>
 
-                <div class="faq-wrapper">
+                <div class="question-wrapper">
 
                     <?php if( !empty($question) ) : ?>
 
-                        <h3><?php echo $question; ?><span class="expand-btn"><button>+</button></span></h3>
+                        <span class="expand-btn"><button>&#709;</button></span><h3><?php echo $question; ?></h3>
 
                     <?php endif; ?>
 
@@ -39,11 +39,11 @@ function stern_thomasson_faq_questions() {
 
                     <?php endif; ?>
 
-                </div><!-- faq-wrapper -->
+                </div><!-- question-wrapper -->
 
             <?php endwhile; ?>
 
-            </section>
+            </div><!-- faq-wrapper -->
 
         <?php endif;
 

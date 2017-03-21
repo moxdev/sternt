@@ -1962,6 +1962,41 @@ object {
 }
 
 /*--------------------------------------------------------------
+## FAQ
+--------------------------------------------------------------*/
+/* line 6, sass/pages/_faq.scss */
+.page-template-page-faq .question-wrapper {
+  position: relative;
+  margin-bottom: 1.5em;
+}
+/* line 10, sass/pages/_faq.scss */
+.page-template-page-faq .question-wrapper h3 {
+  padding-left: 1.5em;
+}
+/* line 14, sass/pages/_faq.scss */
+.page-template-page-faq .question-wrapper .expand-btn {
+  position: absolute;
+  left: 0;
+}
+/* line 20, sass/pages/_faq.scss */
+.page-template-page-faq .question-wrapper .expand-btn button {
+  background-color: transparent;
+  color: #4d809b;
+  padding: 0;
+  margin: 0;
+  padding-top: 5px;
+  font-size: 1.7rem;
+}
+/* line 31, sass/pages/_faq.scss */
+.page-template-page-faq .answer {
+  display: none;
+}
+/* line 35, sass/pages/_faq.scss */
+.page-template-page-faq .active {
+  display: block;
+}
+
+/*--------------------------------------------------------------
 ## Contact
 --------------------------------------------------------------*/
 /* line 4, sass/pages/_contact.scss */
