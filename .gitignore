@@ -4,9 +4,10 @@
 *.indd
 *.idlk
 *.pdf
-
-
-
+/old
+/plugins
+/staging
+/upgrade
 
 # Sublime Project #
 ###################
