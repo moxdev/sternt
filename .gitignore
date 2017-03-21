@@ -157,6 +157,6 @@ log/
 
 git rm -r --cached /Users/GraphicDesigner/Sites/htdocs/stern/wp-content/staging/
 
-git rm --cached /Users/GraphicDesigner/Sites/htdocs/stern/wp-content/old
+git rm -r --cached /Users/GraphicDesigner/Sites/htdocs/stern/wp-content/old
 
-git rm --cached /Users/GraphicDesigner/Sites/htdocs/stern/wp-content/staging/plugins
+git rm - r --cached /Users/GraphicDesigner/Sites/htdocs/stern/wp-content/staging/plugins
