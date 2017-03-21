@@ -4397,6 +4397,12 @@
 		"oAP": "\/style.css.map",
 		"oF": 0
 		},
+	"\/template-parts\/content-faq.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/template-parts\/content-faq.php",
+		"oF": 0
+		},
 	"\/template-parts\/content-none.php": {
 		"ft": 8192,
 		"oA": 2,

@@ -239,7 +239,7 @@ require get_template_directory() . '/inc/community-involvement.php';
 /**
  * Load the FAQ Page question & answers section.
  */
-require get_template_directory() . '/inc/faq_questions.php';
+require get_template_directory() . '/inc/faq-questions.php';
 
 /**
  * Include MM4 Contact Form Plugin
