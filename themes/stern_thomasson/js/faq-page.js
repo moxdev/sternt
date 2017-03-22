@@ -1,7 +1,8 @@
 jQuery(document).ready(function(){
     var zindex = 10;
+    var toShow = jQuery(this).closest(".question-content");
 
-    jQuery(".question-content").click(function(e){
+    jQuery(".btn").click(function(e){
         e.preventDefault();
 
         var isShowing = false;
@@ -33,12 +34,15 @@ jQuery(document).ready(function(){
         // no cards in view
             jQuery(".question-wrapper")
                 .addClass("showing");
-            jQuery(this)
+
+            jQuery(toShow)
                 .css({zIndex:zindex})
                 .addClass("show");
 
         zindex++;
         }
+        console.log(this);
+        console.log(toShow);
 
     });
 });
