@@ -26,12 +26,15 @@ function stern_thomasson_faq_questions() {
 
                         <?php if( !empty($question) ) : ?>
 
+                            <a href="#" class="toggle-info btn">
+                                <span class="left"></span>
+                                <span class="right"></span>
+                            </a>
+
                             <div class="question-title">
-                                <a href="#" class="toggle-info btn">
-                                    <span class="left"></span>
-                                    <span class="right"></span>
-                                </a>
+
                                 <h3><?php echo $question; ?></h3>
+
                             </div>
 
                         <?php endif; ?>

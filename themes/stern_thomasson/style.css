@@ -1988,11 +1988,15 @@ object {
   -webkit-transition: all 0.1s 0s ease-out;
   transition: all 0.1s 0s ease-out;
 }
-/* line 36, sass/pages/_faq.scss */
+/* line 20, sass/pages/_faq.scss */
+.page-template-page-faq a.btn:hover {
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.25);
+}
+/* line 41, sass/pages/_faq.scss */
 .page-template-page-faq .question-wrapper {
   margin-bottom: .5em;
 }
-/* line 41, sass/pages/_faq.scss */
+/* line 46, sass/pages/_faq.scss */
 .page-template-page-faq .question-content {
   background: transparent;
   margin: .5em 0;
@@ -2004,15 +2008,8 @@ object {
   transition: all 0.3s 0s ease-in;
   z-index: 1;
 }
-/* line 50, sass/pages/_faq.scss */
-.page-template-page-faq .question-content .question-title {
-  background: transparent;
-  position: relative;
-  z-index: 0;
-  color: #fff;
-}
-/* line 57, sass/pages/_faq.scss */
-.page-template-page-faq .question-content .question-title a.toggle-info {
+/* line 55, sass/pages/_faq.scss */
+.page-template-page-faq .question-content a.toggle-info {
   border-radius: 25px;
   width: 25px;
   height: 25px;
@@ -2021,8 +2018,8 @@ object {
   left: 0;
   top: 0;
 }
-/* line 66, sass/pages/_faq.scss */
-.page-template-page-faq .question-content .question-title a.toggle-info span {
+/* line 64, sass/pages/_faq.scss */
+.page-template-page-faq .question-content a.toggle-info span {
   background: #fff;
   display: block;
   height: 2px;
@@ -2032,19 +2029,26 @@ object {
   transition: all 0.15s 0s ease-out;
   width: 9px;
 }
-/* line 76, sass/pages/_faq.scss */
-.page-template-page-faq .question-content .question-title a.toggle-info span.left {
+/* line 74, sass/pages/_faq.scss */
+.page-template-page-faq .question-content a.toggle-info span.left {
   right: 11px;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
 }
-/* line 80, sass/pages/_faq.scss */
-.page-template-page-faq .question-content .question-title a.toggle-info span.right {
+/* line 78, sass/pages/_faq.scss */
+.page-template-page-faq .question-content a.toggle-info span.right {
   left: 11px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
 }
-/* line 86, sass/pages/_faq.scss */
+/* line 84, sass/pages/_faq.scss */
+.page-template-page-faq .question-content .question-title {
+  background: transparent;
+  position: relative;
+  z-index: 0;
+  color: #fff;
+}
+/* line 91, sass/pages/_faq.scss */
 .page-template-page-faq .question-content .question-title h3 {
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -2052,12 +2056,12 @@ object {
   line-height: 120%;
   margin-left: 2.5em !important;
 }
-/* line 93, sass/pages/_faq.scss */
+/* line 98, sass/pages/_faq.scss */
 .page-template-page-faq .question-content .answer-content {
   padding: 0 15px 10px;
   position: relative;
 }
-/* line 100, sass/pages/_faq.scss */
+/* line 105, sass/pages/_faq.scss */
 .page-template-page-faq .question-content .answer-container {
   background: #d9d9d9;
   position: absolute;
@@ -2067,55 +2071,55 @@ object {
   -webkit-transform: rotateX(-90deg);
           transform: rotateX(-90deg);
 }
-/* line 108, sass/pages/_faq.scss */
+/* line 113, sass/pages/_faq.scss */
 .page-template-page-faq .question-content .reveal {
   -webkit-transition: all 0.3s 0.3s ease-out;
   transition: all 0.3s 0.3s ease-out;
   z-index: -1;
 }
-/* line 115, sass/pages/_faq.scss */
+/* line 120, sass/pages/_faq.scss */
 .page-template-page-faq .question-wrapper.showing .question-content {
   cursor: pointer;
   opacity: 0.6;
   -webkit-transform: scale(0.88);
           transform: scale(0.88);
 }
-/* line 123, sass/pages/_faq.scss */
+/* line 128, sass/pages/_faq.scss */
 .page-template-page-faq .no-touch .question-wrapper.showing .question-content:hover {
   opacity: 0.94;
   -webkit-transform: scale(0.92);
           transform: scale(0.92);
 }
-/* line 129, sass/pages/_faq.scss */
+/* line 134, sass/pages/_faq.scss */
 .page-template-page-faq .question-content.show {
   opacity: 1 !important;
   -webkit-transform: scale(1) !important;
           transform: scale(1) !important;
 }
-/* line 134, sass/pages/_faq.scss */
+/* line 139, sass/pages/_faq.scss */
 .page-template-page-faq .question-content.show .question-title a.toggle-info {
   background: #ff6666 !important;
 }
-/* line 136, sass/pages/_faq.scss */
+/* line 141, sass/pages/_faq.scss */
 .page-template-page-faq .question-content.show .question-title a.toggle-info span {
   top: 12px;
   width: 11px;
 }
-/* line 140, sass/pages/_faq.scss */
+/* line 145, sass/pages/_faq.scss */
 .page-template-page-faq .question-content.show .question-title a.toggle-info span.left {
   right: 7px;
 }
-/* line 143, sass/pages/_faq.scss */
+/* line 148, sass/pages/_faq.scss */
 .page-template-page-faq .question-content.show .question-title a.toggle-info span.right {
   left: 7px;
 }
-/* line 148, sass/pages/_faq.scss */
+/* line 153, sass/pages/_faq.scss */
 .page-template-page-faq .question-content.show .answer-container {
   background: #ffffff;
   -webkit-transform: rotateX(0deg);
           transform: rotateX(0deg);
 }
-/* line 152, sass/pages/_faq.scss */
+/* line 157, sass/pages/_faq.scss */
 .page-template-page-faq .question-content.show .reveal {
   -webkit-transition: all 0.3s 0s ease-out;
   transition: all 0.3s 0s ease-out;
