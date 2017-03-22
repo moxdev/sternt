@@ -22,23 +22,33 @@ function stern_thomasson_faq_questions() {
                 ?>
 
                 <div class="question-wrapper">
+                    <div class="question-content">
 
-                    <?php if( !empty($question) ) : ?>
+                        <?php if( !empty($question) ) : ?>
 
-                        <span class="expand-btn"><button>&#709;</button></span><h3><?php echo $question; ?></h3>
+                            <div class="question-title">
+                                <a href="#" class="toggle-info btn">
+                                    <span class="left"></span>
+                                    <span class="right"></span>
+                                </a>
+                                <h3><?php echo $question; ?></h3>
+                            </div>
 
-                    <?php endif; ?>
+                        <?php endif; ?>
 
-                    <?php if( !empty($answer) ) : ?>
+                        <?php if( !empty($answer) ) : ?>
 
-                        <div class="answer">
+                            <div class="answer-container reveal">
+                                <div class="answer-content">
 
-                            <?php echo $answer; ?>
+                                    <?php echo $answer; ?>
 
-                        </div>
+                                </div>
+                            </div>
 
-                    <?php endif; ?>
+                        <?php endif; ?>
 
+                    </div><!-- question-content -->
                 </div><!-- question-wrapper -->
 
             <?php endwhile; ?>

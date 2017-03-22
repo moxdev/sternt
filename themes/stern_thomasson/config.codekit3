@@ -1916,6 +1916,15 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/js\/faq-page.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/faq-page-min.js",
+		"oF": 2,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/home-carousel.js": {
 		"ft": 64,
 		"mi": 1,
@@ -1939,6 +1948,15 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/min\/customizer-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/min\/faq-page-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/faq-page-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0

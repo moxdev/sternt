@@ -1,38 +1,156 @@
 .page-template-page-faq {
 
     .faq-wrapper {
+        text-rendering: optimizeLegibility;
     }
 
-    .question-wrapper {
+    a.btn {
+        background: $color__brand-2;
+        border-radius: 4px;
+        box-shadow: 0 2px 0px 0 rgba(0,0,0,0.25);
+        color: #fff;
+        display: inline-block;
+        padding: 6px 30px 8px;
         position: relative;
-        margin-bottom: 1.5em;
+        text-decoration: none;
+        transition: all 0.1s 0s ease-out;
+    }
 
-        h3 {
-            padding-left: 1.5em;
-        }
+    .no-touch a.btn:hover {
+        background: lighten($color__brand-2,2.5);
+        box-shadow: 0px 8px 2px 0 rgba(0, 0, 0, 0.075);
+        transform: translateY(-2px);
+        transition: all 0.25s 0s ease-out;
+    }
 
-        .expand-btn {
-            position: absolute;
-            left: 0;
-            // margin-top: -5px;
+    .no-touch a.btn:active,
+    a.btn:active {
+        background: darken($color__brand-2,2.5);
+        box-shadow: 0 1px 0px 0 rgba(255,255,255,0.25);
+        transform: translate3d(0,1px,0);
+        transition: all 0.025s 0s ease-out;
+    }
 
+    .question-content {
+        background: transparent;
+        display: inline-block;
+        margin: 8px;
+        perspective: 60000;
+        position: relative;
+        text-align: left;
+        transition: all 0.3s 0s ease-in;
+        z-index: 1;
 
-            button {
-                background-color: transparent;
-                color: $color__brand-2;
-                padding:0;
-                margin:0;
-                padding-top: 5px;
-                font-size: 1.7rem;
+        .question-title {
+            border: 1px solid #ff6666;
+            background: transparent;
+            padding: 6px 15px 10px;
+            position: relative;
+            z-index: 0;
+            color: #fff;
+
+            a.toggle-info {
+                border-radius: 32px;
+                width: 32px;
+                height: 32px;
+                position: absolute;
+                padding: 0;
+                left: 15px;
+                top: 0;
+
+                span {
+                    background: #fff;
+                    display: block;
+                    height: 2px;
+                    position: absolute;
+                    top: 16px;
+                    transition: all 0.15s 0s ease-out;
+                    width: 12px;
+                }
+
+                span.left {
+                    right: 14px;
+                    transform: rotate(45deg);
+                }
+                span.right {
+                    left: 14px;
+                    transform: rotate(-45deg);
+                }
+            }
+
+            h3 {
+                margin-left: 2.5em !important;
             }
         }
+
+        .answer-content {
+            padding: 0 15px 10px;
+            position: relative;
+            font-size: 14px;
+            margin-left: 3.5em;
+        }
+
+        // div.card-actions {
+        //     box-shadow: 0 2px 0px 0 rgba(0,0,0,0.075);
+        //     padding: 10px 15px 20px;
+        //     text-align: center;
+        // }
+
+        .answer-container {
+            background: darken(#fff,15);
+            position: absolute;
+            width: 100%;
+            transform-origin: top;
+            transform: rotateX(-90deg);
+        }
+
+        .reveal {
+            transition: all 0.3s 0.3s ease-out;
+            z-index: -1;
+        }
     }
 
-    .answer {
-        display: none;
+    .question-wrapper.showing {
+        .question-content {
+            cursor: pointer;
+            opacity: 0.6;
+            transform: scale(0.88);
+        }
     }
 
-    .active {
-        display: block;
+    .no-touch  .question-wrapper.showing {
+        .question-content:hover {
+            opacity: 0.94;
+            transform: scale(0.92);
+        }
     }
+
+    .question-content.show {
+        opacity: 1 !important;
+        transform: scale(1) !important;
+
+        .question-title {
+            a.toggle-info {
+                background: #ff6666 !important;
+                span {
+                    top: 15px;
+                }
+                span.left {
+                    right: 10px;
+                }
+                span.right {
+                    left: 10px;
+                }
+            }
+        }
+        .answer-container {
+            background: $white;
+            transform: rotateX(0deg);
+        }
+        .reveal {
+            transition: all 0.3s 0s ease-out;
+        }
+    }
+
+
 }

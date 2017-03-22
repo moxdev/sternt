@@ -123,9 +123,9 @@ add_action('init', 'stern_thomasson_register_scripts');
 function stern_thomasson_scripts() {
 	wp_enqueue_style( 'stern_thomasson-style', get_stylesheet_uri() );
 
-	wp_enqueue_script( 'stern_thomasson-navigation', get_template_directory_uri() . '/js/min/navigation.js', array(), '20151215', true );
+	wp_enqueue_script( 'stern_thomasson-navigation', get_template_directory_uri() . '/js/min/navigation-min.js', array(), '20151215', true );
 
-	wp_enqueue_script( 'stern_thomasson-skip-link-focus-fix', get_template_directory_uri() . '/js/min/skip-link-focus-fix.js', array(), '20151215', true );
+	wp_enqueue_script( 'stern_thomasson-skip-link-focus-fix', get_template_directory_uri() . '/js/min/skip-link-focus-fix-min.js', array(), '20151215', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
@@ -142,6 +142,10 @@ function stern_thomasson_scripts() {
 
     if( is_page_template( 'page-contact.php' ) ) {
         wp_enqueue_script( 'stern_thomasson-directions-map', get_template_directory_uri() . '/js/min/map-directions-min.js', array('jquery'), NULL, true );
+    }
+
+    if( is_page_template( 'page-faq.php' ) ) {
+        wp_enqueue_script( 'stern_thomasson-faq-questions', get_template_directory_uri() . '/js/min/faq-page-min.js', array('jquery'), NULL, true );
     }
 }
 add_action( 'wp_enqueue_scripts', 'stern_thomasson_scripts' );

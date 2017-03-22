@@ -21,6 +21,6 @@ add_action( 'customize_register', 'stern_thomasson_customize_register' );
  * Binds JS handlers to make Theme Customizer preview reload changes asynchronously.
  */
 function stern_thomasson_customize_preview_js() {
-	wp_enqueue_script( 'stern_thomasson_customizer', get_template_directory_uri() . '/js/min/customizer.js', array( 'customize-preview' ), '20151215', true );
+	wp_enqueue_script( 'stern_thomasson_customizer', get_template_directory_uri() . '/js/min/customizer-min.js', array( 'customize-preview' ), '20151215', true );
 }
 add_action( 'customize_preview_init', 'stern_thomasson_customize_preview_js' );
